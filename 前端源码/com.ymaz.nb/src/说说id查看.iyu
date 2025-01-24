@@ -1,0 +1,160 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=260dp
+orientation=vertical
+background=@7961f83253263320e2924ce55a3f7265.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=45dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>
+width=60dp
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="9" did="5" type="ImageView">
+<ppt>
+width=30dp
+height=-2
+src=@coolsteptou.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=空间ID查看
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>
+width=60dp
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="2" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="0" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(cs2, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+java(cs2, cs, "android.view.Window.addFlags", "int", "67108864")
+uycl("#44000000", true)
+</eventItme>
+<eventItme type="loadingComplete">f(sss.key=="1")
+{
+  t()
+  {
+    json(sss.说说, "list", "data", list)
+    json(list, "size", size)
+    w(size &gt; 0)
+    {
+      s-(1, size)
+      json(list, "data", size, item)
+      json(item, "get", "id", a)
+      syso(a)
+      json(item, "get", "name", b)
+      sr(b,"\\n","\n",b)
+      ula(u,6=a,8=b)
+    }
+    ufnsui()
+    {
+      uls(11,u,"说说列表.iyu",-1,-2)
+    }
+  }
+}
+else f(sss.key=="2")
+{
+  json(sss.说说, "list", "hy", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, item)
+    json(item, "get", "qq", a)
+    json(item, "get", "name", b)
+    ss("https://q.qlogo.cn/headimg_dl?dst_uin="+a+"&spec=100",img)
+    ula(u,6=a,5=b,7=img)
+  }
+  ufnsui()
+  {
+    us(8,"text","好友列表")
+    uls(11,u,"好友列表.iyu",-1,-2)
+  }
+}</eventItme>
+</UIEventset>

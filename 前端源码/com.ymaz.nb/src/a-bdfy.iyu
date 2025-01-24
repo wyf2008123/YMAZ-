@@ -1,0 +1,251 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+elevation=1dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="15" did="1" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@a/fh.png
+layout_marginLeft=20dp
+BackgroundRipple=#ffcbcbcb</ppt>
+<event></event>
+</View>
+<View id="17" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_marginRight=70dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=百度翻译
+textColor=#000000
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="4" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="13" did="4" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=5dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=30dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f5f5f5</ppt>
+<event></event>
+</View>
+<View id="5" did="14" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入要翻译的内容
+paddingLeft=10dp
+textCursorDrawable=#5889FE
+gravity=center_vertical
+textColor=#757575
+textSize=13sp
+singleLine=true
+background=through
+</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="Spinner">
+<ppt>width=-1
+height=45dp
+layout_marginleft=10dp
+layout_marginright=10dp
+</ppt>
+<event></event>
+</View>
+<View id="12" did="4" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="9" did="12" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event><eventItme type="clicki">us(11,"text","请稍候")
+
+ug(5,"text",nr)
+ug(6,"selecteditem",xl)
+f(xl=="自动检测")
+{
+  s yy="AUTO"
+}
+else f(xl=="中文翻译英语")
+{
+  s yy="ZH_CN2EN"
+}
+else f(xl=="中文翻译日语")
+{
+  s yy="ZH_CN2JA"
+}
+else f(xl=="中文翻译韩语")
+{
+  s yy="ZH_CN2KR"
+}
+else f(xl=="中文翻译法语")
+{
+  s yy="ZH_CNFR"
+}
+else f(xl=="中文翻译俄语")
+{
+  s yy="ZH_CN2RU"
+}
+else f(xl=="中文翻译西班牙语")
+{
+  s yy="ZH_CN2SP"
+}
+else f(xl=="英语翻译中文")
+{
+  s yy="EN2ZH_CN"
+}
+else f(xl=="日语翻译中文")
+{
+  s yy="JA2ZH_CN"
+}
+else f(xl=="韩语翻译中文")
+{
+  s yy="KR2ZH_CN"
+}
+else f(xl=="法语翻译中文")
+{
+  s yy="FR2ZH_CN"
+}
+else f(xl=="俄语翻译中文")
+{
+  s yy="RU2ZH_CN"
+}
+else f(xl=="西班牙语翻译中文")
+{
+  s yy="SP2ZH_CN"
+}
+
+ss("inputtext="+nr+"&type="+yy,post)
+f(nr=="")
+{
+  tw("不能为空")
+  us(11,"text","翻 译")
+}
+else
+{
+  
+  t()
+  {
+    hs("http://m.youdao.com/translate",post,"utf-8",ok)
+    f(ok==null)
+    {
+      ufnsui()
+      {
+        tw("翻译失败，请检查网络")
+        us(11,"text","翻 译")
+      }
+    }
+    else
+    {
+      sj(ok,"译文","&lt;/ul&gt;",o)
+      sj(o,"&lt;li&gt;","&lt;/li&gt;",k)
+      sxb(k)
+      ufnsui()
+      {
+        us(8,"text",k)
+        us(11,"text","翻 译")
+      }
+      
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffffff</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="TextView">
+<ppt>width=-2
+height=-2
+text=翻译
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+background=through
+layout_weight=1
+gravity=top</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+//设置编辑框边框背景颜色
+ngde(4,10,"#00000000","#BBDEFB",bg)
+us(14,"background",bg)
+
+
+s xl="自动检测;中文翻译英文;中文翻译日语;中文翻译韩语;中文翻译法语;中文翻译俄语;中文翻译西班牙语;英文翻译中文;日语翻译中文;韩语翻译中文;法语翻译中文;俄语翻译中文;西班牙语翻译中文"
+sl(xl,";",ok)
+uls(6,ok)
+shb(zt)
+f(zt?*"Q"||zt?*"W"||zt?*"E"||zt?*"R"||zt?*"T"||zt?*"Y"||zt?*"U"||zt?*"I"||zt?*"O"||zt?*"P"||zt?*"A"||zt?*"S"||zt?*"D"||zt?*"F"||zt?*"G"||zt?*"H"||zt?*"J"||zt?*"K"||zt?*"L"||zt?*"Z"||zt?*"X"||zt?*"C"||zt?*"V"||zt?*"B"||zt?*"N"||zt?*"M||zt?*"q"||zt?*"w"||zt?*"e"||zt?*"r"||zt?*"t"||zt?*"y"||zt?*"u"||zt?*"i"||zt?*"o"||zt?*"p"||zt?*"a"||zt?*"s"||zt?*"d"||zt?*"f"||zt?*"g"||zt?*"h"||zt?*"j"||zt?*"k"||zt?*"l"||zt?*"z"||zt?*"x"||zt?*"c"||zt?*"v"||zt?*"b"||zt?*"n"||zt?*"m" )
+{
+utw(null,"是否粘贴剪贴板的内容？",zt,"确定","取消",false,v)
+{
+us(5,"text",zt)
+}
+else
+{
+}
+}
+else
+{
+}
+</eventItme></UIEventset>

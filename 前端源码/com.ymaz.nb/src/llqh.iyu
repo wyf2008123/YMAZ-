@@ -1,0 +1,39 @@
+<View id="1" did="0" type="WebView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+<eventItme type="onreceivederror">
+end()
+</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+uycl("#ffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+us(1,"url",sss.浏览器)
+gvs(1,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+</eventItme>
+<eventItme type="downkey">
+f(st_kC==4)
+{
+ug(1,"cangoback",pd)
+f(pd==true)
+{
+us(1, "gobackorforward", -1)
+}
+else
+{
+us(1,"url","null")
+end()
+}
+}
+</eventItme>
+</UIEventset>

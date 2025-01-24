@@ -1,0 +1,118 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=#ffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="2" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_title=更新日志
+app_TitleColor=#2196F3
+background=#ffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="ListView">
+<ppt>
+width=-1
+height=-1
+dividerHeight=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本6
+visibility=gone
+</ppt>
+<event>
+<eventItme type="ontextchanged">t()
+{
+  hs("http://usdtabcd.cn/upcx.php",api)
+  sj(api,"[",null,api)
+  sl(api,"[",api)
+  for(apis;api)
+  {
+    sj(apis,null,"]",bb)
+    sj(apis,"(",")",sj)
+    ss("更新日期："+sj,sj1)
+    sj(apis,"◐","◐",nr)
+    ula(list,21=sj1,24=bb,11=nr)
+  }
+  ufnsui()
+  {
+    uls(4,list,"upp.iyu",-1,-2)
+    javax(null,ss.刷新控件,ss.class,"finishRefresh")
+  }
+}</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">ushsp(false)
+uycl("#ffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+s id=1
+utb(id)
+utb("set", "leftck", id)
+{
+end()
+}
+fn 着色.控件着色(1,"#2196F3")
+gvs(3,父布局)
+gvs(4,列表)
+gvs(6,监听)
+loadjar("refresh.dexs",dex)
+cls(dex,"com.mus.refresh.add",clas)
+cls(dex,"com.Mus.layout.SmartRefreshLayout",ss.class)
+s 背景颜色="#ffffff"
+s 刷新控件颜色="#ffffff"
+s 刷新控件背景颜色="#ff009bff"
+s 头部类型=6
+javax(ss.刷新控件,null,clas,"add","Context",activity,"String",背景颜色,"String",刷新控件颜色,"String",刷新控件背景颜色,"int",头部类型,"android.widget.TextView",监听)
+urvw(4)
+nvw(列表,ss.刷新控件)
+nvw(ss.刷新控件,父布局)
+gvs(4,列表)
+java(null,列表,"android.widget.AbsListView.setFastScrollEnabled","boolean","true")</eventItme>
+<eventItme type="loadingComplete">
+
+t()
+{
+  hs("http://usdtabcd.cn/upcx.php",api)
+  sj(api,"[",null,api)
+  sl(api,"[",api)
+  for(apis;api)
+  {
+    sj(apis,null,"]",bb)
+    sj(apis,"(",")",sj)
+    ss("更新日期："+sj,sj1)
+    sj(apis,"◐","◐",nr)
+    ula(list,21=sj1,24=bb,11=nr)
+  }
+  ufnsui()
+  {
+    uls(4,list,"upp.iyu",-1,-2)
+    javax(null,ss.刷新控件,ss.class,"finishRefresh")
+  }
+}</eventItme>
+</UIEventset>

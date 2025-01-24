@@ -1,0 +1,28 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+
+addv(1,"it.iyu")
+swh("pxw",r)
+zdp(20,d10)
+s((r-d10)/2,r)
+us(it.11,"layout_marginbottom",r)
+s2(r/1.414,rg2)
+s2(r-rg2,frg2)
+us(it.7,"layout_marginbottom",rg2)
+us(it.7,"layout_marginLeft",frg2)
+us(it.9,"layout_marginbottom",rg2)
+us(it.9,"layout_marginRight",frg2)
+s2(r*1.5,r2)
+us(it.13,"layout_marginbottom",r2)
+us(it.19,"layout_marginbottom",r2)
+s2(r*1.7,r2)
+s2(r/2.4,rg2)
+s2(r-rg2,frg2)
+us(it.15,"layout_marginbottom",r2)
+us(it.15,"layout_marginLeft",frg2)
+us(it.17,"layout_marginbottom",r2)
+us(it.17,"layout_marginRight",frg2)</eventItme></UIEventset>

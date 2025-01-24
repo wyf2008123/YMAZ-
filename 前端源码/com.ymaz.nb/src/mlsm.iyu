@@ -1,0 +1,237 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="ImageView">
+<ppt>width=27dp
+height=27dp
+src=@chevron left914.png
+layout_marginLeft=10dp
+layout_marginRight=15dp
+BackgroundRipple=#fffefefe
+
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=目录扫描
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入url
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">t()
+{
+  ug(5,"text",a)
+  fr("/storage/emulated/0/YMAZ功能盒/ml/zd.txt",f)
+  sl(f,"\n",f1)
+  uls(11,sss.list_sm,"list_sm.iyu",-1,-2)
+  s(0,cs)
+  ufnsui()
+  {
+    tw("已开始爆破，请等待")
+  }
+  for(ff;f1)
+  {
+    ss(a+ff,g)
+    syso(g)
+    stop(200)
+    hs(g,"null","utf8","true","User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",c)
+    ufnsui()
+    {
+      s(cs + "1",cs)
+      sgszl(f1,cd)
+      s(cd,zs)
+      us(39,"text",cs+"/"+zs)
+    }
+    syso(c)
+    f(c!=null)
+    {
+      ss(ff+"\n",fff)
+      fr("/storage/emulated/0/YMAZ功能盒/ml/zd1.txt",lj)
+      ss(lj+a+fff,lj1)
+      fw("/storage/emulated/0/YMAZ功能盒/ml/zd1.txt",lj1)
+      fr("/storage/emulated/0/YMAZ功能盒/ml/zd1.txt",sff)
+      ula(sss.list_sm,4=g,6="存在路径")
+      ufnsui()
+      {
+        //us(26,"text",sff)
+        uls(36,sss.list_sm,"list_sm.iyu",-1,-2)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始扫描
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="37" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=字典数量
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="40" did="38" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用方法:\n1.输入目标url\n2.把目录字典放进/storage/emulated/0/YMAZ功能盒/ml/zd.txt里面\n3.然后点击开始\n4.因写法问题导致可能会卡死，但实际上在正常运行，请不要关闭软件
+layout_margin=12dp
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="32" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="36" did="33" type="RecyclerView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+
+fr("/storage/emulated/0/YMAZ功能盒/ml/zd.txt",lie)
+sl(lie,"\n",lie1)
+sgszl(lie1,cd)
+s(cd,zs)
+us(39,"text","字典总数:"+zs)</eventItme></UIEventset>

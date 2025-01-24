@@ -1,0 +1,1061 @@
+<View id="2" did="0" type="ScrollView">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>height=-1
+width=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="152" did="3" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="153" did="152" type="TextView">
+<ppt>width=-2
+height=-2
+text=游戏王
+textColor=#ff000000
+typeface=@b004b9c310f.ttf
+layout_gravity=center
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="7" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@2146a.png</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=超级马里奥
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="TextView">
+<ppt>width=-2
+height=-2
+text=任天堂经典之作 儿时回忆杀
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=3501&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gKFcpIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A5"</eventItme></event>
+</View>
+<View id="13" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="14" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@436a.png</ppt>
+<event></event>
+</View>
+<View id="18" did="14" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=魂斗罗
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="20" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=巅峰枪战游戏 30条命无限闯关
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="21" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=4137&n=L2Zjcm9tL3NqL0NvbnRyYSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97"</eventItme></event>
+</View>
+<View id="23" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="24" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@2254a.png</ppt>
+<event></event>
+</View>
+<View id="28" did="24" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=激龟快打
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="30" did="28" type="TextView">
+<ppt>width=-2
+height=-2
+text=忍者龟格斗 回味经典
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="31" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=3882&n=L2Zjcm9tL2dkL1RlZW5hZ2UgTXV0YW50IEhlcm8gVHVydGxlcyAtIFRvdXJuYW1lbnQgRmlnaHRlcnMgKEUpIFshXS5uZXM=&t=%E6%BF%80%E9%BE%9F%E5%BF%AB%E6%89%93"</eventItme></event>
+</View>
+<View id="33" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@2023a.png</ppt>
+<event></event>
+</View>
+<View id="38" did="34" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=雪人兄弟
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=双人闯关 一起推雪球
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="41" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=4511&n=L2Zjcm9tL3h5eC9Tbm93IEJyb3MuIChKKS5uZXM=&t=%E9%9B%AA%E4%BA%BA%E5%85%84%E5%BC%9F"</eventItme></event>
+</View>
+<View id="52" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="43" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@timg.png</ppt>
+<event></event>
+</View>
+<View id="47" did="43" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="48" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=坦克大战
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="49" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=化身坦克 守卫堡垒
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="50" did="43" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="51" did="50" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=4275&n=L2Zjcm9tL3h5eC9CYXR0bGUgQ2l0eSAoSikgWyFdLm5lcw==&t=%E5%9D%A6%E5%85%8B%E5%A4%A7%E6%88%98"</eventItme></event>
+</View>
+<View id="53" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="54" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="55" did="54" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="56" did="55" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="57" did="56" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@1001a.png</ppt>
+<event></event>
+</View>
+<View id="58" did="54" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="TextView">
+<ppt>width=-2
+height=-2
+text=冒险岛
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="60" did="58" type="TextView">
+<ppt>width=-2
+height=-2
+text=任天堂经典之作 儿时回忆杀
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="61" did="54" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="62" did="61" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=3175&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgKEopIFshXS5uZXM=&t=%E5%86%92%E9%99%A9%E5%B2%9B"</eventItme></event>
+</View>
+<View id="63" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="87" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="88" did="87" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@1506.png</ppt>
+<event></event>
+</View>
+<View id="91" did="87" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=冒险岛3
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="93" did="91" type="TextView">
+<ppt>width=-2
+height=-2
+text=任天堂经典之作 儿时回忆杀
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="94" did="87" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="95" did="94" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=3179&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgSUlJIChKKSBbIV0ubmVz&t=%E5%86%92%E9%99%A9%E5%B2%9B3(%E6%97%A5%E7%89%88)"</eventItme></event>
+</View>
+<View id="96" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="64" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="66" did="65" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="67" did="66" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@1544a.png</ppt>
+<event></event>
+</View>
+<View id="68" did="64" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=热血格斗
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="70" did="68" type="TextView">
+<ppt>width=-2
+height=-2
+text=经典动作游戏 享受格斗快感
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="71" did="64" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="72" did="71" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=4714&n=L2Zjcm9tL3lkYnMvTmVra2V0c3UgS2FrdXRvdSBEZW5zZXRzdSAoSikgWyFdLm5lcw==&t=%E7%83%AD%E8%A1%80%E6%A0%BC%E6%96%97"</eventItme></event>
+</View>
+<View id="73" did="3" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+background=#eeeeee
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="74" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="76" did="75" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@1560.jpg</ppt>
+<event></event>
+</View>
+<View id="78" did="74" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="TextView">
+<ppt>width=-2
+height=-2
+text=超级马里奥3
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="80" did="78" type="TextView">
+<ppt>width=-2
+height=-2
+text=任天堂经典之作 儿时回忆杀
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="81" did="74" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="82" did="81" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/play?id=3507&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gMyAoRSkgWyFdLm5lcw==&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A53(%E6%AC%A7%E7%89%88)"</eventItme></event>
+</View>
+<View id="98" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="100" did="99" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="101" did="100" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5swmg.jpg</ppt>
+<event></event>
+</View>
+<View id="102" did="98" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="103" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5死亡木棍
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="104" did="102" type="TextView">
+<ppt>width=-2
+height=-2
+text=切断节点 完成挑战
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="105" did="98" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="106" did="105" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/stick/index.html"</eventItme></event>
+</View>
+<View id="107" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="108" did="107" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="109" did="108" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="110" did="109" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5dhs.jpg</ppt>
+<event></event>
+</View>
+<View id="111" did="107" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5导火线
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="113" did="111" type="TextView">
+<ppt>width=-2
+height=-2
+text=点击跳跃 避免点燃引线
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="114" did="107" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="115" did="114" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/cardinal/index.html"</eventItme></event>
+</View>
+<View id="116" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="117" did="116" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="118" did="117" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="119" did="118" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5yyx.jpg</ppt>
+<event></event>
+</View>
+<View id="120" did="116" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="121" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5音乐线
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="122" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=踏上一场音符冒险之旅
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="123" did="116" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="124" did="123" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/musicline/play-music-line.html"</eventItme></event>
+</View>
+<View id="125" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="126" did="125" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="127" did="126" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="128" did="127" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5mhdyt.jpg</ppt>
+<event></event>
+</View>
+<View id="129" did="125" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="130" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5美好的一天
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="131" did="129" type="TextView">
+<ppt>width=-2
+height=-2
+text=黑夜冒险 正式开始
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="132" did="125" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="133" did="132" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/fineday/day.html"</eventItme></event>
+</View>
+<View id="134" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="135" did="134" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="136" did="135" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="137" did="136" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5gldfk.jpg</ppt>
+<event></event>
+</View>
+<View id="138" did="134" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5滚动的方块
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="140" did="138" type="TextView">
+<ppt>width=-2
+height=-2
+text=推测木块下落位置
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="141" did="134" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="142" did="141" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/drop/index.html"</eventItme></event>
+</View>
+<View id="143" did="3" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="144" did="143" type="LinearLayout">
+<ppt>width=80dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="145" did="144" type="CardView">
+<ppt>width=50dp
+height=50dp
+layout_marginLeft=20dp
+app_CardcornerRadius=12dp</ppt>
+<event></event>
+</View>
+<View id="146" did="145" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=@h5hjxz.jpg</ppt>
+<event></event>
+</View>
+<View id="147" did="143" type="LinearLayout">
+<ppt>width=200dp
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=H5火箭小子
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="149" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=火箭升空 击败敌人
+textSize=13sp
+ellipsize=end</ppt>
+<event></event>
+</View>
+<View id="150" did="143" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="151" did="150" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@f3d3c154b5f.png</ppt>
+<event><eventItme type="clicki">uigo("游戏.iyu")
+sss wz="https://www.yikm.net/rocketfella/index.html"</eventItme></event>
+</View>
+<UIEventset></UIEventset>

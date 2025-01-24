@@ -1,0 +1,5 @@
+fn wum()
+us(it.4,"background","#ffffff")
+us(it.6,"background","#ffffff")
+us(it.21,"text","无")
+end fn

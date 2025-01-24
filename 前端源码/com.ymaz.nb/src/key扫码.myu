@@ -1,0 +1,54 @@
+fn 验证()
+t()
+{
+  ss("https://3g.gljlw.com/qq/login_qd_2021.php?do=qqlogin&qrsig="+sss.yz+"&r=0.04494934019805097",a)
+  hs(a,b)
+  ufnsui()
+  {
+    json(b,jo)
+    f(jo?"未失效"||jo?"正在验证")
+    {
+      ufnsui()
+      {
+        us(122,"text","二维码未失效...（建议使用Tim登陆）")
+        fn key扫码.验证()
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        json(jo,"get","param",jo)
+        json(jo,"get","qq",sss.QQ)
+        json(jo,"get","skey",sss.skey)
+        syso(全部)
+        us(122,"text","获取成功")
+        fn key扫码.验证2()
+      }
+    }
+  }
+}
+end fn
+fn 验证2()
+t()
+{
+  ss("https://3g.gljlw.com/qq/login_qd_2021.php?do=getlogin&skey="+sss.skey+"&qqh="+sss.QQ+"&qd=sy&qrsig="+sss.yz+"&r=0.29757641760845743",a)
+  hs(a,b)
+  json(b,b)
+  ufnsui()
+  {
+    json(b,"get","param",jo)
+    json(jo,"get","qq",sss.QQ)
+    json(jo,"get","uin",sss.uin)
+    json(jo,"get","p_uin",sss.p_uin)
+    json(jo,"get","skey",sss.skey)
+    json(jo,"get","p_skey",sss.pskey)
+    json(jo,"get","pt4_token",sss.pt4_token)
+    json(jo,"get","superkey",sss.superkey)
+    json(jo,"get","qd",sss.qd)
+    us(32,"text","获取成功")
+    ss("当前登陆的QQ为"+sss.QQ,QQ)
+    us(45,"text",QQ)
+  }
+}
+end fn

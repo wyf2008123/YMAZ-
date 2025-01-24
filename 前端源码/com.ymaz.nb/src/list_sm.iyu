@@ -1,0 +1,48 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp
+layout_marginTop=8dp</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=5dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=目标:
+typeface=sans</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=域名
+typeface=sans</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=扫描状态
+typeface=sans
+layout_gravity=right
+textColor=#FF1744
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

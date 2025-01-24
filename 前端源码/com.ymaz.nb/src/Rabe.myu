@@ -1,0 +1,35 @@
+fn Rabe(tw,fo)
+t()
+{
+  loadjar("sign.dex",插件)
+  cls(插件,"com.sign.sign",类)
+  
+  s jks="%Rabe/keystore.jks"
+  //jks需要放在res里
+  fc("@yujian.jks","%Rabe/keystore.jks",true,jj)
+  fdir(jks,keyPath)
+  
+  s 别名 = "yujian"
+  s 密码="yujian"
+  s 别名密码="yujian"
+  
+  javax(是否,null,类,"Rabe","String",keyPath,"String",别名,"String",密码,"String",别名密码,"String","/storage/emulated/0/YMAZ功能盒/远控/直装.apk","String","/storage/emulated/0/YMAZ功能盒/远控/直装_sign.apk")
+  syso(是否)
+  f(是否)
+  {
+    ufnsui()
+    {
+      syso("打开")
+      fo("/storage/emulated/0/YMAZ功能盒/远控/直装_sign.apk")
+    }
+  }
+}
+else
+{
+  ufnsui()
+  {
+    
+    tw("签名失败")
+  }
+}
+end fn

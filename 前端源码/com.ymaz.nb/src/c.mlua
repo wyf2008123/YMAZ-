@@ -1,0 +1,9 @@
+function main(id, color)
+--图标着色 
+if type(id)=="number" then
+id=i:gvs(id)
+end
+import "android.graphics.Color"
+local color = Color:parseColor(tos(color))
+id:setColorFilter(color)
+end

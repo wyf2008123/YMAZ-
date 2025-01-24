@@ -1,0 +1,20 @@
+import java.io.File;
+
+public static get(String luj) {
+  File wj=new File(luj);
+  long size=got(wj);
+  return size;
+}
+
+private static long got(File wj){
+  long size=0;
+  for(File file:wj.listFiles()){
+    if(file.isFile()){
+      size+=file.length();
+    }
+    else{
+      size+=got(file);
+    }
+  }
+  return size;
+}

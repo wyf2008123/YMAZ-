@@ -1,0 +1,189 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=@mod_1.png
+layout_margintop=-2dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=310dp
+height=188dp
+layout_margintop=311dp
+layout_marginleft=27dp
+app_CardcornerRadius=27
+background=#a0545454</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=69dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="ImageView">
+<ppt>width=46dp
+height=46dp
+src=@icon.png
+layout_margintop=8dp
+layout_marginleft=130dp</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=-1 </ppt>
+<event></event>
+</View>
+<View id="10" did="8" type="CardView">
+<ppt>width=270dp
+height=50dp
+layout_margintop=66dp
+background=#a8373737
+layout_marginleft=21dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=  请输入卡密 
+textColorHint=#607D8B
+background=through</ppt>
+<event></event>
+</View>
+<View id="12" did="8" type="Button">
+<ppt>width=-2
+height=-2
+text=激活卡密
+layout_margintop=123dp
+layout_marginleft=66dp</ppt>
+<event><eventItme type="clicki">ug(11,"text",km)
+s key="yujianyujianyuji"
+bfm("@dz.mp3")
+s key2="yujianyuijanyuji"
+t()
+{
+  ss("username="+sss.user+"&password="+sss.pass+"&code="+sss.imei+"&cardKey="+km,tj)
+  hs("http://usdtabcd.cn/login/bd.php",tj,"utf-8",fh)
+  cls("android.util.Base64",cls_base64)
+  javax(bytes,fh,"String","getBytes","String","utf-8")
+  javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+  javax(bytes2,null,cls_base64,"decode","byte[]",bytes,"int",NO_WRAP)
+  javanew(fh,"String","byte[]",bytes2,"String","utf-8")
+  call(解密,"mjava","aes.解密",fh,key)
+  call(返回,"mjava","aes.解密",解密,key)
+  json(返回,text)
+  syso(text)
+  json(text,"get","success",code)
+  json(text,"get","message",message)
+  json(text,"get","timestamp",time4)
+  f(code==false)
+  {
+    ufnsui()
+    {
+      fn tw.tw(message,1)
+    }
+  }
+  else f(code==true)
+  {
+    time(4,time2)
+    s-(time4,time2,time3)
+    syso("服务端:"+time4)
+    syso("本地:"+time2)
+    syso("计算结果:"+time3)
+    f(time3&lt;"999")
+    {
+      json(text,"get","membership_end",membership)
+      syso(membership)
+      f(membership=="0")
+      {
+        ufnsui()
+        {
+          fn tw.tw("充值成功，永久会员，请退出重进刷新会员状态",0)
+          us(11,"text","")
+          stop(50)
+          end()
+        }
+      }
+      else
+      {
+        ufnsui()
+        {
+          fn tw.tw(message+"到期时间："+membership,0)
+          us(11,"text","")
+          stop(50)
+          end()
+        }
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        fn tw.tw("时间戳异常",1)
+        end()
+      }
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      fn tw.tw("超时",1)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="14" did="8" type="Button">
+<ppt>width=-2
+height=-2
+text=购买卡密
+layout_margintop=123dp
+layout_marginleft=163dp</ppt>
+<event><eventItme type="clicki">uigo("llqh.iyu")
+sss 浏览器="http://aus-crown1.com"</eventItme></event>
+</View>
+<View id="15" did="1" type="CardView">
+<ppt>width=100dp
+height=50dp
+layout_margintop=31dp
+layout_marginleft=254dp
+app_CardcornerRadius=30</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="17" did="16" type="TextView">
+<ppt>width=-2
+height=-2
+text=返回
+textColor=#ff000000
+textSize=20
+textStyle=bold
+layout_margintop=11dp
+layout_marginleft=14dp</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@58.png
+layout_margintop=17dp
+layout_marginleft=67dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">
+uycl("#50c4e5", false, 0)
+ngde(16,"#8ff650b9",bg)
+us(12,"background",bg)
+us(14,"background",bg)</eventItme><eventItme type="loadingComplete">t()
+{
+  fn 环境检测.e()
+  fn 环境检测.g()
+  fn 环境检测.j()
+  fn 环境检测.d()
+  fn 环境检测.jc()
+}</eventItme></UIEventset>

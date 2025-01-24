@@ -1,0 +1,429 @@
+<View id="24" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="119" did="25" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+BackgroundColor=#3385ff</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1
+padding=12dp</ppt>
+<event></event>
+</View>
+<View id="122" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=密码字典生成
+textSize=24sp
+textColor=#ffffff
+textStyle=bold
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="167" did="25" type="SwipeRefreshLayout">
+<ppt>width=-1
+height=-1
+ut_below=119</ppt>
+<event><eventItme type="onrefresh">
+t()
+{
+  s wz="http://api.suavexf.ltd/API/tiangou/api.php"
+  hs(wz,tgrj)
+  sj(tgrj,null,"，",sj)
+  sj(tgrj,"，",null,rj)
+  ufnsui()
+  {
+    us(129,"text",sj)
+    us(130,"text",rj)
+  }
+}
+
+
+//加载天气
+t()
+{
+s tqhoo = "User-Agent=Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36"
+s tqa="https://m.tianqi.com/"
+hs(tqa,null,"utf-8",null,true,tqhoo,tqwz)
+sj(tqwz,"&lt;text&gt;","&lt;/text&gt;",定位)
+ss("所在地："+定位+"",定位)
+sj(tqwz,"&lt;text id=\"nowHour\"&gt;","&lt;/text&gt;",时间)
+ss(""+时间+" 更新",时间)
+sj(tqwz,"&lt;div class=\"date\"&gt;","&lt;/div&gt;",今日)
+sj(tqwz,"&lt;dt&gt;&lt;img src=\"","\"&gt;&lt;/dt&gt;",天气图标)
+ss("https://m.tianqi.com"+天气图标+"",天气图标)
+hd(天气图标,"$天气图标.png",true,tqtb)
+sj(tqwz,"&lt;dd class=\"now\"&gt;","&lt;/i&gt;&lt;/dd&gt;",实时天气)
+sj(tqwz,"&lt;dd class=\"now\"&gt;","&lt;i&gt;°C&lt;/i&gt;&lt;/dd&gt;",assd)
+sj(tqwz,"&lt;dd class=\"txt\"&gt;","&lt;/dd&gt;",天气实况)
+sj(tqwz,"&lt;span class=\"b1\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",空气质量)
+sj(tqwz,"&lt;span class=\"b2\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",湿度)
+sj(tqwz,"&lt;span class=\"b3\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",风向)
+ss(assd+"℃",温度)
+ufnsui()
+{
+us(160,"text",定位)
+us(161,"text",时间)
+us(152,"src","$天气图标.png")
+us(157,"text",温度)
+us(158,"text",天气实况)
+us(162,"text",湿度)
+us(159,"text",风向)
+us(167,"refreshing",false)
+}
+}</eventItme></event>
+</View>
+<View id="67" did="167" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="34" did="67" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="163" did="34" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="68" did="34" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_alignParentTop=true
+ut_alignParentBottom=true
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="72" did="70" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="80" did="72" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp
+</ppt>
+<event><eventItme type="clicki">hw("https://api.xiaobaibk.com/lab/guess/")</eventItme></event>
+</View>
+<View id="81" did="80" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="87" did="81" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@zd1.jpg</ppt>
+<event></event>
+</View>
+<View id="83" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无介绍
+ut_below=82
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="84" did="80" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#E0E0E0
+ut_below=83
+layout_marginTop=10dp
+ut_centerHorizontal=true
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="82" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text= 字典生成1
+ut_below=81
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="308" did="70" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="309" did="308" type="RelativeLayout">
+<ppt>width=-1
+height=300
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp</ppt>
+<event><eventItme type="clicki">hw("https://www.ddosi.org/pass8/index.html")</eventItme></event>
+</View>
+<View id="310" did="309" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="311" did="310" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@zd2.jpg</ppt>
+<event></event>
+</View>
+<View id="312" did="309" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无介绍
+ut_below=82
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272
+layout_margintop=57dp
+layout_marginleft=226dp</ppt>
+<event></event>
+</View>
+<View id="313" did="309" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#E0E0E0
+ut_below=83
+layout_marginTop=10dp
+ut_centerHorizontal=true
+layout_marginBottom=5dp
+layout_margintop=82dp
+layout_marginleft=380dp</ppt>
+<event></event>
+</View>
+<View id="314" did="309" type="TextView">
+<ppt>width=-2
+height=-2
+text=字典生成2
+ut_below=81
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bold
+layout_margintop=35dp
+layout_marginleft=10dp</ppt>
+<event><eventItme type="clicki">hw</eventItme></event>
+</View>
+<View id="88" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp</ppt>
+<event><eventItme type="clicki">hw("https://zzzteph.github.io/weakpass/")</eventItme></event>
+</View>
+<View id="91" did="90" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@zd3.jpg</ppt>
+<event></event>
+</View>
+<View id="93" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=字典生成3
+ut_below=91
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="94" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无介绍
+ut_below=93
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="95" did="90" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#FFF59D
+ut_below=94
+layout_marginTop=10dp
+layout_marginBottom=5dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="96" did="88" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+padding=5dp</ppt>
+<event></event>
+</View>
+<View id="98" did="97" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@</ppt>
+<event></event>
+</View>
+<View id="102" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂未更新
+ut_below=98
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="100" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂无介绍
+ut_below=102
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="101" did="97" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#FCE4EC
+ut_below=100
+layout_marginTop=10dp
+layout_marginBottom=5dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

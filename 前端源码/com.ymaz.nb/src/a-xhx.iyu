@@ -1,0 +1,245 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+elevation=1dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@a/fh.png
+layout_marginLeft=20dp
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_marginRight=70dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=下划线字体
+textColor=#000000
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+background=white</ppt>
+<event></event>
+</View>
+<View id="29" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertica
+background=#eeeeee
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="30" did="8" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+layout_marginBottom=5dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=30dp
+</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f5f5f5</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入内容
+paddingLeft=10dp
+textCursorDrawable=#5889FE
+gravity=center_vertical
+textColor=#757575
+textSize=13sp
+singleLine=true
+background=through
+</ppt>
+<event></event>
+</View>
+<View id="26" did="8" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="12" did="26" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffffff</ppt>
+<event><eventItme type="clicki">s p=""
+ug(32,"text",text)
+slg(text,l)
+s i=0
+f(l!=0)
+{
+t()
+{
+w(i&lt;l)
+{
+s(i+1,o)
+ssg(text,i,o,txt)
+s(i+1,i)
+ss("꯭"+p+txt+"꯭",p)
+ufnsui()
+{
+us(32,"text","")
+us(32,"text",p)
+}
+}
+}
+}
+else
+{
+tw("请输入内容")
+}</eventItme></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-2
+height=-2
+text=点我生成
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="33" did="26" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffffff</ppt>
+<event><eventItme type="clicki">ug(32,"text",xh)
+f(xh=="")
+{
+tw("请填写生成文字")
+}else
+{
+ug(32,"text",xhs)
+sxb(xhs)
+tw("复制成功")
+}
+</eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=点我复制
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginBottom=20dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13sp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.点击生成需等待0.9秒即可\n\n2.可以用做QQ网名微信网名，发说说
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+ngde(4,10,"#00000000","#BBDEFB",bg)
+us(31,"background",bg)
+</eventItme></UIEventset>

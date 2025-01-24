@@ -1,0 +1,36 @@
+fn run(aa)
+end()
+syso(aa)
+syso(sss.menu)
+f(aa=="后退一步")
+{
+  f(sss.menu=="1")
+  {
+    tw("已经到底了~")
+  }
+  else
+  {
+    tw("切换成功~")
+    sss menus="true"
+    sss menu="1"
+  }
+}
+else f(aa=="前进一步")
+{
+  f(sss.menu=="1")
+  {
+    tw("切换成功~")
+    sss menus="false"
+    sss menu="2"
+    endcode
+  }
+  else
+  {
+    tw("已经到底了~")
+  }
+}
+else
+{
+  end()
+}
+end fn

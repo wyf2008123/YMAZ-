@@ -1,0 +1,93 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+background=white
+</ppt>
+<event>
+<eventItme type="clicki">
+ulag(st_vW,6,a)
+sxb(a)
+fn tw.弹窗("复制id成功")
+</eventItme>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="RoundImageView">
+<ppt>
+width=-2
+height=-2
+src=@img_iapp.png
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=该说说ID为
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=这是id
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=内容
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#ff000000
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+</UIEventset>

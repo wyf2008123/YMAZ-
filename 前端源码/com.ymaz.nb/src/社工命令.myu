@@ -1,0 +1,155 @@
+fn 基本信息()
+t()
+{
+  ss("https://api.kit9.cn/api/qq_material/api.php?qq="+sss.qq,a)
+  hs(a,b)
+  json(b,jo)
+  json(jo,"get","data",jo)
+  json(jo,"get","sign",sss.qm)
+  json(jo,"get","imgurl",sss.tx)
+  json(jo,"get","level",sss.dj)
+  json(jo,"get","clike",sss.mpz)
+  json(jo,"get","age",sss.nl)
+  json(jo,"get","gender",sss.xb)
+  json(jo,"get","city",sss.cs)
+  fn 社工命令.补全信息()
+}
+end fn
+fn 补全信息()
+t()
+{
+  ss("https://api.linhun.vip/rt.php?qq="+sss.qq,榜一)
+  hs(榜一,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",text)
+  json(text,jo)
+  json(jo,"get","code",code)
+  json(jo,"get","data",jo)
+  json(jo,"get","网名",nc)
+  json(jo,"get","签名",qm)
+  json(jo,"get","年龄",nl)
+  json(jo,"get","地区",gj)
+  json(jo,"get","来自",sf)
+  json(jo,"get","地址",cs)
+  json(jo,"get","空间昵称",mpz)
+  json(jo,"get","level",dj)
+  json(jo,"get","时间",yx)
+  ss("https://api.linhun.vip/api/NicknameAvatar?qq="+sss.qq+"&apiKey=e47a38e26ceb26d43cdff71dc2835bc8",等级)
+  hs(等级,等级)
+  json(等级,jo)
+  json(jo,"get","name",nc)
+  json(jo,"get","email",sss.nl)
+  json(jo,"get","qzoneimgurl",sss.tx)
+  json(jo,"get","code",code)
+  f(code==200)
+  {
+    ufnsui()
+    {
+      ss("账号:"+sss.qq,QQ)
+      us(20,"text",QQ)
+      ss("昵称:"+nc,昵称)
+      syso(昵称)
+      us(22,"text",昵称)
+      ss("签名:"+sss.qm,签名)
+      us(23,"text",签名)
+      ss("邮箱:"+sss.nl,邮箱)
+      syso(邮箱)
+      us(30,"text",邮箱)
+      ss("等级:"+sss.dj,等级)
+      us(31,"text",等级)
+      ss("获赞总数:"+sss.mpz,QQ名片赞)
+      us(35,"text",QQ名片赞)
+      ss("账号性别:"+sss.xb,地址)
+      us(36,"text",地址)
+      ss("账号地址:"+sss.cs,城市)
+      us(37,"text",城市)
+      us(21,"src",sss.tx)
+      fn 社工命令.2()
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      fn 社工命令.2()
+    }
+  }
+}
+end fn
+fn 2()
+t()
+{
+  ss("https://api.xywlapi.cc/qqcx2023?qq="+sss.qq,榜一)
+  hs(榜一,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",text)
+  json(text,jo)
+  json(jo,"get","phone",sss.sjh)
+  json(jo,"get","phonediqu",gsd)
+  json(jo,"get","lol",lol)
+  json(jo,"get","wb",lol1)
+  json(jo,"get","qqlm",lao)
+  f(text?"sta")
+  {
+    ufnsui()
+    {
+      ss("手机号:"+sss.sjh,手机号)
+      us(46,"text",手机号)
+      ss("归属地:"+gsd,归属地)
+      us(47,"text",归属地)
+      ss("LOL名字:"+lol,lo)
+      us(53,"text",lo)
+      ss("LOL大区:"+lol1,LOL1)
+      us(54,"text",LOL1)
+      ss("QQ老密:"+lao,lao)
+      us(226,"text",lao)
+      fn 社工命令.3()
+    }
+  }
+}
+end fn
+fn 3()
+t()
+{
+  ss("https://api.linhun.vip/api/QQbusiness?qq="+sss.qq+"&apiKey=ad7e57284dc13e718a0d46085bdacae4",a)
+  hs(a,b)
+  json(b,jo)
+  json(jo, "list", "data", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, jo)
+    json(jo,"get","name",hy)
+    json(jo,"get","level",dj)
+    json(jo,"get","desc",tq)
+    ss("会员等级:"+dj,dj)
+    ula(u,2=hy,3=dj,4=tq)
+  }
+  ufnsui()
+  {
+    uls(285,u,"会员业务列表.iyu",-1,-2)
+    fn 社工命令.4()
+  }
+}
+end fn
+fn 4()
+t()
+{
+  ss("word="+sss.qq+"&act=ok&type=4&k=%E6%89%8B%E6%9C%BA%E5%8F%B7%E7%A0%81",qb)
+  t()
+  {
+    hs("https://wap.d02.cn/suanming/haoma.php",qb,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||accept-language=zh-CN",text)
+    sj(text,"&lt;/span&gt;&lt;/p&gt;\n\t\t\t\t\t\t&lt;p&gt;&lt;strong&gt;","&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;\n\t\t\t\t\t\t&lt;p&gt;&lt;strong&gt;",zy)
+    sr(zy,"&lt;/strong&gt;&lt;span&gt;","",zy2)
+    sj(zy2,"","&lt;",zy3)
+    sj(text,"主人个性：&lt;/strong&gt;&lt;span&gt;","&lt;",xg)
+    syso(xg)
+    ufnsui()
+    {
+      ss("QQ号:"+sss.qq+"\n\n"+zy3+"\n"+xg,qb)
+      ufnsui()
+      {
+        us(138,"text",qb)
+        endutw()
+      }
+    }
+  }
+}
+end fn

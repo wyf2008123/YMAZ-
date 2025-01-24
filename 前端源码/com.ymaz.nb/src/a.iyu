@@ -1,0 +1,655 @@
+<View id="24" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="67" did="25" type="ScrollView">
+<ppt>width=-1
+height=-1
+ut_below=119</ppt>
+<event></event>
+</View>
+<View id="34" did="67" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="32" did="34" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+layout_marginLeft=15dp
+layout_marginRight=15dp
+app_CardElevation=0
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="134" did="32" type="LinearLayout">
+<ppt>width=-1
+height=160dp
+orientation=vertical
+background=
+padding=10dp</ppt>
+<event></event>
+</View>
+<View id="141" did="134" type="ViewPager">
+<ppt>width=-1
+height=-1
+layout_margintop=-12dp
+layout_marginleft=6dp</ppt>
+<event></event>
+</View>
+<View id="138" did="34" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=30dp
+layout_marginLeft=15dp</ppt>
+<event></event>
+</View>
+<View id="139" did="138" type="ImageView">
+<ppt>width=22dp
+height=22dp
+src=@a/hr.png
+layout_marginLeft=13dp</ppt>
+<event></event>
+</View>
+<View id="140" did="138" type="TextView">
+<ppt>width=-2
+height=-2
+text=热门工具
+textColor=#5E93FF
+textStyle=bold
+textSize=14sp
+layout_marginTop=2dp
+layout_marginLeft=8dp</ppt>
+<event></event>
+</View>
+<View id="68" did="34" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_alignParentTop=true
+ut_alignParentBottom=true
+gravity=center
+layout_marginTop=40dp
+</ppt>
+<event></event>
+</View>
+<View id="70" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+layout_marginLeft=15dp
+layout_marginRight=15dp
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="71" did="70" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="73" did="71" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#F5F5F5
+paddingTop=5dp</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("社工.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("照妖镜.iyu")
+}
+</eventItme></event>
+</View>
+<View id="74" did="73" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="78" did="74" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@r512.png</ppt>
+<event></event>
+</View>
+<View id="75" did="73" type="TextView">
+<ppt>width=-2
+height=-2
+text=社工区
+ut_below=74
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="76" did="73" type="TextView">
+<ppt>width=-2
+height=-2
+text=Social work area
+ut_below=75
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="79" did="73" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#A5D6A7
+ut_below=76
+layout_marginTop=10dp
+layout_marginBottom=5dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="72" did="70" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="80" did="72" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp
+</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("gongju.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("cc.iyu")
+}
+</eventItme></event>
+</View>
+<View id="81" did="80" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="87" did="81" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@d02a43f848dc47158574afda85643860.png</ppt>
+<event></event>
+</View>
+<View id="83" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=permeate
+ut_below=82
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="84" did="80" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#E0E0E0
+ut_below=83
+layout_marginTop=10dp
+ut_centerHorizontal=true
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="82" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=渗透区
+ut_below=81
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="88" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+layout_marginLeft=15dp
+layout_marginRight=15dp
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="89" did="88" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("查绑轰炸.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("大头.iyu")
+}
+</eventItme></event>
+</View>
+<View id="91" did="90" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="92" did="91" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@zd.png</ppt>
+<event></event>
+</View>
+<View id="93" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=短信测压区
+ut_below=91
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="94" did="90" type="TextView">
+<ppt>width=-2
+height=-2
+text=bomb
+ut_below=93
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="95" did="90" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#FFF59D
+ut_below=94
+layout_marginTop=10dp
+layout_marginBottom=5dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="96" did="88" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+padding=5dp</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("Key科技.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("远控.iyu")
+}
+</eventItme></event>
+</View>
+<View id="98" did="97" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="99" did="98" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@QQ.png</ppt>
+<event></event>
+</View>
+<View id="102" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ远控
+ut_below=98
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="100" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=Remote control
+ut_below=102
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="101" did="97" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#FCE4EC
+ut_below=100
+layout_marginTop=10dp
+layout_marginBottom=5dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="103" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+layout_marginLeft=15dp
+layout_marginRight=15dp
+visibility=visible</ppt>
+<event></event>
+</View>
+<View id="104" did="103" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="105" did="104" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingBottom=5dp</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("传媒.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("学籍.iyu")
+}
+</eventItme></event>
+</View>
+<View id="106" did="105" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="107" did="106" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@icona/tmcm.png</ppt>
+<event></event>
+</View>
+<View id="108" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=好康的
+ut_below=106
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="109" did="105" type="TextView">
+<ppt>width=-2
+height=-2
+text=benefit
+ut_below=108
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="110" did="105" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#BBDEFB
+ut_below=109
+layout_marginTop=10dp
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="111" did="103" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+</ppt>
+<event></event>
+</View>
+<View id="112" did="111" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+BackgroundRipple=#ffa0a0a0
+background=#F5F5F5
+paddingTop=5dp</ppt>
+<event><eventItme type="clicki">f(sss.a1=="true")
+{
+  uigo("各地政务.iyu")
+}
+else f(sss.a1=="false")
+{
+  uigo("海南名下.iyu")
+}
+</eventItme></event>
+</View>
+<View id="113" did="112" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+ut_alignParentTop=true
+ut_centerHorizontal=true</ppt>
+<event></event>
+</View>
+<View id="114" did="113" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@i_ztp.png</ppt>
+<event></event>
+</View>
+<View id="117" did="112" type="TextView">
+<ppt>width=-2
+height=-2
+text=全国政务
+ut_below=113
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textColor=#ff0d0d0d
+textSize=12sp
+textStyle=bolditalic</ppt>
+<event></event>
+</View>
+<View id="115" did="112" type="TextView">
+<ppt>width=-2
+height=-2
+text=government
+ut_below=117
+layout_marginTop=5dp
+ut_centerHorizontal=true
+textSize=11sp
+textColor=#FF727272</ppt>
+<event></event>
+</View>
+<View id="116" did="112" type="CardView">
+<ppt>width=50dp
+height=8dp
+app_CardcornerRadius=10dp
+app_CardElevation=0
+app_CardBackgroundColor=#FFCDD2
+ut_below=115
+layout_marginTop=10dp
+ut_centerHorizontal=true
+layout_marginBottom=5dp</ppt>
+<event></event>
+</View>
+<View id="143" did="69" type="TextView">
+<ppt>width=-2
+height=-2
+text=切换功能○
+layout_gravity=right
+layout_marginRight=30dp
+typeface=@2df75ec2de1.ttf
+textSize=15dp
+textColor=#ff000000</ppt>
+<event><eventItme type="clicki">uigo("menu.iyu")</eventItme></event>
+</View>
+<View id="119" did="25" type="LinearLayout">
+<ppt>width=-1
+height=70dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_weight=1
+padding=16dp</ppt>
+<event></event>
+</View>
+<View id="122" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=YAMZ功能盒
+textSize=14sp
+textColor=#000000
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="123" did="120" type="TextView">
+<ppt>width=-2
+height=-2
+text=岂不闻天无绝人之路，只要我想走，路就在脚下
+textColor=#FF727272
+textSize=11sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="121" did="119" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="124" did="121" type="CardView">
+<ppt>width=40dp
+height=40dp
+app_CardcornerRadius=23dp
+app_CardElevation=8dp
+layout_margin=16dp</ppt>
+<event></event>
+</View>
+<View id="125" did="124" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundRipple=#ffeeeeee
+background=@icon.png</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

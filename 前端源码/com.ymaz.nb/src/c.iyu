@@ -1,0 +1,853 @@
+<View id="2" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=white</ppt>
+<event></event>
+</View>
+<View id="78" did="2" type="NestedScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="79" did="78" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="80" did="79" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="209" did="80" type="TextView">
+<ppt>width=-2
+height=-2
+text=个人中心
+textStyle=bold
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=30sp
+layout_marginLeft=30dp
+layout_marginTop=40dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="81" did="80" type="LinearLayout">
+<ppt>width=-1
+height=0dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="82" did="80" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center_vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="83" did="82" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical|right</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@index/mine/1675794763171.png
+layout_marginLeft=10dp
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="85" did="83" type="ImageView">
+<ppt>width=25dp
+height=25dp
+src=@index/mine/_setting-one.png
+layout_marginLeft=10dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="86" did="80" type="LinearLayout">
+<ppt>width=-1
+height=90dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="RoundImageView">
+<ppt>width=70dp
+height=70dp
+src=@icon.png
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="88" did="86" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+layout_marginLeft=10dp</ppt>
+<event><eventItme type="clicki">uigo("setting.iyu")</eventItme></event>
+</View>
+<View id="89" did="88" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+layout_marginBottom=10dp
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="90" did="89" type="TextView">
+<ppt>width=120dp
+height=-2
+text=*
+textColor=#ff000000
+textStyle=bold
+textSize=20sp
+scrollHorizontally=true
+ellipsize=end
+typeface=@b004b9c310f.ttf</ppt>
+<event></event>
+</View>
+<View id="92" did="89" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginLeft=5dp
+app_CardElevation=0dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#F5F5F5
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="93" did="92" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="95" did="93" type="ImageView">
+<ppt>width=20dp
+height=18dp
+src=@index/found/baby_zone_icon_load_error.png
+layout_marginLeft=0dp</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="TextView">
+<ppt>width=-2
+height=-2
+text=超级会员
+layout_marginLeft=0dp
+textStyle=bold
+typeface=serif
+layout_marginRight=5dp
+textColor=#9C7AD2
+textSize=10sp
+layout_marginTop=2dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="197" did="89" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginLeft=5dp
+app_CardElevation=0dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#F5F5F5
+visibility=invisible</ppt>
+<event></event>
+</View>
+<View id="198" did="197" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="199" did="198" type="TextView">
+<ppt>width=-2
+height=-2
+text=管理员
+layout_marginLeft=5dp
+textStyle=bold
+typeface=serif
+layout_marginRight=5dp
+textColor=#ff000000
+textSize=10sp
+layout_marginTop=2dp
+layout_marginBottom=2dp</ppt>
+<event></event>
+</View>
+<View id="91" did="88" type="TextView">
+<ppt>width=-2
+height=-2
+text=该用户很懒，什么都没有留下
+textSize=13sp
+textColor=#9E9E9E
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="201" did="88" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="202" did="201" type="TextView">
+<ppt>width=-2
+height=-2
+text=LV.1
+textSize=11sp
+textColor=#ff000000
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="203" did="201" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical|right</ppt>
+<event></event>
+</View>
+<View id="204" did="203" type="TextView">
+<ppt>width=-2
+height=-2
+text=0/100
+textSize=11sp
+textColor=#ff000000
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="205" did="88" type="CardView">
+<ppt>width=-1
+height=6dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#F5F5F5
+layout_marginTop=2dp</ppt>
+<event></event>
+</View>
+<View id="206" did="205" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="207" did="206" type="CardView">
+<ppt>width=0dp
+height=6dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+app_CardBackgroundColor=#9E9E9E</ppt>
+<event></event>
+</View>
+<View id="112" did="86" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="113" did="112" type="CardView">
+<ppt>width=60dp
+height=25dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp</ppt>
+<event></event>
+</View>
+<View id="114" did="113" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event><eventItme type="clicki">uigo("setting.iyu")</eventItme></event>
+</View>
+<View id="115" did="114" type="TextView">
+<ppt>width=-2
+height=-2
+text=主页
+textSize=14sp
+textColor=#ff000000
+typeface=@2df75ec2de1.ttf</ppt>
+<event></event>
+</View>
+<View id="116" did="114" type="ImageView">
+<ppt>width=10dp
+height=10dp
+src=@index/project/project_list_icon.png
+layout_marginLeft=3dp</ppt>
+<event></event>
+</View>
+<View id="96" did="80" type="LinearLayout">
+<ppt>width=-1
+height=90dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="101" did="96" type="LinearLayout">
+<ppt>width=20dp
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="97" did="96" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("mine_care.iyu")</eventItme></event>
+</View>
+<View id="104" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textStyle=bold
+textSize=25sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="105" did="97" type="TextView">
+<ppt>width=-2
+height=-2
+text=关注
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="98" did="96" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("mine_article.iyu")</eventItme></event>
+</View>
+<View id="106" did="98" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textStyle=bold
+textSize=25sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="107" did="98" type="TextView">
+<ppt>width=-2
+height=-2
+text=帖子
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="99" did="96" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("mine_fans.iyu")</eventItme></event>
+</View>
+<View id="108" did="99" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textStyle=bold
+textSize=25sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="109" did="99" type="TextView">
+<ppt>width=-2
+height=-2
+text=粉丝
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="100" did="96" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("mine_gold.iyu")</eventItme></event>
+</View>
+<View id="110" did="100" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textStyle=bold
+textSize=25sp
+textColor=#ff000000</ppt>
+<event></event>
+</View>
+<View id="111" did="100" type="TextView">
+<ppt>width=-2
+height=-2
+text=金币
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="102" did="96" type="LinearLayout">
+<ppt>width=20dp
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="117" did="80" type="LinearLayout">
+<ppt>width=-1
+height=120dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="118" did="117" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#FAFAFA</ppt>
+<event></event>
+</View>
+<View id="119" did="118" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="120" did="119" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="121" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("lsgx.iyu")</eventItme></event>
+</View>
+<View id="124" did="121" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@gx.png</ppt>
+<event></event>
+</View>
+<View id="125" did="121" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新日志
+textColor=#ff000000
+textSize=14sp
+layout_marginTop=10dp
+layout_marginBottom=5dp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="126" did="121" type="TextView">
+<ppt>width=-2
+height=-2
+text=点赞了《***》
+textSize=10sp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="170" did="120" type="LinearLayout">
+<ppt>width=1
+height=-1
+orientation=vertical
+layout_marginBottom=20dp
+background=#E0E0E0
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="122" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn tw.tw("暂未开发",0)</eventItme></event>
+</View>
+<View id="127" did="122" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@icon/ic_mine_collection.png</ppt>
+<event></event>
+</View>
+<View id="129" did="122" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的收藏
+textColor=#ff000000
+textSize=14sp
+layout_marginTop=10dp
+layout_marginBottom=5dp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="131" did="122" type="TextView">
+<ppt>width=-2
+height=-2
+text=《白丝萝莉》已收藏
+textSize=10sp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="169" did="120" type="LinearLayout">
+<ppt>width=1
+height=-1
+orientation=vertical
+layout_marginBottom=20dp
+background=#E0E0E0
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="123" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn tw.tw("暂未开发",0)</eventItme></event>
+</View>
+<View id="128" did="123" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@1675753812006_75bdc915029010783c45c547d07ad1d9_2_3_art.png</ppt>
+<event></event>
+</View>
+<View id="130" did="123" type="TextView">
+<ppt>width=-2
+height=-2
+text=浏览记录
+textColor=#ff000000
+textSize=14sp
+layout_marginTop=10dp
+layout_marginBottom=5dp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="132" did="123" type="TextView">
+<ppt>width=-2
+height=-2
+text=上一次看《射进..》
+textSize=10sp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="191" did="120" type="LinearLayout">
+<ppt>width=1
+height=-1
+orientation=vertical
+layout_marginBottom=20dp
+background=#E0E0E0
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="190" did="120" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">fn tw.tw("暂未开发",0)</eventItme></event>
+</View>
+<View id="192" did="190" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_toolbox_bad_word_detect.png</ppt>
+<event></event>
+</View>
+<View id="193" did="190" type="TextView">
+<ppt>width=-2
+height=-2
+text=我的回复
+textColor=#ff000000
+textSize=14sp
+layout_marginTop=10dp
+layout_marginBottom=5dp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="168" did="117" type="LinearLayout">
+<ppt>width=1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="146" did="80" type="CardView">
+<ppt>width=-1
+height=150dp
+layout_marginTop=20dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#FAFAFA
+</ppt>
+<event></event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="148" did="147" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="153" did="148" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">utw(null,"设备码","当前设置码:"+sss.imei,false,v)
+{
+}
+f(sss.imei==null)
+{
+  uigo("sb.iyu")
+  end()
+}</eventItme></event>
+</View>
+<View id="184" did="153" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@4d7f1e94573.png</ppt>
+<event></event>
+</View>
+<View id="185" did="153" type="TextView">
+<ppt>width=-2
+height=-2
+text=设备码
+textColor=#ff000000
+layout_marginTop=5dp
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="150" did="148" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("llqh.iyu")
+sss 浏览器="http://aus-crown1.com"</eventItme></event>
+</View>
+<View id="159" did="150" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@c80853b6fec.png</ppt>
+<event></event>
+</View>
+<View id="160" did="150" type="TextView">
+<ppt>width=-2
+height=-2
+text=卡密购买
+textColor=#ff000000
+layout_marginTop=5dp
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="151" did="148" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">uigo("km.iyu")</eventItme></event>
+</View>
+<View id="161" did="151" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@3ad76cd0903.png</ppt>
+<event></event>
+</View>
+<View id="162" did="151" type="TextView">
+<ppt>width=-2
+height=-2
+text=会员激活
+textColor=#ff000000
+layout_marginTop=5dp
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="152" did="148" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event><eventItme type="clicki">utw("@jubao.png","温馨提示","是否退出登录","退出","返回",false,v)
+{
+  fd("/storage/emulated/0/YMAZ功能盒/缓存/账号.txt",zz)
+  fd("/storage/emulated/0/YMAZ功能盒/缓存/密码.txt",zz2)
+  end()
+  ends()
+}
+else
+{
+  endutw()
+}</eventItme></event>
+</View>
+<View id="163" did="152" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@3a2c7813452.png</ppt>
+<event></event>
+</View>
+<View id="164" did="152" type="TextView">
+<ppt>width=-2
+height=-2
+text=退出登录
+textColor=#ff000000
+layout_marginTop=5dp
+textSize=12sp
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="165" did="80" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginTop=20dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardElevation=0dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#FAFAFA
+</ppt>
+<event></event>
+</View>
+<View id="166" did="165" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="171" did="166" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=5dp</ppt>
+<event><eventItme type="clicki">uigo("设置.iyu")</eventItme></event>
+</View>
+<View id="172" did="171" type="TextView">
+<ppt>width=-2
+height=-2
+text=设置
+layout_marginLeft=20dp
+textSize=16sp
+textColor=#ff000000
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="173" did="171" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical|right</ppt>
+<event></event>
+</View>
+<View id="174" did="173" type="ImageView">
+<ppt>width=10dp
+height=10dp
+src=@ic_arrow_right_black.png
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="176" did="166" type="LinearLayout">
+<ppt>width=-1
+height=1
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+background=#E0E0E0
+</ppt>
+<event></event>
+</View>
+<View id="177" did="166" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=5dp</ppt>
+<event><eventItme type="clicki">s qq="431577318"
+ss("mqqapi://card/show_pslcard?src_type=internal&version=1&card_type=group&source=qrcode&uin="+qq,urlqun)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",urlqun)
+uit(a, "chooser", "跳转到QQ群")</eventItme></event>
+</View>
+<View id="178" did="177" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方群聊
+layout_marginLeft=20dp
+textSize=16sp
+textColor=#ff000000
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<View id="180" did="177" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical|right</ppt>
+<event></event>
+</View>
+<View id="181" did="180" type="ImageView">
+<ppt>width=10dp
+height=10dp
+src=@ic_arrow_right_black.png
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="179" did="166" type="LinearLayout">
+<ppt>width=-1
+height=1
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+background=#E0E0E0
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="188" did="166" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginTop=5dp</ppt>
+<event><eventItme type="clicki">uigo("协议.iyu")</eventItme></event>
+</View>
+<View id="189" did="188" type="TextView">
+<ppt>width=-2
+height=-2
+text=关于我们
+layout_marginLeft=20dp
+textSize=16sp
+textColor=#ff000000
+typeface=@font.ttf</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",false)</eventItme></UIEventset>

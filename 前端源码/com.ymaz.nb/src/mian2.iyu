@@ -1,0 +1,499 @@
+<View id="81" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="81" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_above=3
+ut_below=79</ppt>
+<event></event>
+</View>
+<View id="63" did="2" type="ViewPager">
+<ppt>width=-1
+height=-1
+background=#ffffffff
+overScrollMode=never</ppt>
+<event><eventItme type="onpageselected">f(st_pN==0)
+{
+  gvs(4,a)
+  javax(null,a,ss.v,"performClick")
+}
+else f(st_pN==1)
+{
+  gvs(39,a)
+  javax(null,a,ss.v,"performClick")
+}
+else f(st_pN==2)
+{
+  gvs(72,a)
+  javax(null,a,ss.v,"performClick")
+}
+else f(st_pN==3)
+{
+  gvs(82,a)
+  javax(null,a,ss.v,"performClick")
+}
+</eventItme><eventItme type="touchmonitor">ss chu=false
+</eventItme></event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>width=-1
+height=60dp
+orientation=horizontal
+ut_alignParentBottom=true
+elevation=15dp
+background=#ffffffff
+layout_marginBottom=-20dp
+paddingBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+layout_weight=1
+BackgroundRipple=#2f00b3ff</ppt>
+<event><eventItme type="clicki">gvs(23,ss.pdview)
+gvs(5,ss.pdback)
+ss chu=false
+ss xh=0
+us(65,"text","1")
+us(63,"currentitem",0)</eventItme><eventItme type="touchmonitor">f(ss.chu==false)
+{
+  dhs(dh,0.7,1,0.7,1,1,0.5,1,0.5)
+  dh(dh,"duration",200)
+  us(st_vW,"dh",dh)
+  ss chu=true
+  f(sss.anyy==true)
+  {
+    bfm("@music/BG_turnover.mp3")
+  }
+}</eventItme></event>
+</View>
+<View id="20" did="4" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="5" did="20" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_horizontal
+padding=5dp
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=0
+</ppt>
+<event></event>
+</View>
+<View id="22" did="20" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_horizontal
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@zy/sy.png
+padding=-1dp
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="39" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+layout_weight=1
+BackgroundRipple=#2f00b3ff</ppt>
+<event><eventItme type="clicki">gvs(45,ss.pdview)
+gvs(41,ss.pdback)
+ss xh=1
+us(65,"text","1")
+ss chu=false
+us(63,"currentitem",1)</eventItme><eventItme type="touchmonitor">f(ss.chu==false)
+{
+  dhs(dh,0.7,1,0.7,1,1,0.5,1,0.5)
+  dh(dh,"duration",200)
+  us(st_vW,"dh",dh)
+  ss chu=true
+  f(sss.anyy==true)
+  {
+    bfm("@music/BG_turnover.mp3")
+  }
+}</eventItme></event>
+</View>
+<View id="40" did="39" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_horizontal
+padding=5dp
+ut_centerInParent=true
+</ppt>
+<event></event>
+</View>
+<View id="42" did="41" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=0
+</ppt>
+<event></event>
+</View>
+<View id="44" did="40" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+ut_centerInParent=true
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="45" did="44" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@zy/yy.png</ppt>
+<event></event>
+</View>
+<View id="72" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+layout_weight=1
+BackgroundRipple=#2f00b3ff</ppt>
+<event><eventItme type="clicki">gvs(77,ss.pdview)
+gvs(74,ss.pdback)
+ss xh=2
+us(65,"text","1")
+ss chu=false
+us(63,"currentitem",2)</eventItme><eventItme type="touchmonitor">f(ss.chu==false)
+{
+  dhs(dh,0.7,1,0.7,1,1,0.5,1,0.5)
+  dh(dh,"duration",200)
+  us(st_vW,"dh",dh)
+  ss chu=true
+  f(sss.anyy==true)
+  {
+    bfm("@music/BG_turnover.mp3")
+  }
+}</eventItme></event>
+</View>
+<View id="73" did="72" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="74" did="73" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_horizontal
+padding=5dp
+ut_centerInParent=true
+</ppt>
+<event></event>
+</View>
+<View id="75" did="74" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=0
+</ppt>
+<event></event>
+</View>
+<View id="76" did="73" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+ut_centerInParent=true
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="77" did="76" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@zy/sd.png</ppt>
+<event></event>
+</View>
+<View id="82" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+layout_weight=1
+BackgroundRipple=#2f00b3ff</ppt>
+<event><eventItme type="clicki">gvs(87,ss.pdview)
+gvs(84,ss.pdback)
+ss xh=3
+us(65,"text","1")
+ss chu=false
+us(63,"currentitem",3)</eventItme><eventItme type="touchmonitor">f(ss.chu==false)
+{
+  dhs(dh,0.7,1,0.7,1,1,0.5,1,0.5)
+  dh(dh,"duration",200)
+  us(st_vW,"dh",dh)
+  ss chu=true
+  f(sss.anyy==true)
+  {
+    bfm("@music/BG_turnover.mp3")
+  }
+}</eventItme></event>
+</View>
+<View id="83" did="82" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="84" did="83" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+gravity=center_horizontal
+padding=5dp
+ut_centerInParent=true</ppt>
+<event></event>
+</View>
+<View id="85" did="84" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=0
+</ppt>
+<event></event>
+</View>
+<View id="86" did="83" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=horizontal
+gravity=center_vertical
+ut_centerInParent=true
+BackgroundRipple=#2f00b3ff</ppt>
+<event></event>
+</View>
+<View id="87" did="86" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@zy/gr.png</ppt>
+<event></event>
+</View>
+<View id="64" did="81" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="65" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=底部栏切换动画
+visibility=8</ppt>
+<event><eventItme type="aftertextchanged">javax(null,ss.view,ss.v,"clearAnimation")
+f(ss.view!=ss.pdview)
+{
+ngde(360,"#D8E5FF",b)
+us(ss.back,"background",b)
+dha(ss.dh, true, false)
+dh(ss.dh,"duration",200)
+us(ss.back,"dh",ss.dh)
+dh(ss.dh,"after",true)
+javax(null,ss.view,ss.x,"setColorFilter","int",ss.ixz,"android.graphics.PorterDuff$Mode",ss.imode)
+ss view=ss.pdview
+ss back=ss.pdback
+ngde(360,"#D8E5FF",b)
+us(ss.back,"background",b)
+dha(ss.dh,false,true)
+dh(ss.dh,"duration",200)
+us(ss.back,"dh",ss.dh)
+javax(null,ss.view,ss.x,"setColorFilter","int",ss.xz,"android.graphics.PorterDuff$Mode",ss.mode)
+}
+</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+addv(63,"a.iyu|b.iyu|d.iyu|c.iyu",hdtc)
+t()
+{
+  addv(81,"utws.iyu")
+  hs("http://usdtabcd.cn/login/admin/Notice/Notice.txt",gg)
+  syso(gg)
+  ufnsui()
+  {
+    us(utws.6,"text",gg)
+  }
+}
+
+
+
+fn 加载动画.a()
+fn 功能.天气()
+fn 功能.图片()</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  f(sss.exit==null)
+  {
+    sss exit=0
+    s key=2001
+    fn tw.tw("真的要退出嘛？(再按一次退出本软件)",0)
+    t()
+    {
+      stop(2500)
+      sss exit=null
+    }
+  }
+  else
+  {
+    end()
+  }
+}</eventItme><eventItme type="loadingComplete">fr("$设置/按钮音效.txt",sz)
+f(sz=="开")
+{
+  sss anyy=true
+}
+fr("$设置/音乐播放.txt",sz)
+f(sz=="开")
+{
+  fn 功能.歌曲()
+}
+fr("$设置/自动更新.txt",sz)
+f(sz=="开")
+{
+  t()
+  {
+    //设置当前软件版本
+    s a="http://usdtabcd.cn/login/admin/update.txt"
+    s a2="http://usdtabcd.cn/login/admin/update_gg.txt"
+    //远程地址
+    hs(a,b)
+    hs(a2,b2)
+    ufnsui()
+    {
+      //启动一个新线程
+      f(b&gt;sss.bb)
+      //进行判断
+      {
+        bfm("@music/gxts.mp3")
+        ss(sss.bb+"→"+b,bb)
+        utw(null,"","gx.iyu",false,v)
+        {
+        }
+        gvs(v,12,kj)
+        gvs(v,7,kj2)
+        us(kj,"text",bb)
+        us(kj2,"text",b2)
+      }
+      else
+      {
+        tws(null,"已是最新版本",0)
+      }
+      //判断是否有新版本
+    }
+  }
+}
+
+f(sss.member=="非会员用户")
+{
+  us(c.87,"src","@novip.png")
+  us(c.90,"text",sss.user)
+}
+else f(sss.member=="会员用户"||sss.member=="会员ip用户")
+{
+  us(c.87,"src","@vip.png")
+  us(c.90,"text",sss.user)
+}
+else
+{
+  end()
+  ends()
+}
+
+addv(a.141,"广告.iyu||广告2.iyu||广告3.iyu",mian)
+t()
+{
+  for(1; 50)
+  {
+    stop(5000)
+    us(a.141,"currentitem",1)
+    stop(5000)
+    us(a.141,"currentitem",2)
+    stop(5000)
+    us(a.141,"currentitem",3)
+    stop(5000)
+    us(a.141,"currentitem",0)
+  }
+}
+gvs(a.141,mvp)
+call(null,"mjava","轮播.setdh",mvp)</eventItme><eventItme type="restart">f(sss.menus=="true")
+{
+  us(a.86,"src","@r512.png")
+  us(a.75,"text","社工区")
+  us(a.76,"text","Social work area")
+  us(a.87,"src","@d02a43f848dc47158574afda85643860.png")
+  us(a.82,"text","渗透区")
+  us(a.83,"text","permeate")
+  us(a.92,"src","@zd.png")
+  us(a.93,"text","短信测压")
+  us(a.94,"text","bomb")
+  us(a.99,"src","@QQ.png")
+  us(a.102,"text","QQ远控")
+  us(a.100,"text","Remote control")
+  us(a.107,"src","@tmcm.png")
+  us(a.108,"text","好康的")
+  us(a.109,"text","benefit")
+  us(a.114,"src","@i_ztp.png")
+  us(a.117,"text","全国政务")
+  us(a.115,"text","government")
+  sss a1="true"
+}
+else f(sss.menus=="false")
+{
+  us(a.86,"src","@yz.png")
+  us(a.75,"text","照妖镜")
+  us(a.76,"text","zyj")
+  us(a.87,"src","@zd1.png")
+  us(a.82,"text","CC攻击")
+  us(a.83,"text","CC")
+  us(a.92,"src","@tx.png")
+  us(a.93,"text","大头模板生成")
+  us(a.94,"text","dtmb")
+  us(a.99,"src","@Lock.png")
+  us(a.102,"text","手机远控")
+  us(a.100,"text","Seven Rat V1.1")
+  us(a.107,"src","@20215101638244604.png")
+  us(a.108,"text","全国学籍查询")
+  us(a.109,"text","xueji")
+  us(a.114,"src","@office_word.png")
+  us(a.117,"text","海南名下")
+  us(a.115,"text","hnmx")
+  sss a1="false"
+}</eventItme></UIEventset>

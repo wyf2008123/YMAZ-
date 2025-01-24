@@ -1,0 +1,181 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=through</ppt>
+<event><eventItme type="clicki">t()
+{
+  ufnsui()
+  {
+    f(sss.lj==null)
+    {
+      
+    }
+    else
+    {
+       hws(sss.lj)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=145dp
+padding=10dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=80dp
+height=80dp
+src=@icon.png</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=YMAZ功能盒
+layout_marginTop=12dp
+textStyle=bold
+textSize=16sp
+textColor=#9E9E9E</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=5dp
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-2
+height=-2
+text=Ver 1.0
+layout_marginBottom=18dp
+textColor=#757575</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">call(m,"mjava","util.getAndroidId",activity)
+supper(m,sss.imei)
+syso(sss.imei)
+uycl("#ffffffff",false)
+sss bb="1.3"
+us(7,"text","Ver "+sss.bb)
+call(null,"mjava","anp.load",activity)
+
+f(!(sss.isXPOS)){
+  t(){
+    loadjar("light.dex",true,dex)
+    cls(dex,"xiue.java.api.LightSensorManager",lsm)
+    javax(ls,null,lsm,"getInstance")
+    javax(null,ls,lsm,"start","Context",activity)
+    s num = 0
+    w(true){
+      javax(light,ls,lsm,"getLux")
+      s+(1,num)
+      stop(200)
+      //刷新率
+      //值为-1表示:start初始化 / 设备没有光线传感器
+      f(num &gt; 5){
+        f(light != null) {
+          f(light &lt; 0) {
+            ufnsui() {
+              tw("当前环境为模拟器，请在真机上运行！")
+            }
+            sss hook=true
+            break
+            endcode
+          }
+        }
+      }
+    }
+    javax(null,ls,lsm,"stop")
+    //停止光感器检测
+  }
+}
+
+
+simsi(msi)
+f(msi == "310260000000000") {
+  ufnsui() {
+    tw("当前环境为模拟器，请在真机上运行！")
+    break
+    sss hook=true
+    endcode
+  }
+}
+
+
+t()
+{
+  w(true)
+  {
+    ufnsui()
+    {
+      fn 环境检测.a()
+      fn 环境检测.c()
+      fn 环境检测.aaa()
+    }
+    stop(3000)
+  }
+}
+
+
+t()
+{
+  fn 环境检测.e()
+  fn 环境检测.g()
+  fn 环境检测.j()
+  fn 环境检测.d()
+  fn 环境检测.aa()
+}
+
+t()
+{
+  hs("http://www.appdoc.top/fileecho.php?user=1265089445&file=ghh.txt",a)
+  sj(a,"【图片链接】","【图片链接】",tp)
+  sj(a,"【跳转链接】","【跳转链接】",sss.lj)
+  hd(tp,"$tp.png",c)
+  syso(c)
+  ufnsui()
+  {
+    us(1,"background","$tp.png")
+  }
+}
+
+/.</eventItme><eventItme type="loadingComplete">loadjar("File.dex",a)
+cls(a,"ly.android.io.FileApplication",b)
+cls(a,"ly.android.io.common.Permissions",sss.is)
+cls(a,"ly.android.io.util.DocumentUtil",sss.file)
+cls(a,"ly.android.io.common.IOUtils",sss.io)
+javax(null,null,b,"init","Context",activity)
+javax(pd,null,sss.is,"hasCallExternalStorage")
+f(pd==false)
+{
+  fn tw.tw("安卓高版本需要获取权限，否则影响正常使用",1)
+  javax(null,null,sss.is,"getCallExternalStorage","Context",activity)
+}
+
+javax(pd,null,sss.is,"hasCallAllFile")
+f(pd==false)
+{
+  fn tw.tw("安卓高版本需要获取权限，否则影响正常使用",1)
+  javax(null,null,sss.is,"getCallAllFile")
+}
+else
+{
+  sss qx=true
+}
+
+sss a1="true"</eventItme></UIEventset>

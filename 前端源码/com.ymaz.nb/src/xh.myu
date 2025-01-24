@@ -1,0 +1,37 @@
+fn xh()
+swh("pxw",w)
+swh("pxhh",h)
+s(h*5,time)
+s(h*5-500,deltime)
+s(h/10*10,h)
+s(w-10,w)
+s id = 999
+t()
+{
+w(true)
+{
+f(sss.stop==true)
+{
+endcode
+}
+ufnsui()
+{
+sran(1,w,strw)
+nvw(id, 1, "图像", "width=-2\nheight=-2\nsrc=@snow1.png")
+us(id,"layout_marginleft",strw)
+dhas(dh, id, "translationY",0,h)
+dh(dh, "duration",time)
+dh(dh, "start")
+dhas(dh,id,"translationX",0,15,25,30,20,10)
+dh(dh, "duration",time)
+dh(dh, "start")
+dhas(dh,id,"alpha",1,0)
+dh(dh,"delay",deltime)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+s(id+1,id)
+}
+stop(500)
+}
+}
+end fn

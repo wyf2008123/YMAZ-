@@ -1,0 +1,101 @@
+<View id="11" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="1" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=bottom
+background=#00ffffff</ppt>
+<event></event>
+</View>
+<View id="12" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=25dp
+app_CardElevation=1dp</ppt>
+<event></event>
+</View>
+<View id="2" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=YMAZ功能盒公告
+textSize=20
+textStyle=bold
+textColor=#000000</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center
+padding=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+textColor=#555555</ppt>
+<event></event>
+</View>
+<View id="7" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+layout_marginBottom=20dp
+gravity=center|right</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>width=100dp
+height=40dp
+app_CardcornerRadius=8dp
+app_CardBackgroundColor=#ff51a6ff
+layout_marginBottom=3dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">us(utws.11,"visibility","gone")
+us(3,"visibility","one")</eventItme></event>
+</View>
+<View id="10" did="9" type="TextView">
+<ppt>width=-2
+height=-2
+text=我知道了
+textColor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="13" did="11" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=vertical
+background=white
+ut_alignParentBottom=true</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

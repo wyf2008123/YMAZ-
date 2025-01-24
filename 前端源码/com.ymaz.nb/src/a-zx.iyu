@@ -1,0 +1,220 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+elevation=1dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="2" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@a/fh.png
+layout_marginLeft=20dp
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_marginRight=70dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ自定义在线
+textColor=#000000
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+ut_below=2
+background=white
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="29" did="8" type="LinearLayout">
+<ppt>width=-1
+height=0.2dp
+orientation=vertica
+background=#eeeeee
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="30" did="8" type="CardView">
+<ppt>width=-1
+height=45dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f5f5f5</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入数字(需要设置几G就输入几G)
+paddingLeft=10dp
+textCursorDrawable=#5889FE
+gravity=center_vertical
+textColor=#757575
+textSize=13sp
+singleLine=true
+inputType=texturi
+background=
+</ppt>
+<event></event>
+</View>
+<View id="37" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="33" did="37" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=4dp
+layout_weight=1
+layout_marginRight=10dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffdfdfdf
+</ppt>
+<event><eventItme type="clicki">ug(32,"text",sz)
+ss("‮G"+sz+" - ‭",b)
+sxb(b)
+us(32,"text",b)
+tw("已复制到剪切板，前往QQ设置哦")</eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=立即生成
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="CardView">
+<ppt>width=-2
+height=-2
+app_CardcornerRadius=4dp
+layout_weight=1
+layout_marginLeft=10dp</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffdfdfdf
+</ppt>
+<event><eventItme type="clicki">s str = "https://club.vip.qq.com/onlinestatus/set#www.ddccs.net"
+cls("android.util.Base64",cls_base64)
+javax(bytes,str,"String","getBytes","String","utf-8")
+javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+javax(bytes2,null,cls_base64,"encode","byte[]",bytes,"int",NO_WRAP)
+javanew(str,"String","byte[]",bytes2,"String","utf-8")
+ss("mqqapi://forward/url?url_prefix="+str+"&version=1&src_type=web",base)
+sit(a,"action", "android.intent.action.VIEW")
+sit(a,"data",base)
+uit(a, "chooser", "")</eventItme></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>width=-2
+height=-2
+text=前往设置
+textColor=#ffffffff
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="15" did="8" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#F5F5F5</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-2
+gravity=center_vertical
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=提示
+textColor=#000000
+textStyle=bold
+textSize=13sp
+layout_marginLeft=15dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.只输入数字即可\n\n2.点击生成后会自动复制到剪切板\n\n3.QQ设置—隐私—展示网络状态关闭\n\n4.如果输入的文字不是一位数，那么就把文字反过来输入，例如20就输入02
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp
+layout_marginTop=10dp
+textSize=12sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+ngde(4,10,"#00000000","#BBDEFB",bg)
+us(31,"background",bg)
+</eventItme></UIEventset>

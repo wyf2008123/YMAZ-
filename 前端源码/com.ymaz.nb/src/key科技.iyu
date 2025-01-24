@@ -1,0 +1,1729 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+visibility=visible
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=200dp
+orientation=vertical
+background=@user_fragment_top_def_bg.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=70dp
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=bottom
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="9" type="LinearLayout">
+<ppt>
+width=-2
+height=-1
+orientation=vertical
+gravity=bottom
+padding=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="11" type="RoundImageView">
+<ppt>width=60dp
+height=60dp
+src=@icon.png
+layout_marginLeft=15dp
+layout_marginBottom=25dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="9" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=bottom
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="12" type="TextView">
+<ppt>width=-2
+height=-2
+text=SkeyQQ远控科技♡
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+ellipsize=middle
+</ppt>
+<event>
+</event>
+</View>
+<View id="125" did="12" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="125" type="TextView">
+<ppt>width=-1
+height=-2
+text=官方群:747554813
+layout_marginBottom=3dp
+textColor=#7d4f51
+textSize=10dp
+typeface=@8f609dab7d0.ttf
+ellipsize=middle
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="12" type="CardView">
+<ppt>
+width=-2
+height=20dp
+layout_marginBottom=18dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+background=@ic_bind_bg.9.png
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh1, 102, "translationY",-2000,0)
+dh(dh1, "duration", 1000)
+dhas(dh2, 102, "alpha",0,1)
+dh(dh2, "duration", 500)
+dhast(dhlist, "together", dh1, dh2)
+dh(dhlist, "start")
+t()
+{
+ufnsui()
+{
+us(101,"visibility","visible")
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="18" did="17" type="ImageView">
+<ppt>
+width=12dp
+height=12dp
+src=@edit_b_list_add.png
+layout_marginLeft=10dp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+layout_marginRight=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=选择二维码
+textSize=10dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="8" type="LinearLayout">
+<ppt>
+width=100dp
+height=-1
+orientation=horizontal
+gravity=right
+padding=20dp
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh1, 102, "translationY",-2000,0)
+dh(dh1, "duration", 1000)
+dhas(dh2, 102, "alpha",0,1)
+dh(dh2, "duration", 500)
+dhast(dhlist, "together", dh1, dh2)
+dh(dhlist, "start")
+t()
+{
+ufnsui()
+{
+us(101,"visibility","visible")
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="20" did="10" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@ic_user_card.png
+layout_gravity=bottom
+layout_marginBottom=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="21" did="10" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@ic_user_card_right.png
+layout_gravity=bottom
+layout_marginLeft=10dp
+layout_marginBottom=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=1000dp
+orientation=vertical
+background=@user_fragment_list_bg.png
+layout_marginTop=185dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="22" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=90dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="22" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="25" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=bottom
+</ppt>
+<event>
+</event>
+</View>
+<View id="39" did="29" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=0
+layout_gravity=center
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+</event>
+</View>
+<View id="30" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=bottom
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="30" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=0
+layout_gravity=center
+textColor=#7d4f51
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=bottom
+</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="31" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=0
+layout_gravity=center
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=bottom
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="32" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=0
+layout_gravity=center
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="33" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="40" did="33" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=年龄
+textColor=#7d4f51
+typeface=@8f609dab7d0.ttf
+textSize=11dp
+layout_marginTop=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="34" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=等级
+textColor=#7d4f51
+typeface=@8f609dab7d0.ttf
+textSize=11dp
+layout_marginTop=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="35" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=获赞
+textColor=#7d4f51
+typeface=@8f609dab7d0.ttf
+textSize=11dp
+layout_marginTop=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="36" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=权益
+textColor=#7d4f51
+typeface=@8f609dab7d0.ttf
+textSize=11dp
+layout_marginTop=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="24" did="22" type="LinearLayout">
+<ppt>
+width=150dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="24" type="ImageView">
+<ppt>
+width=-2
+height=-2
+src=@ic_user_visit_icon.png
+layout_gravity=right
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="TextView">
+<ppt>width=-2
+height=-2
+text=控天控地控空气愿你弹无虚发
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+layout_marginLeft=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="46" type="LinearLayout">
+<ppt>
+width=-2
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="47" type="ImageView">
+<ppt>
+width=-2
+height=-2
+src=@ic_user_fragment_ad.png
+layout_marginLeft=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="46" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="50" did="49" type="ImageView">
+<ppt>
+width=-2
+height=-2
+src=@ic_user_fragment_vip_ad_n.png
+layout_marginLeft=10dp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="6" type="TabLayout">
+<ppt>
+width=-1
+height=30dp
+app_tabList=QQ功能|Q群功能|签到功能|下号功能
+app_tabIndicatorColor=#7d4f51
+app_tabTextColor=#9e797c|#7d4f51
+app_tabIndicatorHeight=2dp
+app_tabGravity=0
+app_tabMode=1
+layout_marginLeft=20dp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="127" did="6" type="RelativeLayout">
+<ppt>width=-1
+height=250dp
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="128" did="127" type="ImageView">
+<ppt>
+width=-1
+height=-1
+src=@ranking_day_rule_pop.png
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="126" did="127" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=@ranking_day_rule_pop.png
+padding=30dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="136" did="126" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=60dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="137" did="136" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="138" did="137" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="129" did="138" type="TextView">
+<ppt>width=-2
+height=-2
+text=YMAZ功能盒
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+ellipsize=end
+</ppt>
+<event>
+</event>
+</View>
+<View id="123" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+clipChildren=false
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="130" did="123" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_margin=10dp
+clipChildren=false
+</ppt>
+<event>
+</event>
+</View>
+<View id="124" did="130" type="EditText">
+<ppt>
+width=-1
+height=-2
+gravity=center_vertical
+text=
+ut_centerInParent=true
+layout_marginLeft=15dp
+background=
+focusable=false
+singleLine=true
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+us(124,"focusable",true)
+us(124,"focusableintouchmode",true)
+</eventItme>
+<eventItme type="focuschange">
+dht(dh,0,0,0,0)
+dh(dh,"duration",0)
+us(ss.v,"dh",dh)
+us(ss.v,"textcolor","#898989")
+gvs(135,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(135,"layout_margintop",h)
+us(135,"textsize","14sp")
+us(135,"ut_centervertical",false)
+gvs(131,ss.v)
+us(ss.v,"textcolor","#7d4f51")
+gvs(124,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(ss.v,"textsize","16sp")
+us(ss.v,"layout_margintop",0)
+us(ss.v,"ut_centervertical",true)
+dht(dh,0,0,0,h)
+dh(dh,"duration",150)
+dhs(dh1,1,0.85,1,0.85)
+dh(dh1,"duration",150)
+dhset(dhlist,false,dh,dh1)
+us(ss.v,"dh",dhlist)
+dh(dhlist,"after",true)
+</eventItme>
+</event>
+</View>
+<View id="131" did="130" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=说说内容/昵称/内容等
+ut_centerVertical=true
+layout_marginLeft=12.5dp
+textColor=#898989
+textSize=13sp
+background=#fbf7e2
+</ppt>
+<event>
+</event>
+</View>
+<View id="132" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+clipChildren=false
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="133" did="132" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_margin=10dp
+clipChildren=false
+</ppt>
+<event>
+</event>
+</View>
+<View id="134" did="133" type="EditText">
+<ppt>
+width=-1
+height=-2
+gravity=center_vertical
+text=
+ut_centerInParent=true
+layout_marginLeft=15dp
+background=
+focusable=false
+singleLine=true
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+us(134,"focusable",true)
+us(134,"focusableintouchmode",true)
+</eventItme>
+<eventItme type="focuschange">
+dht(dh,0,0,0,0)
+dh(dh,"duration",0)
+us(ss.v,"dh",dh)
+us(ss.v,"textcolor","#898989")
+gvs(131,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(131,"layout_margintop",h)
+us(131,"textsize","14sp")
+us(131,"ut_centervertical",false)
+gvs(135,ss.v)
+us(ss.v,"textsize","16sp")
+us(135,"layout_margintop",0)
+us(135,"ut_centervertical",true)
+us(ss.v,"textcolor","#7d4f51")
+gvs(134,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+dht(dh,0,0,0,h)
+dh(dh,"duration",150)
+dhs(dh1,1,0.85,1,0.85)
+dh(dh1,"duration",150)
+dhset(dhlist,false,dh,dh1)
+us(ss.v,"dh",dhlist)
+dh(dhlist,"after",true)
+</eventItme>
+</event>
+</View>
+<View id="135" did="133" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=删除QQ/群号/链接等
+ut_centerVertical=true
+layout_marginLeft=12.5dp
+textColor=#898989
+textSize=13sp
+background=#fbf7e2
+</ppt>
+<event>
+</event>
+</View>
+<View id="52" did="6" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="53" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="54" did="53" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="56" did="54" type="CardView">
+<ppt>
+width=-1
+height=-1
+BackgroundColor=0
+</ppt>
+<event>
+</event>
+</View>
+<View id="57" did="56" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">ug(124,"text",a)
+t()
+{
+  ss("https://api.kit9.cn/api/qq_nickname/api.php?qq="+sss.QQ+"&skey="+sss.skey+"&p_skey="+sss.pskey+"&name="+a,b)
+  hs(b,c)
+  json(c,jo)
+  ufnsui()
+  {
+    us(129,"text",jo)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="58" did="57" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=修改昵称(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="55" did="53" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="59" did="55" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=@change_purchase_money_bg.png
+</ppt>
+<event>
+<eventItme type="clicki">ug(124,"text",a)
+t()
+{
+  ss("https://api.linhun.vip/api/saysomething?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&content="+a+"&apiKey=2eeffc8890979363931e244d5ed6a857",b)
+  hs(b,jo)
+  json(jo,jo)
+  ufnsui()
+  {
+    us(129,"text",jo)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="60" did="59" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=发布说说(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="61" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="62" did="61" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="65" did="62" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ss("https://api.linhun.vip/api/talkaboutid?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&apiKey=f102a45eeb40125315aca25e61880913",b)
+hs(b,a)
+json(a,jo)
+ufnsui()
+{
+sss 说说=jo
+sss key=1
+uigo("说说ID查看.iyu")
+us(129,"text",jo)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="66" did="65" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=说说ID查询(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="63" did="61" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="64" did="63" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ug(134,"text",a)
+ss("https://api.linhun.vip/api/Talkaboutdeletion?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&id="+a+"&apiKey=50949ae7b1224094a1af0bf5d95ffddc",b)
+hs(b,c)
+ufnsui()
+{
+us(129,"text",c)
+sss 说说=c
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="67" did="64" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=删除说说(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="80" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="81" did="80" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="82" did="81" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ss("https://api.kit9.cn/api/qq_very_concerned/api.php?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey,a)
+hs(a,b)
+json(b,jo)
+json(jo,"get","data",jo)
+json(jo,"get","name",nc)
+json(jo,"get","concerned",tb)
+ufnsui()
+{
+ss("查询昵称:"+nc+"\n"+"特关数量:"+tb,b)
+us(129,"text",b)
+syso(a)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="83" did="82" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=特关查询(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="84" did="80" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="85" did="84" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ss("https://api.linhun.vip/api/qqhy?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&apiKey=a5b45c6201adf2b82229ee8829c86335",b)
+hs(b,a)
+json(a,jo)
+json(jo,"get","fz",fz)
+sr(fz,"\",\"","⇔",fz)
+json(jo,"get","sun",shu)
+ufnsui()
+{
+ss("分组列表为:"+"\n"+fz+"\n"+"好友数量:"+shu,fz)
+sss 说说=jo
+sss key=2
+uigo("说说ID查看.iyu")
+us(129,"text",fz)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="86" did="85" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=好友列表(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="87" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="88" did="87" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="89" did="88" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+ug(134,"text",a)
+t()
+{
+s a = "http://mz.tkcdk.cn/qq/api/del.php"
+ss("uin="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&touin=6",b)
+hs(a, b, "utf-8", c)
+ufnsui()
+{
+us(129,"text",c)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="90" did="89" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=删除好友(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="91" did="87" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="92" did="91" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ss("http://api.kit9.cn/api/qq_clone/api.php?qq="+sss.QQ+"&skey="+sss.skey+"&pskey="+sss.pskey+"&apiKey=859b0b9aff677269d94eb79eee88ee97",a)
+hs(a,b)
+json(b,jo)
+ufnsui()
+{
+us(129,"text",jo)
+syso(a)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="93" did="92" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=禁止搜索(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="94" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=50dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="95" did="94" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="96" did="95" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="97" did="96" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=发表说说带图(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="98" did="94" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="99" did="98" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="100" did="99" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=说说评论带图(qzone)
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="101" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#a1000000
+padding=20dp
+visibility=gone
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh1, 102, "translationY",0,-2000)
+dh(dh1, "duration", 1000)
+dhas(dh2, 102, "alpha",0,1)
+dh(dh2, "duration", 500)
+dhast(dhlist, "together", dh1, dh2)
+dh(dhlist, "start")
+t()
+{
+stop(800)
+ufnsui()
+{
+us(101,"visibility","gone")
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="102" did="101" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="105" did="102" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+layout_marginTop=280dp
+</ppt>
+<event>
+<eventItme type="clicki">
+dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(105,"dh",ss10)
+</eventItme>
+</event>
+</View>
+<View id="104" did="105" type="CardView">
+<ppt>
+width=-1
+height=300dp
+app_CardcornerRadius=10dp
+BackgroundColor=0
+</ppt>
+<event>
+</event>
+</View>
+<View id="106" did="104" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@mail_detail_frame.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="107" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="108" did="107" type="ImageView">
+<ppt>
+width=30dp
+height=-2
+src=@QQ.png
+layout_marginLeft=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="109" did="107" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=二维码控制台
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+</ppt>
+<event>
+</event>
+</View>
+<View id="110" did="107" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="111" did="110" type="Spinner">
+<ppt>
+width=-2
+height=-2
+</ppt>
+<event>
+<eventItme type="onitemselected">
+f(st_pN==0)
+{
+}
+else f(st_pN==1)
+{
+}
+</eventItme>
+</event>
+</View>
+<View id="112" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="117" did="112" type="ImageView">
+<ppt>
+width=-1
+height=-1
+src=@ewm1.png
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+f(st_eA==0)
+{
+dhs(dh, 1, 0.9, 1, 0.9, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+dh(dh, "after", true)
+us(117, "dh", dh)
+}
+else f(st_eA==1)
+{
+dhs(dh, 0.9,1, 0.9, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(117, "dh", dh)
+}
+</eventItme>
+<eventItme type="clicki">
+dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(117,"dh",ss10)
+</eventItme>
+</event>
+</View>
+<View id="121" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="122" did="121" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=请先获取二维码
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="113" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=80dp
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="114" did="113" type="LinearLayout">
+<ppt>
+width=200dp
+height=50dp
+orientation=vertical
+layout_weight=1
+padding=5dp
+layout_weight=1
+layout_marginLeft=10dp
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+f(st_eA==0)
+{
+dhs(dh, 1, 0.9, 1, 0.9, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+dh(dh, "after", true)
+us(114, "dh", dh)
+}
+else f(st_eA==1)
+{
+dhs(dh, 0.9,1, 0.9, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(114, "dh", dh)
+}
+</eventItme>
+</event>
+</View>
+<View id="115" did="114" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(114,"dh",ss10)
+
+dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(25,"dh",ss10)
+fn tw.tw("加载中请稍后",0)
+t()
+{
+  s a="https://3g.gljlw.com/qq/login_qd_2021.php?do=getqrpic&r=0.46576406553495775"
+  hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)",b)
+  json(b,jo)
+  json(jo,"get","data",base64)
+  json(jo,"get","qrsig",sss.yz)
+  loadjar("NightSky.dex",dex)
+  cls(dex,"com.nightsky.NightSkyUtil",c)
+  javax(bitmaps,null,c,"StringtoBitmap","String",base64)
+  ufnsui()
+  {
+    us(117,"src",bitmaps)
+    fn key扫码.验证()
+  }
+}</eventItme>
+</event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=获取二维码
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="118" did="113" type="LinearLayout">
+<ppt>
+width=200dp
+height=50dp
+orientation=vertical
+layout_weight=1
+padding=5dp
+layout_weight=1
+layout_marginRight=10dp
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+f(st_eA==0)
+{
+dhs(dh, 1, 0.9, 1, 0.9, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+dh(dh, "after", true)
+us(118, "dh", dh)
+}
+else f(st_eA==1)
+{
+dhs(dh, 0.9,1, 0.9, 1, 1, 0.5, 1, 0.5)
+dh(dh, "duration", 100)
+us(118, "dh", dh)
+}
+</eventItme>
+<eventItme type="clicki">
+dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(118,"dh",ss10)
+</eventItme>
+</event>
+</View>
+<View id="119" did="118" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=@change_purchase_money_bg.png
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+t()
+{
+ss("https://api.txcnm.cn/api/qqgj/a/logincode.php?qrsig="+sss.yz+"&type=4",a)
+t()
+{
+hs(a,b)
+syso(b)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="120" did="119" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=捕获状态
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#7d4f51
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="103" did="102" type="ImageView">
+<ppt>width=-1
+height=80dp
+src=@bacg.png
+layout_marginTop=230dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+uycl("#50212121",false)
+ngde(4,10,"#00000000","#7d4f51",bg)
+us(130,"background",bg)
+ngde(4,10,"#00000000","#7d4f51",bg)
+us(133,"background",bg)
+</eventItme>
+<eventItme type="loadingComplete">
+s a="点击选择二维码;qzong.qq.com;qun.qq.com;tenpay.com;id.qq.com"
+sl(a,";",b)
+uls(111,b,c)
+</eventItme>
+</UIEventset>

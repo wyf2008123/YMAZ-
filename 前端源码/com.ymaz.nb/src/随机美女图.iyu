@@ -1,0 +1,176 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+
+</ppt>
+<event></event>
+</View>
+<View id="273" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+elevation=1dp
+background=white</ppt>
+<event></event>
+</View>
+<View id="274" did="273" type="LinearLayout">
+<ppt>width=70dp
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event></event>
+</View>
+<View id="276" did="274" type="ImageView">
+<ppt>width=20dp
+height=20dp
+src=@a/fh.png
+layout_marginLeft=20dp
+BackgroundRipple=#ffcbcbcb</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="275" did="273" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center
+layout_marginRight=70dp</ppt>
+<event></event>
+</View>
+<View id="277" did="275" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机美女图
+textColor=#000000
+textSize=13sp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="288" did="1" type="ImageView">
+<ppt>width=500dp
+height=500dp
+src=
+layout_gravity=center
+layout_marginTop=15dp</ppt>
+<event><eventItme type="touchmonitor">gvs(288,控件)
+//获取要转换的控件对象
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//获取控件宽高
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内存
+
+java(图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(图片 == null)
+{
+  fn tw.tw("似乎出现问题了",1)
+  endcode
+}
+else
+{
+  fn tw.tw("图片保存成功,路径:YMAZ功能盒/美女图/",0)
+}
+javanew(图像,"android.graphics.Canvas","android.graphics.Bitmap",图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",图像)
+
+sran(1,10000,szmc)
+ss("/storage/emulated/0/YMAZ功能盒/美女图/"+szmc+".png",路径)
+bfs(图片,路径)</eventItme></event>
+</View>
+<View id="6" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301567
+visibility=gone
+layout_gravity=center</ppt>
+<event><eventItme type="press">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+
+us(6,"visibility","gone")
+us(8,"visibility","visible")</eventItme></event>
+</View>
+<View id="279" did="1" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="283" did="279" type="CardView">
+<ppt>width=-1
+height=45dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="284" did="283" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#5889FE
+gravity=center
+BackgroundRipple=#ffffff</ppt>
+<event><eventItme type="clicki">ug(289,"text",tl)
+utw(null,"","加载.iyu",true,v)
+{
+}
+t()
+{
+  syso(tl)
+  hs("https://api.linhun.vip/api/Littlesister?type=json&apiKey=a163741a6ae1c2e05c250a6234c1d95d",fh)
+  json(fh,jo)
+  json(jo,"get","code",code)
+  syso(jo)
+  f(code==200)
+  {
+    json(jo,"get","img",img)
+    us(288,"src",img)
+    endutw()
+  }
+  else
+  {
+    ufnsui()
+    {
+      fn tw.tw("接口已失效，请联系作者更改",1)
+      endutw()
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="285" did="284" type="TextView">
+<ppt>width=-2
+height=-2
+text=切换
+textColor=#ffffff
+textSize=13sp</ppt>
+<event></event>
+</View>
+<View id="289" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffff",true,0)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+</eventItme></UIEventset>

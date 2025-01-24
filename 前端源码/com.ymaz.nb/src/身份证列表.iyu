@@ -1,0 +1,37 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=10dp
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=控件2
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=控件3
+textColor=#00db04
+textSize=10dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+</UIEventset>

@@ -1,0 +1,366 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="9" did="2" type="ImageView">
+<ppt>width=27dp
+height=27dp
+src=@chevron left914.png
+layout_marginLeft=10dp
+layout_marginRight=15dp
+BackgroundRipple=#fffefefe
+
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=密码爆破
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入url
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="27" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入body
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="33" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="34" did="33" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="35" did="34" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入ua
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="30" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入cookie
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="36" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="37" did="36" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="38" did="37" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入成功后网页包含内容
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="39" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="40" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入运行延迟，感到卡顿就填此项
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">t()
+{
+  
+  fr("/storage/emulated/0/YMAZ功能盒/webpass/pass.txt",passwd)
+  sl(passwd,"\n",password1)
+  s(0,cs)
+  
+  ug(5,"text",a)
+  ug(32,"text",cook)
+  ug(29,"text",e)
+  ug(35,"text",ua)
+  ug(38,"text",mb)
+  ug(41,"text",yc)
+  
+  for(password;password1)
+  {
+    syso(password)
+    sr(e,"$pwd$",password,false,body)
+    syso(body)
+    ufnsui()
+    {
+      us(26,"text","正在尝试密码"+password)
+    }
+    ufnsui()
+    {
+      s(cs + "1",cs)
+      sgszl(password1,cd)
+      s(cd,zs)
+      us(44,"text",cs+"/"+zs)
+    }
+    hs(a,body,"utf8","cookie="+cook,"true",ua+"||Cookie="+cook,c)
+    slof(c,mb,web)
+    syso(web)
+    stop(yc)
+    
+    f(web!="-1")
+    {
+      fw("/storage/emulated/0/YMAZ功能盒/webpass/pass1.txt",password)
+      ufnsui()
+      {
+        us(26,"text","破解成功!密码为"+password)
+      }
+      break
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始爆破
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="42" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="43" did="42" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="44" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=字典数量
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="45" did="43" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=1.本功能只是为了测试之用\n2.把url还有抓到的登录包输入文本框body\n3.然后点击按钮\n4.使用软件所造成一切问题与作者无关\n5.修改抓到的登录包的密码部分为$pwd$\n6.把密码字典放进/storage/emulated/0/YMAZ功能盒/webpass/pass.txt里面\n7.然后点击开始\n4.因写法问题导致可能会卡死，但实际上在正常运行，请不要关闭软件\n8.运行完毕后会输出正确密码在/storage/emulated/0/YMAZ功能盒/webpass/pass1.txt文件里
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+
+fr("/storage/emulated/0/YMAZ功能盒/webpass/pass.txt",lie)
+sl(lie,"\n",lie1)
+//获取数组的总行数
+sgszl(lie1,cd)
+s(cd,zs)
+us(44,"text","字典总数:"+zs)</eventItme></UIEventset>

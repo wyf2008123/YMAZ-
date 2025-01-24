@@ -1,0 +1,807 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=90dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=20dp
+layout_marginLeft=-10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>
+width=100dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=好康的
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=13dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>
+width=30dp
+height=30dp
+orientation=vertical
+BackgroundColor=#b4000000
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+uigo("传媒搜索.iyu")
+</eventItme>
+</event>
+</View>
+<View id="9" did="11" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@ss0.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@ic_play_list_close.png
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=20dp
+layout_marginBottom=-20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(17,"backgroundcolor","#b4000000")
+us(20,"backgroundcolor","#57000000")
+us(43,"visibility","visible")
+us(38,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用功能
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#57000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(20,"backgroundcolor","#b4000000")
+us(17,"backgroundcolor","#57000000")
+us(38,"visibility","visible")
+us(23,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="22" did="14" type="TextView">
+<ppt>
+width=-1
+height=1dp
+text=
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="24" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+background=#ffffff
+clipChildren=false
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="25" did="24" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_margin=10dp
+clipChildren=false
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="25" type="EditText">
+<ppt>
+width=-1
+height=-2
+gravity=center_vertical
+text=
+ut_centerInParent=true
+layout_marginLeft=15dp
+background=
+focusable=false
+singleLine=true
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+us(26,"focusable",true)
+us(26,"focusableintouchmode",true)
+</eventItme>
+<eventItme type="focuschange">
+dht(dh1,0,0,0,0)
+dh(dh1,"duration",0)
+us(30,"dh",dh1)
+us(30,"textcolor","#898989")
+us(30,"layout_margintop",0)
+gvs(30,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(30,"layout_margintop",h)
+us(30,"textsize","14sp")
+us(30,"ut_centervertical",false)
+gvs(27,ss.v)
+us(ss.v,"textcolor","#ff000000")
+gvs(26,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(ss.v,"textsize","16sp")
+us(ss.v,"layout_margintop",0)
+us(ss.v,"ut_centervertical",true)
+dht(dh,0,0,0,h)
+dh(dh,"duration",150)
+dhs(dh1,1,0.85,1,0.85)
+dh(dh1,"duration",150)
+dhset(dhlist,false,dh,dh1)
+us(ss.v,"dh",dhlist)
+dh(dhlist,"after",true)
+</eventItme>
+</event>
+</View>
+<View id="27" did="25" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=请输入ID建议自己QQ号
+ut_centerVertical=true
+layout_marginLeft=12.5dp
+textColor=#898989
+background=#ffffff
+textSize=14sp
+</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="24" type="RelativeLayout">
+<ppt>
+width=-1
+height=-2
+layout_margin=10dp
+clipChildren=false
+</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="28" type="EditText">
+<ppt>
+width=-1
+height=-2
+gravity=center_vertical
+text=
+ut_centerInParent=true
+layout_marginLeft=15dp
+background=
+focusable=false
+singleLine=true
+</ppt>
+<event>
+<eventItme type="touchmonitor">
+us(26,"focusable",false)
+us(29,"focusable",true)
+us(29,"focusableintouchmode",true)
+</eventItme>
+<eventItme type="focuschange">
+dht(dh,0,0,0,0)
+dh(dh,"duration",0)
+us(ss.v,"dh",dh)
+us(ss.v,"textcolor","#898989")
+gvs(27,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+us(27,"layout_margintop",h)
+us(27,"textsize","14sp")
+us(27,"ut_centervertical",false)
+gvs(30,ss.v)
+us(ss.v,"textsize","16sp")
+us(30,"layout_margintop",0)
+us(30,"ut_centervertical",true)
+us(ss.v,"textcolor","#ff000000")
+gvs(29,v)
+java(h,v,"android.view.View.getHeight")
+s/(-2,h)
+dht(dh,0,0,0,h)
+dh(dh,"duration",150)
+dhs(dh1,1,0.85,1,0.85)
+dh(dh1,"duration",150)
+dhset(dhlist,false,dh,dh1)
+us(ss.v,"dh",dhlist)
+dh(dhlist,"after",true)
+</eventItme>
+</event>
+</View>
+<View id="30" did="28" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=请输入需要跳转的网址
+ut_centerVertical=true
+layout_marginLeft=12.5dp
+textColor=#898989
+background=#ffffff
+textSize=14sp
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="32" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=10dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="34" type="Button">
+<ppt>
+width=-1
+height=-2
+background=through
+text=生成链接
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">
+ug(26,"text",a)
+ug(29,"text",b)
+ss("https://zyck.lmkm.asia/?id="+a+"&url="+b,c)
+ss("https://xiaoapi.cn/API/dwz.php?url="+c,d)
+t()
+{
+hs(d,wz)
+ufnsui()
+{
+us(47,"text",wz)
+sxb(wz)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="33" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="33" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=10dp
+layout_marginRight=20dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="36" type="Button">
+<ppt>
+width=-1
+height=-2
+background=through
+text=查看照片
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">
+fn 抓包.抓包()
+ug(26,"text",a)
+ss("https://zyck.lmkm.asia/ck.php?id="+a,b)
+ula(ss.u,null)
+uls(42,ss.u,"列表.iyu",-1,-2)
+t()
+{
+hs(b,c)
+sr(c,"\n","",rr)
+sj(rr,"center\"&gt;","&lt;br /&gt;&lt;br",rr)
+sr(rr,"\n","",rr)
+sj(rr,"del&gt;","&lt;/a&gt;",rr)
+f(rr=="清空所有照片")
+{
+sl(c,"&lt;div&gt;&lt;img",d)
+for(c;d)
+{
+sj(c,"src=","&gt;&lt;br /&gt;&lt;br /&gt;",e)
+syso(e)
+ss("https://zyck.lmkm.asia/"+e,lj)
+f(lj=="https://zyck.lmkm.asia/")
+{
+}
+else
+{
+ula(ss.u,3=lj,4=lj)
+}
+ufnsui()
+{
+us(47,"text","小伙子可以啊骗到人了")
+uls(42,ss.u,"列表.iyu",-1,-2)
+gvs(42,对象)
+cls("android.support.v7.widget.RecyclerView",列表类)
+cls("android.support.v7.widget.StaggeredGridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"int",2,"int",1)
+javax(null,对象,列表类,"setLayoutManager","android.support.v7.widget.RecyclerView$LayoutManager",布局)
+}
+}
+}
+else
+{
+ufnsui()
+{
+tw("该ID无图片")
+us(47,"text","行不行啊细狗，还没骗到人")
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="41" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=\n1:这都要看看教程？\n\n2:右上方有个刷新按钮可以刷新图片\n\n免费声明\n本资源来源于网络，如有一切法律责任又使用者承担，本APP仅供技术支持
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="50" did="14" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="50" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="51" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=30dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="43" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=精品推送
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="43" type="RecyclerView">
+<ppt>
+width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="43" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=每日更新
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="43" type="RecyclerView">
+<ppt>
+width=-1
+height=-2
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)
+ngde(5,30,"#ffffffff","#57000000",back)
+us(43,"background",back)
+fn 着色.控件着色(9,"#ffffffff")
+fn 着色.控件着色(42,"#ffffffff")
+t()
+{
+  s a="http://707.1jx.co/day.json"
+  hs(a, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||Accept-Language=zh-CN", b)
+  json(b,c)
+  json(c, "list", "list", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, item)
+    json(item, "get", "name", 名字)
+    json(item, "get", "pic", 图片链接)
+    json(item, "get", "m3u8", 视频链接)
+    f(图片链接==null)
+    {
+    }
+    else
+    {
+      ula(u,2=名字,3=视频链接,4=图片链接)
+    }
+  }
+  ufnsui()
+  {
+    uls(42,u,"传媒列表.iyu",-1,-2)
+  }
+}</eventItme>
+<eventItme type="loadingComplete">sran(1,10,随机数)
+t()
+{
+  hs("http://lovebus.jierui.live/app.json",a)
+  json(a,jo)
+  json(jo,"get","cmsurl",sss.传媒)
+  syso(sss.传媒)
+}
+s a="https://oyph9kmhbqjt.8tlpa0.cc/search?page="+随机数+"&wd=偷情"
+t()
+{
+  hs(a,b)
+  json(b,jo)
+  json(jo,"get","data",jo)
+  json(jo, "list", "vodrows", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, item)
+    json(item, "get", "title", 名字)
+    syso(a)
+    json(item, "get", "coverpic", 图片链接)
+    syso(b)
+    json(item, "get", "play_url", c)
+    ss("https://oyph9kmhbqjt.8tlpa0.cc"+c,ID)
+    syso(c)
+    json(item,"get","down_url",d)
+    ss("https://oyph9kmhbqjt.8tlpa0.cc"+d,ID1)
+    syso(d)
+    f(图片链接==null)
+    {
+    }
+    else
+    {
+      ula(u,4=名字,5=ID,6=图片链接)
+    }
+  }
+  ufnsui()
+  {
+    uls(49,u,"黄色列表.iyu",-1,-2)
+    gvs(49,对象)
+    cls("androidx.recyclerview.widget.RecyclerView",列表类)
+    cls("androidx.recyclerview.widget.GridLayoutManager",布局管理类)
+    javanew(布局,布局管理类,"Context",activity,"int",2)
+    javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+    ug(49,"count",xm)
+    s*(xm,30,jg)
+    zdp(jg,h)
+    us(49,"height",h)
+  }
+}
+
+t()
+{
+  fn 环境检测.e()
+  fn 环境检测.g()
+  fn 环境检测.j()
+  fn 环境检测.d()
+}</eventItme>
+</UIEventset>

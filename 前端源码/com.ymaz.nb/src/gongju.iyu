@@ -1,0 +1,2270 @@
+<View id="358" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+</ppt>
+<event>
+<eventItme type="clicki">//本软件作者: 惑
+//官方群:609284724</eventItme></event>
+</View>
+<View id="49" did="358" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+</ppt>
+<event>
+<eventItme type="clicki">//本软件作者: 惑
+//官方群:609284724</eventItme></event>
+</View>
+<View id="841" did="49" type="LinearLayout">
+<ppt>width=-1
+height=40dp
+orientation=horizontal
+gravity=center_vertical
+background=#ffffff
+elevation=1dp</ppt>
+<event></event>
+</View>
+<View id="842" did="841" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="843" did="842" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#3385ff
+</ppt>
+<event></event>
+</View>
+<View id="844" did="843" type="TextView">
+<ppt>width=-2
+height=-2
+text=综合渗透助手
+textSize=16sp
+typeface=@font.ttf
+textColor=#ffffff
+layout_marginLeft=0dp</ppt>
+<event></event>
+</View>
+<View id="66" did="49" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="68" did="66" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+
+</event>
+</View>
+<View id="69" did="68" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="187" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="188" did="187" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="189" did="188" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("ping.iyu")</eventItme></event>
+</View>
+<View id="190" did="189" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@ping.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="191" did="189" type="TextView">
+<ppt>width=-1
+height=-2
+text=ping
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="192" did="187" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="193" did="192" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("mlsm.iyu")</eventItme></event>
+</View>
+<View id="194" did="193" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@ml.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="195" did="193" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=网站目录扫描
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="142" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="147" did="142" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="148" did="147" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("dksm.iyu")</eventItme>
+</event>
+</View>
+<View id="149" did="148" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@dksm.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="150" did="148" type="TextView">
+<ppt>width=-1
+height=-2
+text=端口扫描
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="143" did="142" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="144" did="143" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("caidao.iyu")</eventItme>
+</event>
+</View>
+<View id="145" did="144" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@mlh.png
+layout_margin=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="146" did="144" type="TextView">
+<ppt>width=-1
+height=-2
+text=简易菜刀工具
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="169" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="170" did="169" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="171" did="170" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("jjm.iyu")</eventItme>
+</event>
+</View>
+<View id="172" did="171" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@jjm.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="173" did="171" type="TextView">
+<ppt>width=-1
+height=-2
+text=加解密工具
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="174" did="169" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="175" did="174" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("fabao.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="176" did="175" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@post.png
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="177" did="175" type="TextView">
+<ppt>width=-1
+height=-2
+text=post发包工具
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="863" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="864" did="863" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="865" did="864" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("webpassbp.iyu")</eventItme></event>
+</View>
+<View id="866" did="865" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@webpass.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="867" did="865" type="TextView">
+<ppt>width=-1
+height=-2
+text=网页密码爆破
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="868" did="863" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="869" did="868" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("passsc.iyu")</eventItme></event>
+</View>
+<View id="870" did="869" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@zdsc.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="871" did="869" type="TextView">
+<ppt>width=-1
+height=-2
+text=密码字典生成
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="775" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=30dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="776" did="775" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="777" did="775" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=热门论坛
+textColor=#000000
+textSize=18sp
+layout_weight=1
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="778" did="775" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@thinkphp.jpg
+</ppt>
+<event>
+</event>
+</View>
+<View id="872" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="873" did="872" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="874" did="873" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("shellsm.iyu")</eventItme></event>
+</View>
+<View id="875" did="874" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@mmsm.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="876" did="874" type="TextView">
+<ppt>width=-1
+height=-2
+text=木马shell扫描
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="877" did="872" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="878" did="877" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("wzgj.iyu")</eventItme></event>
+</View>
+<View id="879" did="878" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@wzgj.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="880" did="878" type="TextView">
+<ppt>width=-1
+height=-2
+text=网站工具
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="845" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="846" did="845" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="847" did="846" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">hw("https://wwb.lanzoub.com/iJ3tE0dbv8yd")</eventItme>
+</event>
+</View>
+<View id="848" did="847" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@mm.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="849" did="847" type="TextView">
+<ppt>width=-1
+height=-2
+text=一句话木马集合
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="850" did="845" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="851" did="850" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("ssyq.iyu")</eventItme>
+</event>
+</View>
+<View id="852" did="851" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@ssyq.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="853" did="851" type="TextView">
+<ppt>width=-1
+height=-2
+text=网络搜索引擎
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="854" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="855" did="854" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="856" did="855" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("zipbp.iyu")</eventItme></event>
+</View>
+<View id="857" did="856" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@zipbp.png
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="858" did="856" type="TextView">
+<ppt>width=-1
+height=-2
+text=zip密码爆破(暂无法使用)
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="859" did="854" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="860" did="859" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">uigo("sshbp.iyu")</eventItme></event>
+</View>
+<View id="861" did="860" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@sshbp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="862" did="860" type="TextView">
+<ppt>width=-1
+height=-2
+text=ssh密码爆破(暂无法使用)
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="881" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="882" did="881" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="883" did="882" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("tdoa11.9.iyu")</eventItme>
+</event>
+</View>
+<View id="884" did="883" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@tdoa.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="885" did="883" type="TextView">
+<ppt>width=-1
+height=-2
+text=通达OA11.9执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="886" did="881" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="887" did="886" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("whoaup.iyu")</eventItme>
+</event>
+</View>
+<View id="888" did="887" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@whoa.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="889" did="887" type="TextView">
+<ppt>width=-1
+height=-2
+text=万户OA文件上传漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="890" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="891" did="890" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="892" did="891" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("aspcms.iyu")</eventItme>
+</event>
+</View>
+<View id="893" did="892" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@aspcms.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="894" did="892" type="TextView">
+<ppt>width=-1
+height=-2
+text=aspcms注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="895" did="890" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="896" did="895" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("zzzcms.iyu")</eventItme>
+</event>
+</View>
+<View id="897" did="896" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@zzzcms.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="898" did="896" type="TextView">
+<ppt>width=-1
+height=-2
+text=zzzcms执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="899" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="900" did="899" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="901" did="900" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("d_link.iyu")</eventItme>
+</event>
+</View>
+<View id="902" did="901" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@dlink.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="903" did="901" type="TextView">
+<ppt>width=-1
+height=-2
+text=D-Link执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="904" did="899" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="905" did="904" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("yjeg.iyu")</eventItme>
+</event>
+</View>
+<View id="906" did="905" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@rjeg.png
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="907" did="905" type="TextView">
+<ppt>width=-1
+height=-2
+text=锐捷EG网关账号泄露漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="817" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="818" did="817" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="819" did="818" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("maccms.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="820" did="819" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@maccms.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="821" did="819" type="TextView">
+<ppt>width=-1
+height=-2
+text=苹果cms8.x执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="822" did="817" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="823" did="822" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("dz7.2.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="824" did="823" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@dz.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="825" did="823" type="TextView">
+<ppt>width=-1
+height=-2
+text=dz7.2执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="151" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="152" did="151" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="153" did="152" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+
+<eventItme type="clicki">
+
+uigo("74cms.iyu")</eventItme></event>
+</View>
+<View id="154" did="153" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@74cms.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="155" did="153" type="TextView">
+<ppt>width=-1
+height=-2
+text=74cms6.0.48执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="156" did="151" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="157" did="156" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("ap2.4.49.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="158" did="157" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@ap.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="159" did="157" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=apache2.4.49执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="223" did="69" type="LinearLayout">
+<ppt>width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="224" did="223" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="225" did="224" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#f5f5f5
+</ppt>
+<event>
+<eventItme type="clicki">
+uigo("tp5.1.1.iyu")
+</eventItme>
+</event>
+</View>
+<View id="226" did="225" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="227" did="225" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.1.1执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold</ppt>
+<event>
+</event>
+</View>
+<View id="228" did="223" type="CardView">
+<ppt>width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="229" did="228" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="press">
+us(a2.370,"visibility","visible")
+</eventItme>
+<eventItme type="clicki">
+uigo("tkphp5.0.22_5.1.29.iyu")
+</eventItme>
+</event>
+</View>
+<View id="230" did="229" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="231" did="229" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=tp5.0.22执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="739" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="740" did="739" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="741" did="740" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp6.0.1.iyu")</eventItme>
+</event>
+</View>
+<View id="742" did="741" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="743" did="741" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=tp6.0.1执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="744" did="739" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="745" did="744" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp5.0.23.iyu")</eventItme>
+</event>
+</View>
+<View id="746" did="745" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="747" did="745" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=tp5.0.23执行漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="808" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="813" did="808" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="814" did="813" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp5.0.22sjk.iyu")</eventItme>
+</event>
+</View>
+<View id="815" did="814" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="816" did="814" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=tp5.0.22数据库泄露漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="809" did="808" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="810" did="809" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp6.0.12lts.iyu")</eventItme>
+</event>
+</View>
+<View id="811" did="810" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="812" did="810" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=tp6.0.12反序列化漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="370" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="371" did="370" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#e5e5e5
+</ppt>
+<event>
+</event>
+</View>
+<View id="372" did="371" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+us(a2.359,"visibility","visible")
+</eventItme>
+</event>
+</View>
+<View id="373" did="372" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="374" did="372" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=福利Q群🔞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="375" did="370" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#e5e5e5
+</ppt>
+<event>
+</event>
+</View>
+<View id="376" did="375" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+sss url="https://www.wjx.cn/resultquery.aspx?activity=101516419"
+uigo("llq.iyu")
+</eventItme>
+</event>
+</View>
+<View id="377" did="376" type="RoundImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="378" did="376" type="TextView">
+<ppt>
+width=-1
+height=-2
+text=英山职教查询
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="178" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="179" did="178" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="180" did="179" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("tp5.1.5.iyu")</eventItme>
+</event>
+</View>
+<View id="181" did="180" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="182" did="180" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.1.5sql注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="183" did="178" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="184" did="183" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("tp5.1.7.iyu")</eventItme>
+</event>
+</View>
+<View id="185" did="184" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="186" did="184" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.1.7sql注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="196" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="197" did="196" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="198" did="197" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp5.1.22.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="199" did="198" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="200" did="198" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.1.22sql注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="201" did="196" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="202" did="201" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">uigo("tp5.0.10.iyu")
+
+</eventItme>
+</event>
+</View>
+<View id="203" did="202" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="204" did="202" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.0.10sql注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="205" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="206" did="205" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="207" did="206" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("tp5.x.x.iyu")</eventItme>
+</event>
+</View>
+<View id="208" did="207" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="209" did="207" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5全版本sql注入漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="210" did="205" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8
+</ppt>
+<event>
+</event>
+</View>
+<View id="211" did="210" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("tp5.1.23sql.iyu")</eventItme>
+</event>
+</View>
+<View id="212" did="211" type="RoundImageView">
+<ppt>width=30dp
+height=30dp
+src=@thinkphp.jpg
+layout_margin=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="213" did="211" type="TextView">
+<ppt>width=-1
+height=-2
+text=tp5.1.23数据库泄露漏洞
+textColor=#ff0d0d0d
+textSize=15sp
+textStyle=bold
+</ppt>
+<event>
+</event>
+</View>
+<View id="828" did="69" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+orientation=horizontal
+gravity=center
+//本软件由荧惑制作
+</ppt>
+<event>
+</event>
+</View>
+<View id="829" did="828" type="CardView">
+<ppt>width=-1
+height=-5
+layout_weight=1
+app_CardcornerRadius=15dp
+app_CardElevation=0
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+layout_marginTop=10dp
+app_CardBackgroundColor=#FFF8F8F8</ppt>
+<event>
+</event>
+</View>
+<View id="830" did="829" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center
+BackgroundRipple=#ff888888
+</ppt>
+<event>
+<eventItme type="clicki">
+
+uigo("关于.iyu")</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl(true)
+//官方群609284724
+//作者:惑</eventItme></UIEventset>

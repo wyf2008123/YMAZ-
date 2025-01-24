@@ -1,0 +1,325 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#3385ff</ppt>
+<event></event>
+</View>
+<View id="10" did="2" type="TextView">
+<ppt>width=-1
+height=-2
+text=base64加解密
+textColor=#ffffff
+textSize=16sp
+layout_weight=1
+textStyle=bold
+layout_marginLeft=400
+</ppt>
+<event></event>
+</View>
+<View id="22" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入需要加解密的内容
+textSize=15sp
+background=#ffffffff
+layout_marginLeft=10dp
+textCursorDrawable=#FF00B2FF
+layout_marginRight=10dp
+</ppt>
+<event></event>
+</View>
+<View id="14" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginRight=20dp
+layout_marginLeft=20dp</ppt>
+<event></event>
+</View>
+<View id="6" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">
+
+ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入qq号",0)
+}
+else
+{
+  t()
+  {
+ ss("http://7lun.cc/qb/qb1.php?qq="+a,b)
+
+hs(b,c)
+syso(c)
+ufnsui()
+{
+  json(c,jo)
+  json(jo,"get","message",d)
+  json(jo,"get","phone",e)
+  json(jo,"get","phonediqu",f)
+  ss("结果:"+d,jg)
+  ss("手机号:"+e,sjh)
+  ss("归属地:"+f,gsd)
+  us(26,"text",jg+"\n"+sjh+"\n"+gsd)
+}
+    }
+        }
+ </eventItme></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=查询Q绑
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="23" did="7" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="27" did="6" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff
+</ppt>
+<event><eventItme type="clicki">ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入要加密或解密的内容",0)
+}
+else
+{
+  t()
+  {
+    ss("https://api.linhun.vip/api/base64?type=jiami&text="+a+"&apiKey=b23231144a89adc55ac03fa3204de94e",b)
+    hs(b,c)
+    syso(c)
+    ufnsui()
+    {
+      json(c,jo)
+      json(jo,"get","encryption",d)
+      
+      us(26,"text",d)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="28" did="27" type="TextView">
+<ppt>width=-2
+height=-2
+text=加密
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="29" did="27" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="30" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=20dp
+app_CardElevation=0dp
+layout_marginRight=5dp
+layout_marginTop=15dp
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff</ppt>
+<event><eventItme type="clicki">
+
+ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入qq号",0)
+}
+else
+{
+  t()
+  {
+ ss("http://7lun.cc/qb/qb1.php?qq="+a,b)
+
+hs(b,c)
+syso(c)
+ufnsui()
+{
+  json(c,jo)
+  json(jo,"get","message",d)
+  json(jo,"get","phone",e)
+  json(jo,"get","phonediqu",f)
+  ss("结果:"+d,jg)
+  ss("手机号:"+e,sjh)
+  ss("归属地:"+f,gsd)
+  us(26,"text",jg+"\n"+sjh+"\n"+gsd)
+}
+    }
+        }
+ </eventItme></event>
+</View>
+<View id="32" did="31" type="TextView">
+<ppt>width=-2
+height=-2
+text=查询Q绑
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="33" did="31" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="34" did="30" type="LinearLayout">
+<ppt>width=-1
+height=42dp
+orientation=vertical
+gravity=center
+background=#3385ff
+</ppt>
+<event><eventItme type="clicki">
+
+ug(5,"text",a)
+
+f(a=="")
+{
+  tws(v,"请输入要加密或解密的内容",0)
+}
+else
+{
+  t()
+  {
+ ss("https://api.linhun.vip/api/base64?type=jiemi&text="+a+"&apiKey=b23231144a89adc55ac03fa3204de94e",b)
+hs(b,c)
+syso(c)
+ufnsui()
+{
+  json(c,jo)
+  json(jo,"get","decrypt",d)
+  
+  us(26,"text",d)
+  }
+    }
+        }
+ </eventItme></event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>width=-2
+height=-2
+text=解密
+textColor=#ffffff
+textStyle=bold
+textSize=16sp</ppt>
+<event></event>
+</View>
+<View id="36" did="34" type="CoordinatorLayout">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=15dp
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="21" did="11" type="VideoView">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="24" did="1" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=25dp</ppt>
+<event></event>
+</View>
+<View id="25" did="24" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用方法:\n1.首先把要加解密的内容输入\n2.然后点击按钮
+layout_margin=12dp
+textIsSelectable=true
+textSize=15sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)</eventItme></UIEventset>

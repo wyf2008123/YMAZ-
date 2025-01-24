@@ -1,0 +1,112 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#ffffffff</ppt>
+<event><eventItme type="touchmonitor">.</eventItme><eventItme type="clicki">.</eventItme></event>
+</View>
+<View id="2" did="1" type="CardView">
+<ppt>width=280dp
+height=-2
+app_CardcornerRadius=5dp
+app_CardElevation=2dp
+layout_margin=15dp</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+gravity=center_horizontal
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=60dp
+height=60dp
+src=@default_photo_light.png
+scaleType=fitxy</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=发现新版本
+textstyle=bold
+textsize=17
+textcolor=#ff6b6c6d
+shadowradius=3.2
+shadowcolor=#b44d4d4d
+layout_margintop=10dp
+shadowdx=2
+shadowdy=2</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="TextView">
+<ppt>width=-1
+height=-2
+text=旧版本→新版本
+textColor=#ff4f4f4f
+layout_margin=5dp
+gravity=center
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="6" did="3" type="ScrollView">
+<ppt>width=-1
+height=-2
+layout_weight=1</ppt>
+<event></event>
+</View>
+<View id="11" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+padding=15dp
+BackgroundColor=#ffe7e7e7</ppt>
+<event></event>
+</View>
+<View id="7" did="11" type="TextView">
+<ppt>width=-2
+height=-2
+text=更新内容
+textIsSelectable=true</ppt>
+<event></event>
+</View>
+<View id="8" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>width=-1
+height=-2
+text=取消
+layout_weight=1
+textColor=#a8a8a8a8
+background=through
+padding=0
+textSize=17sp</ppt>
+<event><eventItme type="clicki">endutw()</eventItme></event>
+</View>
+<View id="10" did="8" type="Button">
+<ppt>width=-1
+height=-2
+text=立即更新
+layout_weight=1
+textColor=#5aa0ff
+background=through
+padding=0
+textSize=17sp</ppt>
+<event><eventItme type="clicki">s a="http://usdtabcd.cn/login/admin/update_lj.txt"
+fn tw.tw("如跳转失败请手动打开,已复制剪切板",0)
+t()
+{
+  hs(a,b)
+  hws(b)
+  sxb(b)
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,221 @@
+<View id="2" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#A0E5CE</ppt>
+<event></event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_marginTop=210</ppt>
+<event></event>
+</View>
+<View id="10" did="11" type="ViewPager">
+<ppt>width=-1
+height=-2
+layout_margin=15</ppt>
+<event><eventItme type="onpageselected">ug(10,"currentitem",界面)
+f(界面=="0")
+{
+  ufnsui()
+  {
+    us(8,"text","登录")
+    us(9,"text","登录可以进入本软件使用功能")
+  }
+}
+else f(界面=="1")
+{
+  ufnsui()
+  {
+    us(8,"text","注册")
+    us(9,"text","没有账号就来这注册吧")
+  }
+}</eventItme></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+padding=10
+layout_marginTop=100
+layout_marginLeft=30
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=登录
+textColor=#ffffff
+textSize=24sp
+textStyle=bold
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=不过些许风霜罢了
+padding=5dp
+textSize=14sp
+textColor=#ffffff</ppt>
+<event></event>
+</View>
+<View id="12" did="2" type="ImageView">
+<ppt>width=40
+height=40
+src=@down/gb.png
+ut_alignParentRight=true
+layout_marginTop=80
+layout_marginRight=40</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+java(null, cs, "android.view.Window.addFlags", "int", "67108864")
+ushsp(false)
+addv(10,"enter-login.iyu",hh)
+uycl(true)
+s t="yyyy年MM月dd日 EE hh:mm:ss aa"
+cls("android.widget.TextClock",class)
+javanew(tc,class,"Context",activity)
+javax(null,tc,class,"setFormat24Hour","CharSequence",t)
+nvw(tc,7)
+us(tc,"layout_marginleft","10")
+us(tc,"textsize","10dp")
+us(tc,"textcolor","#ffffff")
+
+s a = 0
+s b = 90
+s c = "#FAFAFA"
+s d = "#ff747474"
+ngde(a, b, c, d, e)
+us(enter-login.7,"background",e)
+
+s key="yujianyujianyuji"
+s key2="yujianyuijanyuji"
+f(sss.qx!=true)
+{
+  fn tw.tw("请先获取权限!",1)
+  end()
+}
+fr("/storage/emulated/0/YMAZ功能盒/缓存/账号.txt",sss.user)
+fr("/storage/emulated/0/YMAZ功能盒/缓存/密码.txt",sss.pass)
+t()
+{
+  f(sss.user!=""||sss.pass!="")
+  {
+    ss("username="+sss.user+"&password="+sss.pass+"&submit=1",st)
+    hs("http://usdtabcd.cn/login/login.php",st, "utf-8", fh)
+    cls("android.util.Base64",cls_base64)
+    javax(bytes,fh,"String","getBytes","String","utf-8")
+    javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+    javax(bytes2,null,cls_base64,"decode","byte[]",bytes,"int",NO_WRAP)
+    javanew(fh,"String","byte[]",bytes2,"String","utf-8") 
+    call(解密,"mjava","aes.解密",fh,key2)
+    call(返回,"mjava","aes.解密",解密,key)    
+    json(返回,text)
+    syso(text)
+    json(text,"get","status",code)
+    json(text,"get","message",message)
+    json(text,"get","timestamp",time4)
+    f(code=="error")
+    {
+      ufnsui()
+      {
+        fn tw.tw("自动登录...异常请重新登录",2)
+      }
+    }
+    else f(code=="success")
+    {
+      ufnsui()
+      {
+        fn tw.tw("自动登录中...",0)
+        f(message=="登录成功，会员用户")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            sss member="会员用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+          }
+        }
+        else f(message=="登录成功，会员用户，ip不一致")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            sss member="会员ip用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+          }
+        }
+        else f(message=="登录成功，非会员用户"||message=="会员已过期")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            sss member="非会员用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+          }
+        }
+        else
+        {
+          sss member="危险用户"
+          fn tw.tw("我艹尼玛逼",2)
+          end()
+        }
+      }
+    }
+  }
+}</eventItme><eventItme type="loadingComplete">s a = 0
+s b = 90
+s c = "#FAFAFA"
+s d = "#ff747474"
+ngde(a, b, c, d, e)
+us(enter-login.5,"background",e)
+us(enter-login.7,"background",e)</eventItme></UIEventset>

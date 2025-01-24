@@ -1,0 +1,231 @@
+<View id="13" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f2f3f8</ppt>
+<event></event>
+</View>
+<View id="4" did="13" type="AppBarLayout">
+<ppt>width=-1
+height=56dp
+BackgroundColor=#FF91B4EC</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="Toolbar">
+<ppt>width=-1
+height=-3
+app_TitleColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#f2f3f8
+layout_marginTop=20dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="RelativeLayout">
+<ppt>width=-1
+height=-2</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=20dp
+app_CardcornerRadius=7dp
+app_CardElevation=0
+app_CardmaxElevation=0
+app_CardBackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="20" did="16" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="21" did="20" type="CardView">
+<ppt>width=-1
+height=47dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+app_CardElevation=0dp
+app_CardcornerRadius=7dp
+app_CardBackgroundColor=#ffffffff
+layout_marginTop=28dp</ppt>
+<event></event>
+</View>
+<View id="22" did="21" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+background=white
+gravity=center
+background=#ffededed
+</ppt>
+<event></event>
+</View>
+<View id="24" did="22" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入网址
+textSize=14sp
+inputType=text
+BackgroundColor=#f7f7f7
+textColorHint=#BDBDBD
+inputType=texturi</ppt>
+<event></event>
+</View>
+<View id="25" did="20" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardcornerRadius=0dp
+app_CardElevation=0dp
+app_CardcornerRadius=5dp
+layout_marginTop=20dp
+layout_gravity=center
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#FF91B4EC</ppt>
+<event><eventItme type="clicki">ug(24,"text",url)
+us(27,"text","正在获取，请稍候...")
+sr(url,"https","http",url)
+f(url?*"http://")
+{
+}
+else
+{
+  ss("http://"+url,url)
+}
+us(27,"text","正在打包")
+t()
+{
+  loadjar("dex.dex",kaodan)
+  cls(kaodan,"com.yyz.webtozip.util.WebToFile",kI)
+  javanew(ka,kI,"String","/storage/emulated/0/YMAZ功能盒/网站源码打包/","String",url)
+  javax(isSuccess,ka,kI,"getSrc")
+  syso(isSuccess)
+  f(isSuccess==true)
+  {
+    ufnsui()
+    {
+      fn tw.tw("扒站成功,网站源码已保存到/storage/emulated/0/YMAZ功能盒/网站源码打包/",0)
+      us(27,"text","开始打包")
+    }
+  }
+  else
+  {
+    ufnsui()
+    {
+      us(27,"text","开始打包")
+      fn tw.tw("打包失败，请稍后重试",1)
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始打包
+textSize=14sp
+textColor=#ffffffff
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="17" did="15" type="CardView">
+<ppt>width=-2
+height=30dp
+layout_marginLeft=28dp
+layout_marginTop=8dp
+app_CardcornerRadius=5dp</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>width=-2
+height=-1
+orientation=vertical
+gravity=center
+background=#FF91B4EC</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=网站源码打包
+textColor=#ffffffff
+textStyle=bold
+layout_marginLeft=15dp
+layout_marginRight=15dp</ppt>
+<event></event>
+</View>
+<View id="39" did="14" type="CardView">
+<ppt>width=-1
+height=-2
+layout_margin=20dp
+app_CardcornerRadius=7dp
+app_CardElevation=0
+app_CardmaxElevation=0
+app_CardBackgroundColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="40" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event></event>
+</View>
+<View id="47" did="40" type="RelativeLayout">
+<ppt>width=-1
+height=30dp
+layout_marginLeft=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="49" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=工具说明
+ut_toRightOf=48
+ut_centerInParent=true
+layout_marginLeft=5dp
+textStyle=bold
+textColor=#54637c</ppt>
+<event></event>
+</View>
+<View id="50" did="40" type="TextView">
+<ppt>width=-2
+height=-2
+text=输入要扒站的网址，自动打包所有JS、CSS、Images等静态文件。
+layout_margin=10dp
+textColor=#54637c</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">s id=6
+utb(id)
+java(mTba, activity, "android.support.v7.app.AppCompatActivity.getSupportActionBar")
+java(null, mTba, "android.support.v7.app.ToolbarActionBar.setDisplayHomeAsUpEnabled", "boolean", true)
+utb("set", "title", "YMAZ网页源码爬取")
+
+utb("set", "leftck", id)
+{
+  end()
+</eventItme><eventItme type="downkey">f(st_kC==4)
+{
+  
+ end()
+  
+}</eventItme></UIEventset>

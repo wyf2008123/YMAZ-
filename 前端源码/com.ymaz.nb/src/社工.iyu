@@ -1,0 +1,3129 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="143" did="1" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=70dp
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=Social worker
+typeface=@b004b9c310f.ttf
+textColor=#00db04
+textSize=20dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=社工库非查档请理智
+layout_marginLeft=10dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="HorizontalScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="11" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="59" did="12" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="59" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="132" did="9" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="132" type="LinearLayout">
+<ppt>
+width=300dp
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=■
+textColor=#00db04
+textSize=15dp
+layout_marginLeft=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=  function
+textColor=#00db04
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="132" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="202" did="14" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="203" did="202" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="203" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="15" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=基础信息
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="20" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=账号:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="22" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=昵称:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="18" did="15" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+us(188,"visibility","visible")
+</eventItme>
+</event>
+</View>
+<View id="21" did="18" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@icon.png</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -30, -10, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+us(188,"visibility","visible")
+ufnsui()
+{
+us(200,"hint","请输入QQ号")
+us(188,"visibility","visible")
+}
+ss 社工=0
+</eventItme>
+</event>
+</View>
+<View id="16" did="203" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="16" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=签名:还记得最早喜欢你时，在地球的另一端，翻来覆回听你的语音百遍
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="25" did="132" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="25" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="204" did="26" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="205" did="204" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="206" did="205" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="207" did="206" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="207" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="27" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="29" did="28" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=更多信息
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="30" did="28" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=年龄:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="28" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=等级:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="27" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="32" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+padding=3dp
+BackgroundColor=#9CCC65
+</ppt>
+<event>
+<eventItme type="clicki">ug(30,"text",qb)
+ug(31,"text",qb2)
+ug(35,"text",qb3)
+ug(36,"text",qb4)
+ug(37,"text",qb5)
+ss(qb+"\n"+qb2+"\n"+qb3+"\n"+qb4+"\n"+qb5,qb6)
+sxb(qb6)
+fn tw.tw("复制成功",0)</eventItme></event>
+</View>
+<View id="40" did="39" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=复制内容
+textSize=9dp
+textColor=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="207" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="34" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=名片赞:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="34" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=地址:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="34" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=邮箱:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="132" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="42" did="41" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="208" did="42" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="209" did="208" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="209" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="43" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=Q绑信息
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="44" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=手机号:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+<eventItme type="aftertextchanged">
+ss("https://www.aicesu.cn/shouji/"+sss.sjh+".html",a)
+t()
+{
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)",b)
+hs(a,b)
+sr(b,"\n","",b)
+sr(b," ","",b)
+sr(b,"","",b)
+sj(b,"tableclass","&lt;hr&gt;",b)
+sj(b,"手机号码段","卡号",sjh)
+sj(sjh,"td&gt;","&lt;/",sjh)
+sj(sjh,"td&gt;",null,sjh)
+sj(b,"卡号归属地","运营商",gsd)
+sj(gsd,"td&gt;","&lt;/",gsd)
+sj(gsd,"td&gt;",null,归属地)
+sj(b,"运营商","手机号码段",yys)
+sj(yys,"td&gt;","&lt;/",yys)
+sj(yys,"td&gt;",null,类型)
+sj(b,"区号","邮编",qh)
+sj(qh,"td&gt;","&lt;/",qh)
+sj(qh,"td&gt;",null,区号)
+sj(b,"邮编&lt;/a&gt;&lt;/td&gt;","&lt;/td&gt;",yb)
+sj(yb,"&lt;td&gt;",null,邮编)
+ufnsui()
+{
+us(109,"text","归属地:"+归属地)
+us(110,"text","卡号类型:"+类型)
+us(116,"text","区域区号:"+区号)
+us(117,"text","区号邮编:"+邮编)
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="47" did="44" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=归属地:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="43" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="48" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="50" did="49" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+padding=3dp
+BackgroundColor=#42A5F5
+</ppt>
+<event>
+<eventItme type="clicki">ug(46,"text",qb)
+ug(47,"text",qb2)
+ug(53,"text",qb3)
+ug(54,"text",qb4)
+ug(226,"text",qb5)
+ss(qb+"\n"+qb2+"\n"+qb3+"\n"+qb4+"\n"+qb5,qb6)
+sxb(qb6)
+fn tw.tw("复制成功",0)</eventItme></event>
+</View>
+<View id="51" did="50" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=复制内容
+textSize=9dp
+textColor=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="52" did="209" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="53" did="52" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=LOL信息:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="54" did="52" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=UID微博:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="226" did="52" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=UID微博:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="104" did="132" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="105" did="104" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="210" did="105" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="211" did="210" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="106" did="211" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="107" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="108" did="107" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=号码详情
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="109" did="107" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=归属地:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="110" did="107" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=卡号类型:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="111" did="106" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="112" did="111" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="113" did="112" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+padding=3dp
+BackgroundColor=#FF7043
+</ppt>
+<event>
+<eventItme type="clicki">ug(109,"text",qb)
+ug(110,"text",qb2)
+ug(116,"text",qb3)
+ug(117,"text",qb4)
+ss(qb+"\n"+qb2+"\n"+qb3+"\n"+qb4,qb5)
+sxb(qb5)
+fn tw.tw("复制成功",0)</eventItme></event>
+</View>
+<View id="114" did="113" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=复制内容
+textSize=9dp
+textColor=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="115" did="211" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="116" did="115" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=区域区号:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="117" did="115" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=区域邮编:未知
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="118" did="132" type="CardView">
+<ppt>
+width=300dp
+height=-2
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="119" did="118" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="212" did="119" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="213" did="212" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="120" did="213" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="121" did="120" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="122" did="121" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=业务状态
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="123" did="121" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=加载中
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="285" did="121" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="125" did="120" type="LinearLayout">
+<ppt>
+width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="126" did="125" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="127" did="126" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+padding=3dp
+BackgroundColor=#8D6E63
+</ppt>
+<event>
+</event>
+</View>
+<View id="128" did="127" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=复制内容
+textSize=9dp
+textColor=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="133" did="132" type="CardView">
+<ppt>
+width=300dp
+height=-2
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#00db04
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="134" did="133" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="214" did="134" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="215" did="214" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="135" did="215" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="136" did="135" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="137" did="136" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=本号运势
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="138" did="136" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=加载中
+layout_marginTop=5dp
+textSize=9dp
+textColor=#00db04
+layout_marginRight=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="139" did="135" type="LinearLayout">
+<ppt>
+width=-2
+height=-1
+orientation=vertical
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="140" did="139" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="141" did="140" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+padding=3dp
+BackgroundColor=#78909C
+</ppt>
+<event>
+<eventItme type="clicki">ug(138,"text",ys)
+sxb(ys)
+fn tw.tw("复制成功",0)</eventItme></event>
+</View>
+<View id="142" did="141" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=复制内容
+textSize=9dp
+textColor=#ffffffff
+</ppt>
+<event>
+</event>
+</View>
+<View id="60" did="12" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="61" did="60" type="LinearLayout">
+<ppt>
+width=300dp
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="62" did="61" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=■
+textColor=#FF9800
+textSize=15dp
+layout_marginLeft=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="63" did="61" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=  Clefairy
+textColor=#ffffffff
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="64" did="60" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="65" did="64" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="216" did="65" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+</ppt>
+<event>
+</event>
+</View>
+<View id="218" did="216" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="217" did="218" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="144" did="217" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="146" did="144" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="147" did="146" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入手机号查询微博")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=1
+</eventItme>
+</event>
+</View>
+<View id="148" did="147" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@ic_dsp_9.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="149" did="147" type="TextView">
+<ppt>width=-2
+height=-2
+text=微博查询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="145" did="218" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="155" did="145" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="156" did="155" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入查询QQ账号")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=2
+</eventItme>
+</event>
+</View>
+<View id="157" did="156" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@QQ.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="158" did="156" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=Q绑查询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="150" did="218" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="151" did="150" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="152" did="151" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入查询的手机号")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=3
+</eventItme>
+</event>
+</View>
+<View id="153" did="152" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@qq2.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="154" did="152" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=号码反查
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="159" did="60" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="160" did="159" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="161" did="160" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="162" did="161" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="163" did="162" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入查询归属地的手机号")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=4
+</eventItme>
+</event>
+</View>
+<View id="164" did="163" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@mf.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="165" did="163" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=号码归属地
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="166" did="160" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="167" did="166" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="168" did="167" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+
+<eventItme type="clicki">dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+  stop(300)
+  ufnsui()
+  {
+    us(200,"hint","点击跳转")
+    us(188,"visibility","visible")
+  }
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=99</eventItme></event>
+</View>
+<View id="169" did="168" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@jzg.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="170" did="168" type="TextView">
+<ppt>width=-2
+height=-2
+text=北京大头查询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="171" did="160" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="172" did="171" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="173" did="172" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+s a="http://81.70.100.130/api/ip.php"
+hs(a,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)",b)
+ss("您的当前IP地址为"+b,IP)
+ufnsui()
+{
+us(200,"hint",IP)
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=5
+</eventItme>
+</event>
+</View>
+<View id="174" did="173" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@meet.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="175" did="173" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=I P 查 询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="231" did="60" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="232" did="231" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="233" did="232" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="234" did="233" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="235" did="234" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","点击确定跳转")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=9
+</eventItme>
+</event>
+</View>
+<View id="236" did="235" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@r512.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="237" did="235" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=身份证前六
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="238" did="232" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="239" did="238" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="240" did="239" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入性别")
+us(224,"hint","请输入身份证前14为")
+us(188,"visibility","visible")
+us(224,"visibility","visible")
+fd("/storage/emulated/0/照妖镜/社工/身份证补齐.txt",m)
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=10
+</eventItme>
+</event>
+</View>
+<View id="241" did="240" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@666.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="242" did="240" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=身份证后四位
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="243" did="232" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="244" did="243" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="245" did="244" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入姓名如赵阳或赵")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=11
+</eventItme>
+</event>
+</View>
+<View id="246" did="245" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@sim.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="247" did="245" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=快递猎魔
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="90" did="60" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="91" did="90" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="92" did="91" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="93" did="92" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="176" did="93" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="177" did="176" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入QQ邮箱")
+us(188,"visibility","visible")
+us(224,"visibility","visible")
+us(224,"hint","次数")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=6
+</eventItme>
+</event>
+</View>
+<View id="178" did="177" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@moruan.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="179" did="177" type="TextView">
+<ppt>width=-2
+height=-2
+text=QQ邮箱轰炸
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="97" did="92" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="180" did="97" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="181" did="180" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入姓例:皮皮")
+us(224,"visibility","visible")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=7
+</eventItme>
+</event>
+</View>
+<View id="182" did="181" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@ic_recommend_tag1.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="183" did="181" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=身份证验证
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="101" did="91" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="184" did="101" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="185" did="184" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入跑线前三位")
+us(224,"hint","请输入跑线后两位")
+us(188,"visibility","visible")
+us(224,"visibility","visible")
+us(225,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=8
+</eventItme>
+</event>
+</View>
+<View id="186" did="185" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@ic_recommend_tag1.png
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="187" did="185" type="TextView">
+<ppt>width=-2
+height=-2
+text=账 号 跑 线 工 具
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=10dp
+layout_marginLeft=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="219" did="60" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=2
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="248" did="12" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="249" did="248" type="LinearLayout">
+<ppt>
+width=300dp
+height=-2
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="250" did="249" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=■
+textColor=#FF5C6BC0
+textSize=15dp
+layout_marginLeft=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="251" did="249" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=  Clefairy2
+textColor=#ffffffff
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="265" did="248" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="266" did="265" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="267" did="266" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+</ppt>
+<event>
+</event>
+</View>
+<View id="268" did="267" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="269" did="268" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="270" did="269" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="271" did="270" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="272" did="271" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","点击确定获取四要素")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=12
+</eventItme>
+</event>
+</View>
+<View id="273" did="272" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@moren.png</ppt>
+<event>
+</event>
+</View>
+<View id="274" did="272" type="TextView">
+<ppt>width=-2
+height=-2
+text=已失效凑数的
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="275" did="268" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="276" did="275" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="277" did="276" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入查询的身份证")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=13
+</eventItme>
+</event>
+</View>
+<View id="278" did="277" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@tihsi.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="279" did="277" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=证件信息查询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="280" did="268" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="281" did="280" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="282" did="281" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入姓名")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=14
+</eventItme>
+</event>
+</View>
+<View id="283" did="282" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@k3.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="284" did="282" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=老赖猎魔
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="286" did="248" type="CardView">
+<ppt>
+width=300dp
+height=150dp
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+layout_marginTop=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="287" did="286" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="288" did="287" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#454347
+</ppt>
+<event>
+</event>
+</View>
+<View id="289" did="288" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="290" did="289" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+</ppt>
+<event>
+</event>
+</View>
+<View id="291" did="290" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="292" did="291" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="293" did="292" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入查询名称")
+us(188,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=15
+</eventItme>
+</event>
+</View>
+<View id="294" did="293" type="RoundImageView">
+<ppt>width=40dp
+height=40dp
+src=@moren.png</ppt>
+<event>
+</event>
+</View>
+<View id="295" did="293" type="TextView">
+<ppt>width=-2
+height=-2
+text=已失效凑数的
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="296" did="289" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="297" did="296" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="298" did="297" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", -1000, 0, -10, -30, 0)
+dh(dh, "duration", 1500)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(200,"hint","请输入姓名")
+us(224,"hint","请输入完整身份证")
+us(188,"visibility","visible")
+us(224,"visibility","visible")
+us(306,"visibility","visible")
+}
+}
+dhas(dh, 21, "translationY", 0, -60, -10, -30, 0)
+dh(dh, "duration", 3000)
+dh(dh, "start")
+ss 社工=16
+</eventItme>
+</event>
+</View>
+<View id="299" did="298" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@moren.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="300" did="298" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=已失效凑数的
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="301" did="289" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+padding=5dp
+visibility=visible
+</ppt>
+<event>
+</event>
+</View>
+<View id="302" did="301" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=10dp
+app_CardBackgroundColor=#7e7b7f
+</ppt>
+<event>
+</event>
+</View>
+<View id="303" did="302" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+sss 浏览器="http://rsrc.mohrss.gov.cn/jxxxcx/Omp.do?method=fwdPageJgyxStuInfoEntry"
+uigo("llqh.iyu")
+</eventItme>
+</event>
+</View>
+<View id="304" did="303" type="RoundImageView">
+<ppt>
+width=40dp
+height=40dp
+src=@office_excel.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="305" did="303" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=全国技校学籍
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=9dp
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="188" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#9e000000
+visibility=gone
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationY", 0, -1000, -30, -10, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+t()
+{
+stop(300)
+ufnsui()
+{
+us(188,"visibility","gone")
+us(224,"visibility","gone")
+us(225,"visibility","gone")
+us(306,"visibility","gone")
+us(228,"visibility","gone")
+us(221,"text","准备运行")
+us(200,"text","")
+}
+}
+dhas(dh, 21, "translationY", -60, 0, -30, -10, 0)
+dh(dh, "duration", 2000)
+dh(dh, "start")
+</eventItme>
+</event>
+</View>
+<View id="189" did="188" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=40dp
+layout_marginRight=40dp
+app_CardcornerRadius=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="190" did="189" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#00db04
+padding=1dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="193" did="190" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="194" did="193" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+<eventItme type="clicki">
+dhas(dh, 189, "translationX",0,15,0,-15,0)
+dh(dh, "duration", 500)
+dh(dh, "start")
+</eventItme>
+</event>
+</View>
+<View id="191" did="194" type="LinearLayout">
+<ppt>
+width=-1
+height=40dp
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="192" did="191" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=控 制 台
+typeface=@b004b9c310f.ttf
+textColor=#ffffffff
+textSize=18dp
+textColor=#00db04
+</ppt>
+<event>
+</event>
+</View>
+<View id="195" did="194" type="TextView">
+<ppt>
+width=-1
+height=1
+text=
+background=#19ff19
+</ppt>
+<event>
+</event>
+</View>
+<View id="196" did="194" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+padding=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="201" did="196" type="TextInputLayout">
+<ppt>
+width=-1
+height=-2
+BackgroundColor=#19ff19
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="200" did="196" type="EditText">
+<ppt>
+width=-1
+height=-2
+text=
+hint=请输入QQ号码获取基础信息
+textColorHint=#00db04
+textColor=#00db04
+textSize=10dp
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="224" did="196" type="EditText">
+<ppt>
+width=-1
+height=-2
+text=
+hint=请输入身份证
+textColorHint=#00db04
+textColor=#00db04
+textSize=10dp
+background=black
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="225" did="196" type="EditText">
+<ppt>
+width=-1
+height=-2
+text=
+hint=请输入地区如xx市
+textColorHint=#00db04
+textColor=#00db04
+textSize=10dp
+background=black
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="220" did="196" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=\n●运行状态\n
+typeface=@3f12bc4a942.ttf
+textColor=#00db04
+textSize=10dp
+layout_gravity=left
+</ppt>
+<event>
+</event>
+</View>
+<View id="222" did="196" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="223" did="222" type="ScrollView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="229" did="223" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="221" did="229" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=准备运行
+textColor=#00db04
+textSize=10dp
+layout_gravity=left
+</ppt>
+<event>
+<eventItme type="clicki">
+ug(221,"text",a)
+sxb(a)
+fn tw.tw("已为您复制",0)
+</eventItme>
+</event>
+</View>
+<View id="230" did="229" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=2
+textColor=#00db04
+textSize=10dp
+layout_gravity=left
+visibility=gone
+</ppt>
+<event>
+<eventItme type="aftertextchanged">
+ufnsui()
+{
+ug(221,"text",b)
+ss(b+"\n"+"第"+sss.m+"组数据已加载完毕",a)
+us(221,"text",a)
+}
+</eventItme>
+</event>
+</View>
+<View id="228" did="229" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=-1
+textColor=#fffd0000
+textSize=11dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="306" did="196" type="ImageView">
+<ppt>
+width=-2
+height=-2
+src=@moren.png
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="197" did="194" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="198" did="197" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#00db04
+layout_marginLeft=20dp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="199" did="198" type="Button">
+<ppt>
+width=-1
+height=35dp
+text=确     定
+background=through
+textSize=9dp
+textColor=#ff000000
+</ppt>
+<event>
+<eventItme type="clicki">f(sss.member=="会员用户"||sss.member=="会员ip用户")
+{
+  ug(200,"text",sss.qq)
+  ug(224,"text",sss.sfz)
+  ug(224,"text",sss.hr)
+  ug(225,"text",sss.hou)
+  utw(null,"","加载.iyu","",false,m)
+  {
+  }
+  
+  fn 社工代码.社工()
+}
+else f(sss.member=="非会员用户")
+{
+  fn tw.tw("请开通会员后使用！",1)
+}
+else
+{
+  end()
+}</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+uycl("#ff000000",true)
+fn xh.xh()
+ss 社工=0
+dhas(dh, 189, "translationY", -1000, 0, -30, -10, 0)
+dh(dh, "duration", 1000)
+dh(dh, "start")
+us(188,"visibility","visible")
+</eventItme>
+<eventItme type="loadingComplete">t()
+{
+  fn 环境检测.e()
+  fn 环境检测.g()
+  fn 环境检测.j()
+  fn 环境检测.d()
+  fn 环境检测.jc()
+}</eventItme></UIEventset>

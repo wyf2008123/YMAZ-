@@ -1,0 +1,304 @@
+<View id="16" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="15" did="16" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=45
+app_CardElevation=0
+layout_marginLeft=20
+layout_marginRight=20
+</ppt>
+<event></event>
+</View>
+<View id="2" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+padding=15
+gravity=center_horizontal
+layout_marginTop=50
+layout_marginBottom=20</ppt>
+<event></event>
+</View>
+<View id="22" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=Login
+textSize=22sp
+textColor=#ff050505
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="23" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=致大爱仙尊
+textSize=12sp
+layout_marginTop=5
+layout_marginBottom=40
+</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+layout_marginLeft=25
+layout_marginRight=25
+padding=5
+background=FAFAFA</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+singleLine=true
+hint=请输入你的账号
+textSize=14sp
+ut_centerVertical=true
+layout_marginRight=15
+ut_toRightOf=4
+background=#FAFAFA
+layout_marginLeft=10
+gravity=center
+maxLength=10</ppt>
+<event></event>
+</View>
+<View id="4" did="5" type="TextView">
+<ppt>width=-2
+height=-2
+text=账号:
+textColor=#ff080808
+textSize=14sp
+textStyle=bold
+layout_marginLeft=10
+ut_centerVertical=true
+layout_marginLeft=15</ppt>
+<event></event>
+</View>
+<View id="7" did="3" type="RelativeLayout">
+<ppt>width=-2
+height=-2
+layout_marginLeft=25
+layout_marginRight=25
+padding=5
+background=FAFAFA
+layout_marginTop=18</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="EditText">
+<ppt>width=-1
+height=-2
+text=
+singleLine=true
+hint=请输入你的密码
+textSize=14sp
+ut_centerVertical=true
+layout_marginRight=15
+ut_toRightOf=9
+background=#FAFAFA
+layout_marginLeft=10
+gravity=center
+maxLength=10</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=密码:
+textColor=#ff080808
+textSize=14sp
+textStyle=bold
+layout_marginLeft=10
+ut_centerVertical=true
+layout_marginLeft=15</ppt>
+<event></event>
+</View>
+<View id="10" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=45
+layout_marginRight=45
+layout_marginTop=50
+app_CardcornerRadius=15
+app_CardElevation=0</ppt>
+<event></event>
+</View>
+<View id="12" did="10" type="TextView">
+<ppt>width=-1
+height=-2
+text=登录
+gravity=center
+padding=15
+background=#A0E5CE
+textColor=#ffffffff
+textSize=15sp</ppt>
+<event><eventItme type="clicki">bfm("@dz.mp3")
+ug(enter-login.6,"text",sss.user)
+ug(enter-login.8,"text",sss.pass)
+s key="yujianyujianyuji"
+s key2="yujianyuijanyuji"
+f(sss.user==""||sss.pass=="")
+{
+  fn tw.tw("账号密码不能输入为空！",2)
+}
+else
+{
+  t()
+  {
+    ss("username="+sss.user+"&password="+sss.pass,st)
+    hs("http://usdtabcd.cn/login/login.php",st, "utf-8", fh)
+    cls("android.util.Base64",cls_base64)
+    javax(bytes,fh,"String","getBytes","String","utf-8")
+    javags(NO_WRAP,null,cls_base64,"NO_WRAP")
+    javax(bytes2,null,cls_base64,"decode","byte[]",bytes,"int",NO_WRAP)
+    javanew(fh,"String","byte[]",bytes2,"String","utf-8")
+    call(解密,"mjava","aes.解密",fh,key2)
+    call(返回,"mjava","aes.解密",解密,key)
+    json(返回,text)
+    syso(text)
+    json(text,"get","status",code)
+    json(text,"get","message",message)
+    json(text,"get","timestamp",time4)
+    f(code=="error")
+    {
+      ufnsui()
+      {
+        fn tw.tw(message,2)
+      }
+    }
+    else f(code=="success")
+    {
+      ufnsui()
+      {
+        fn tw.tw(message,0)
+        f(message=="登录成功，会员用户")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/账号.txt", sss.user)
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/密码.txt", sss.pass)
+            sss member="会员用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+            end()
+          }
+        }
+        else f(message=="登录成功，会员用户，ip不一致")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/账号.txt", sss.user)
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/密码.txt", sss.pass)
+            sss member="会员ip用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+            end()
+          }
+        }
+        else f(message=="登录成功，非会员用户"||message=="会员已过期")
+        {
+          time(4,time2)
+          s-(time4,time2,time3)
+          syso("服务端:"+time4)
+          syso("本地:"+time2)
+          syso("计算结果:"+time3)
+          f(time3&lt;"999")
+          {
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/账号.txt", sss.user)
+            fw("/storage/emulated/0/YMAZ功能盒/缓存/密码.txt", sss.pass)
+            sss member="非会员用户"
+            sss menu="1"
+            uigo("mian2.iyu")
+            end()
+          }
+          else
+          {
+            fn tw.tw("时间戳异常",1)
+            end()
+          }
+        }
+        else
+        {
+          sss member="危险用户"
+          fn tw.tw("我艹尼玛逼",2)
+          end()
+        }
+      }
+    }
+    else
+    {
+      ufnsui()
+      {
+        fn tw.tw("草泥马的请不要篡改数据",1)
+        syso(code)
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="13" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=45
+layout_marginRight=45
+app_CardcornerRadius=15
+app_CardElevation=0
+layout_marginTop=15</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>width=-1
+height=-2
+text=注册
+gravity=center
+padding=15
+background=#ffffff
+textColor=#000000
+textSize=15sp</ppt>
+<event><eventItme type="clicki">bfm("@dz.mp3")
+uigo("注册.iyu")</eventItme></event>
+</View>
+<View id="21" did="3" type="CardView">
+<ppt>width=-1
+height=-2
+layout_marginLeft=45
+layout_marginRight=45
+app_CardcornerRadius=15
+app_CardElevation=0
+layout_marginTop=15</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

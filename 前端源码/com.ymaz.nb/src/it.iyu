@@ -1,0 +1,126 @@
+<View id="22" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="2" did="22" type="RelativeLayout">
+<ppt>width=-1
+height=-1
+background=#40000000
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="CardView">
+<ppt>width=54dp
+height=54dp
+app_CardcornerRadius=27dp
+ut_alignParentBottom=true
+layout_margin=10dp</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="ImageView">
+<ppt>width=54dp
+height=54dp
+src=@p.png
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="CardView">
+<ppt>width=54dp
+height=54dp
+app_CardcornerRadius=27dp
+ut_alignParentBottom=true
+layout_margin=10dp
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="ImageView">
+<ppt>width=54dp
+height=54dp
+src=@n.png
+padding=15dp</ppt>
+<event></event>
+</View>
+<View id="21" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=无
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="1" did="22" type="ImageView">
+<ppt>width=40dp
+height=40dp
+src=@a.png
+ut_alignParentBottom=true
+ut_centerHorizontal=true
+layout_marginBottom=17dp</ppt>
+<event><eventItme type="touchmonitor">[true]
+f(st_eA==2)
+{
+  swh("pxw",r)
+  s2(r/2,sd_rX)
+  s(st_rX-sd_rX,exx)
+  s(ss.rY-st_rY,eyy)
+  s2(exx*exx+eyy*eyy,a)
+  java(err,null,"java.lang.Math.sqrt","double",a)
+  zdp(20,d10)
+  zdp(27,d27)
+  s2((r-d10)/2-d27,rz)
+  s2((r-d10)/2+d27,ry)
+  s2((r-d10)/2*1.65-d27,rz2)
+  s2((r-d10)/2*1.65+d27,ry2)
+  f(err&gt;=rz&&err&lt;=ry)
+  {
+    s2(eyy/exx,ekk)
+    f(ekk&lt;1.5&&ekk&gt;0.5)
+    {
+      us(it.10,"background","#00ffdd")
+      us(it.21,"text","窗口列表")
+    }
+    else f(ekk&lt;0.4&&ekk&gt;-0.4)
+    {
+      f(exx&gt;0)
+      {
+        us(it.6,"background","#00ffdd")
+        us(it.21,"text","前进一步")
+      }
+      else
+      {
+        us(it.4,"background","#00ffdd")
+        us(it.21,"text","后退一步")
+      }
+    }
+    else
+    {
+      fn diy.wum()
+    }
+  }
+  else
+  {
+    fn diy.wum()
+  }
+}
+else f(st_eA==1)
+{
+  ug(it.21,"text",a)
+  fn awzx.run(a)
+  us(it.2,"visibility","gone")
+  fn diy.wum()
+}
+else f(st_eA == 0)
+{
+  ss rY = st_rY
+  ug(it.23,"visibility",a)
+  f(a==0)
+  {
+    us(it.23,"visibility",8)
+  }
+  else
+  {
+    us(it.23,"visibility",0)
+  }
+  us(it.2,"visibility","visible")
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>
