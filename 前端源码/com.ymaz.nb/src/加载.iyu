@@ -1,0 +1,25 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=horizontal
+gravity=center_vertical
+background=#ffffff</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ProgressBar">
+<ppt>width=40dp
+height=-1
+style=16842874
+layout_marginleft=20dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=获取数据中…
+layout_marginleft=15dp
+textcolor=#000000
+textSize=18sp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

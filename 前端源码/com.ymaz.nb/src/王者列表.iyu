@@ -1,0 +1,227 @@
+<View id="2" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="1" did="2" type="CardView">
+<ppt>
+width=-1
+height=80dp
+app_CardcornerRadius=10dp
+elevation=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=80dp
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="RoundImageView">
+<ppt>
+width=50dp
+height=50dp
+src=17301567
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本19
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=名字
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本14
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本15
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本16
+textSize=9dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本15
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="18" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本15
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="3" type="LinearLayout">
+<ppt>
+width=-2
+height=-1
+orientation=horizontal
+gravity=center
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="8" type="Button">
+<ppt>
+width=60dp
+height=35dp
+text=攻 略
+background=through
+textSize=10dp
+background=#D32F2F
+textColor=#ffffffff
+typeface=@3f12bc4a942.ttf
+</ppt>
+<event>
+<eventItme type="clicki">
+ulag(st_vW,14,a)
+sss 王者=2
+f(a?"https")
+{
+sss 浏览器=a
+uigo("王者语音.iyu")
+}
+else
+{
+ss("https:"+a,b)
+sss 浏览器=b
+uigo("王者语音.iyu")
+}
+</eventItme>
+</event>
+</View>
+<View id="10" did="7" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="Button">
+<ppt>
+width=60dp
+height=35dp
+text=语 音
+background=through
+textSize=10dp
+background=black
+textColor=#ffffffff
+typeface=@3f12bc4a942.ttf
+</ppt>
+<event>
+<eventItme type="clicki">
+sss 王者=1
+ulag(st_vW,17,sss.头像)
+ulag(st_vW,18,sss.名字)
+ulag(st_vW,15,sss.语音)
+uigo("王者语音.iyu")
+</eventItme>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+gvs(st_vW,王者列表.1,gvs_1)
+dha(dh,true, false)
+dh(dh, "duration", 300)
+us(gvs_1, "dh", dh)
+swh("pxw",w)
+dht(dh, w,0,100, 0)
+dh(dh, "duration",300)
+us(gvs_1, "dh", dh)
+ulag(st_vW,19,a)
+gvs(st_vW,王者列表.5,b)
+us(b,"src",a)
+</eventItme>
+</UIEventset>

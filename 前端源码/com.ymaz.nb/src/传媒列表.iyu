@@ -1,0 +1,90 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+padding=5dp
+gravity=center_vertical
+</ppt>
+<event>
+<eventItme type="clicki">
+s user="用户账号"
+s pass="用户密码"
+t()
+{
+ss("http://www.zyjpp.site/uservipifs.php?admin=3536323937&user="+sss.user+"&pass="+sss.pass,as)
+hs(as,as)
+sj(as,null,"{",a)
+sj(as,"{","}",b)
+sr(a,"`#",0,a)
+sr(a,"wan",1,a)
+sr(a,"@",2,a)
+sr(a,"&",3,a)
+sr(a,"**s",4,a)
+sr(a,"paou",5,a)
+sr(a,"_",6,a)
+sr(a,"%^",7,a)
+sr(a,"~",8,a)
+sr(a,"?",9,a)
+sr(a,"//-+","-",a)
+sr(a,"|$"," ",a)
+sr(a,"#$#","会员状态:",a)
+sr(a,"^￥￥^","您不是vip用户",a)
+sr(a,"sealtrue","获取失败，账号封禁至",a)
+ufnsui()
+{
+f(a?"会员状态:"&&a==b&&a?"2"&&b?"2"&&a?"-"&&b?"2"&&a?" "&&b?" "&&a?":"&&b?":"&&as?"{"&&as?"}")
+{
+ulag(st_vW,3,sss.视频链接)
+ulag(st_vW,2,sss.视频名称)
+ulag(st_vW,4,sss.图片链接)
+uigo("playvideo.iyu")
+}
+else
+{
+ulag(st_vW,3,sss.视频链接)
+ulag(st_vW,2,sss.视频名称)
+ulag(st_vW,4,sss.图片链接)
+uigo("playvideo.iyu")
+fn tw.弹窗(a)
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=好
+textColor=#ff000000
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=
+visibility=gone
+textSize=12dp
+textColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本3
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+</UIEventset>

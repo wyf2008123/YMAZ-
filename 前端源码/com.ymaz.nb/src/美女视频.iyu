@@ -1,0 +1,175 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+gravity=center_vertical
+padding=10dp
+background=white
+elevation=1dp</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="CardView">
+<ppt>width=35dp
+height=35dp
+app_CardcornerRadius=10dp
+app_CardElevation=0dp
+layout_marginLeft=10dp</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#fff5f5f5
+gravity=center</ppt>
+<event>
+<eventItme type="clicki">end()</eventItme>
+</event>
+</View>
+<View id="6" did="5" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@chevron left914.png
+layout_margin=5dp</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="3" type="LinearLayout">
+<ppt>width=-0
+height=-2
+orientation=vertical
+gravity=center
+layout_weight=1</ppt>
+<event>
+</event>
+</View>
+<View id="69" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=随机热舞
+textColor=#ff060606
+textStyle=bold
+textSize=20sp</ppt>
+<event>
+</event>
+</View>
+<View id="70" did="3" type="LinearLayout">
+<ppt>width=30dp
+height=30dp
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event>
+</event>
+</View>
+<View id="71" did="11" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+layout_weight=1</ppt>
+<event>
+</event>
+</View>
+<View id="82" did="71" type="WebView">
+<ppt>width=-1
+height=-1
+url=</ppt>
+<event>
+
+
+</event>
+</View>
+<View id="93" did="11" type="CardView">
+<ppt>width=-1
+height=-2
+app_CardcornerRadius=100dp
+layout_margin=10dp
+app_CardBackgroundColor=#ffffabab</ppt>
+<event></event>
+</View>
+<View id="94" did="93" type="Button">
+<ppt>width=-1
+height=-2
+text=下一个
+background=through
+textColor=#ffffffff</ppt>
+<event><eventItme type="clicki">t()
+{
+  fr("@pay.txt",aa)
+sj(aa,"\n",null,sp)
+sl(sp,"\n",lp)
+
+ufnsui()
+{
+  sgszl(lp, d)
+sran(1, d, sj)
+sgsz(lp,sj, dd)
+syso(dd)
+sj(dd,"视频:","截图:",sss.视频)
+sj(dd,"截图:",null,sss.截图)
+  us(82,"url",sss.视频)
+  sss rwlink=sss.视频
+}
+
+}
+</eventItme></event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+
+
+
+
+
+gvs(82,wv)
+java(ws,wv,"android.webkit.WebView.getSettings")
+java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+t()
+{
+  fr("@pay.txt",aa)
+sj(aa,"\n",null,sp)
+sl(sp,"\n",lp)
+
+ufnsui()
+{
+  sgszl(lp, d)
+sran(1, d, sj)
+sgsz(lp,sj, dd)
+syso(dd)
+sj(dd,"视频:","截图:",sss.视频)
+sj(dd,"截图:",null,sss.截图)
+  us(82,"url",sss.视频)
+  sss rwlink=sss.视频
+}
+
+}
+/.
+
+</eventItme>
+</UIEventset>

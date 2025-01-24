@@ -1,0 +1,67 @@
+fn 歌曲()
+t()
+{
+  ss("https://api.uomg.com/api/rand.music?sort=热歌榜&format=json",jk)
+  hs(jk,fh)
+  json(fh,jg)
+  json(jg,"get","data",cs)
+  json(cs,"get","url",gq)
+  json(cs,"get","name",ss.gm)
+  json(cs,"get","artistsname",ss.gs)
+  ufnsui()
+  {
+    bfm(gq,ss.kz)
+    ufnsui()
+    {
+      us(b.240,"visibility","visible")
+      us(b.244,"visibility","gone")
+      fn tw.tw("正在播放："+ss.gm+" - "+ss.gs,0)
+      us(b.270,"text",ss.gm)
+      us(b.246,"text",ss.gs)     
+    }
+  }
+}
+end fn
+
+fn 维护()
+syso("1")
+end fn
+
+
+
+fn 天气()
+t()
+{
+s tqhoo = "User-Agent=Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/65.0.3325.109 Mobile Safari/537.36"
+s tqa="https://m.tianqi.com/"
+hs(tqa,null,"utf-8",null,true,tqhoo,tqwz)
+sj(tqwz,"&lt;text&gt;","&lt;/text&gt;",定位)
+ss("所在地："+定位+"",定位)
+sj(tqwz,"&lt;text id=\"nowHour\"&gt;","&lt;/text&gt;",时间)
+ss(""+时间+" 更新",时间)
+sj(tqwz,"&lt;div class=\"date\"&gt;","&lt;/div&gt;",今日)
+sj(tqwz,"&lt;dt&gt;&lt;img src=\"","\"&gt;&lt;/dt&gt;",天气图标)
+ss("https://m.tianqi.com"+天气图标+"",天气图标)
+hd(天气图标,"$天气图标.png",true,tqtb)
+sj(tqwz,"&lt;dd class=\"now\"&gt;","&lt;/i&gt;&lt;/dd&gt;",实时天气)
+sj(tqwz,"&lt;dd class=\"now\"&gt;","&lt;i&gt;°C&lt;/i&gt;&lt;/dd&gt;",assd)
+sj(tqwz,"&lt;dd class=\"txt\"&gt;","&lt;/dd&gt;",天气实况)
+sj(tqwz,"&lt;span class=\"b1\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",空气质量)
+sj(tqwz,"&lt;span class=\"b2\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",湿度)
+sj(tqwz,"&lt;span class=\"b3\"&gt;&lt;i&gt;&lt;/i&gt;","&lt;/span&gt;",风向)
+ss(assd+"℃",asd)
+ufnsui()
+{
+us(b.260,"text",定位)
+us(b.268,"text",时间)
+us(b.252,"text",今日)
+us(b.255,"src","$天气图标.png")
+us(b.258,"text",asd)
+us(b.262,"text",天气实况)
+us(b.264,"text",湿度)
+us(b.266,"text",风向)
+}
+}
+end fn
+
+

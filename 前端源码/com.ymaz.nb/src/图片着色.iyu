@@ -1,0 +1,107 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+gravity=center
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ImageView">
+<ppt>width=48dp
+height=48dp
+src=@412994177e21465a802bd55442456cb7.png</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="EditText">
+<ppt>width=144dp
+height=-2
+text=#009688</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="Button">
+<ppt>width=144dp
+height=-2
+text=着色
+textSize=18
+textColor=#ffffff</ppt>
+<event><eventItme type="clicki">ug(4, "text", color)
+slg(color, long)
+f(color != "" && color ?* "#" && long == 7 || long == 9)
+{
+s id = 2
+call(null, "mlua", "c.main", id, color)
+}
+</eventItme></event>
+</View>
+<View id="8" did="1" type="Button">
+<ppt>width=144dp
+height=-2
+text=还原
+textSize=18
+textColor=#ffffff</ppt>
+<event><eventItme type="clicki">s id = 2 
+s color = "#00000000"
+call(null, "mlua", "c.main", id, color)
+</eventItme></event>
+</View>
+<View id="6" did="1" type="EditText">
+<ppt>width=144dp
+height=-2
+text=@moren.png
+layout_marginTop=30dp</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="Button">
+<ppt>width=144dp
+height=-2
+text=设置
+textSize=18
+textColor=#ffffff</ppt>
+<event><eventItme type="clicki">ug(6, "text", a)
+f(a ?* "@" || a != "")
+{
+  us(2, "src", a)
+}</eventItme></event>
+</View>
+<View id="9" did="1" type="Button">
+<ppt>width=144dp
+height=-2
+text=保存图片
+textSize=18
+textColor=#ffffff</ppt>
+<event><eventItme type="clicki">gvs(2,控件)
+
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_4444")
+
+java(图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(图片 == null)
+{
+  fn tw.tw("似乎出现问题了",1)
+  endcode
+}
+else
+{
+  fn tw.tw("图片保存成功,路径:/storage/emulated/0/YMAZ功能盒/图片着色/",0)
+}
+javanew(图像,"android.graphics.Canvas","android.graphics.Bitmap",图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",图像)
+
+sran(1,10000,szmc)
+ss("/storage/emulated/0/YMAZ功能盒/图片着色/"+szmc+".png",路径)
+bfs(图片,路径)</eventItme></event>
+</View>
+<UIEventset><eventItme type="loadingComplete">ngde("1","150","#2196f3","#ffffff", m2)
+us(3,"background",m2)
+us(3,"backgroundripple","#ff4dff4b")
+ngde("1","150","#2196f3","#ffffff", m2)
+us(8,"background",m2)
+us(8,"backgroundripple","#ff4dff4b")
+ngde("1","150","#009688","#ffffff", m2)
+us(7,"background",m2)
+us(7,"backgroundripple","#ff4dff4b")
+ngde("1","150","#009688","#ffffff", m2)
+us(9,"background",m2)
+us(9,"backgroundripple","#ff4dff4b")</eventItme></UIEventset>

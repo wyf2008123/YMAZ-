@@ -1,0 +1,438 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=100dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=20dp
+layout_marginLeft=-10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>
+width=100dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="41" did="7" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=王者语音
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=13dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_gravity=right
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="11" type="ImageView">
+<ppt>width=30dp
+height=30dp
+src=@ic_play_list_close.png
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(17,"backgroundcolor","#b4000000")
+us(20,"backgroundcolor","#57000000")
+us(26,"visibility","visible")
+us(33,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="39" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用功能
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#57000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(20,"backgroundcolor","#b4000000")
+us(17,"backgroundcolor","#57000000")
+us(33,"visibility","visible")
+us(26,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="40" did="20" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="22" did="14" type="TextView">
+<ppt>
+width=-1
+height=1dp
+text=
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+visibility=visible
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="23" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=90dp
+orientation=horizontal
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="23" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=30dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="46" type="ImageView">
+<ppt>width=70dp
+height=70dp
+src=17301567
+</ppt>
+<event>
+</event>
+</View>
+<View id="47" did="23" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="47" type="TextView">
+<ppt>width=-2
+height=-2
+text=加载中
+textSize=9dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="27" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="43" did="27" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=王者语音
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=16dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="30" did="26" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+layout_marginBottom=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="30" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="33" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="36" did="33" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助\n
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="35" did="33" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=1:下载保存文件:/storage/emulated/0/YMAZ功能盒/语音包下载/\n\n2:不会就加群问\n\n免责声明:\n功能来源于网络资料采集，如侵犯到您的权益请联系管理员删除
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="13" type="WebView">
+<ppt>
+width=-1
+height=-1
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ff000000",true)
+ngde(5,30,"#ffffffff","#57000000",back)
+us(30,"background",back)
+f(sss.王者==1)
+{
+  t()
+  {
+    hs(sss.语音,null,"utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9||x-requested-with=com.shixin.wykj||sec-fetch-site=none||sec-fetch-mode=navigate",b)
+    json(b,jo)
+    json(jo,"get","cjjj_6c",简介)
+    json(jo, "list", "yy_4e", list)
+    json(list, "size", size)
+    w(size &gt; 0)
+    {
+      s-(1, size)
+      json(list, "data", size, item)
+      json(item, "get", "yywa1_f2", 文字)
+      json(item,"get","yyyp_9a",语音)
+      ss("http:"+语音,语音)
+      ula(u,12=文字,14=语音)
+    }
+    ufnsui()
+    {
+      us(48,"text",简介)
+      us(43,"text",sss.名字)
+      uls(44,u,"语音列表.iyu",-1,-2)
+    }
+  }
+}
+else f(sss.王者==2)
+{
+  ufnsui()
+  {
+    us(41,"text","王者攻略")
+    us(49,"visibility","visible")
+    us(49,"url",sss.浏览器)
+  }
+}</eventItme>
+<eventItme type="loadingComplete">
+loadjar("a.dex",包)
+cls(包,"com.bumptech.glide.Glide",类)
+gvs(45,对象)
+javax(加载器,null,类,"with","android.app.Activity",activity)
+call(null,"mjava","Glide.加载",加载器,对象,sss.头像)
+</eventItme>
+</UIEventset>

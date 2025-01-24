@@ -1,0 +1,561 @@
+<View id="8" did="0" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=50dp</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>width=-1
+height=-1
+text=用户协议
+textColor=#263238
+textStyle=bold
+gravity=center
+textSize=20sp</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginLeft=25dp
+layout_marginRight=25dp
+layout_marginTop=10dp
+layout_marginBottom=30dp
+background=white
+layout_margintop=0dp
+layout_marginleft=22dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=YMAZ功能盒使用服务协议\n\nYMAZ功能盒APP又称YMAZ社工盒子以下简称(本APP)，请您认真阅读《YMAZ功能盒APP用户协议与隐私政策》以下简称(用户协议)，本协议双方当事人分别为《YMAZ功能盒软件工作室》和《使用本应用的用户》以下简称(用户)。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="18" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n\n在您开始使用本APP 前，请您务必认真阅读并充分理解用户协议，其中，用户账号、密码和安全性以及用户下载或投稿内容的合法性等重要内容将以加粗形式提示，您应重点阅读。如您未满18周岁，请您在征得法定监护人的同意后使用本APP \n\n
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="19" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=1、用户协议的接受
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505</ppt>
+<event></event>
+</View>
+<View id="20" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n1.1服务协议的确认和接纳：本APP 的所有权和运作权归YMAZ功能盒软件工作室所有。本APP 所提供的服务将完全按照其发布的章程、用户协议和操作规则严格执行。用户必须完全同意所有服务协议才能成为本APP 的正式用户
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="21" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n1.2本APP 同意按照服务协议的规定及其不定时发布的操作规则提供基于互联网的相关服务(以下简称"网络服务")，为获得网络服务,用户应当同意服务协议的全部条款。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="22" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n1.3用户在使用过程中点击"同意"按钮即表示用户完全同意接受服务协议项下的全部条款，服务协议成立。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="23" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n除非您完全接受用户协议的全部内容，否则您无权下载、安装、注册、登录、使用（以下统称为“使用”）本APP ，或者通过任何方式使用本APP 提供的服务。若您使用本APP 相关服务，则视为您已经充分理解服务协议并承诺作为服务协议的一方当事人接受协议的约束。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="24" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n2、用户协议的变更和修改
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505</ppt>
+<event></event>
+</View>
+<View id="25" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n2.1本APP 有权随时对用户协议进行变更或修改，当用户使用本APP 的服务时，应接受本APP 随时提供的与该服务相关的规则或说明，并且这些规则或说明均构成本用户协议的一部分。用户如果不同意用户协议的修改或变更，可以主动取消已经获得的网络服务；如果用户继续享用网络服务，则视为用户已经接受用户协议的修改或变更。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="26" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n2.2用户协议的修改或其他事项变更时，本APP 将会采用电子邮件或页面公告或常规信件的形式进行通知。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="27" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n3、用户账号密码以及安全性
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505</ppt>
+<event></event>
+</View>
+<View id="28" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n3.1用户一旦注册成功，便成为本APP 的合法用户，将得到一个密码和帐号。用户有义务保证密码和帐号的安全。用户对利用该密码和帐号所进行的一切活动负全部责任；因此所衍生的任何损失或损害，本APP 不负担任何责任。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="29" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n3.2用户的密码和帐号遭到未授权的使用或发生其他任何安全问题，用户可以立即通知本APP 客服人员。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="30" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n4、免责声明以及担保问题
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505</ppt>
+<event></event>
+</View>
+<View id="31" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n用户需承担使用本APP 网络服务所产生的全部风险，本APP 对用户不作任何类型的担保，也不承担任何责任。本APP 不担保网络服务一定能满足用户的要求，也不担保网络服务不会中断，对服务的连续性、及时性、安全性、准确性都不作担保。对于因不可抗力或本APP 不能避免或控制的原因及其他原因造成的网络服务中断或其它缺陷，本APP 不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="32" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n5、用户信息的储存和限制
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505</ppt>
+<event></event>
+</View>
+<View id="33" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n本APP不对用户所注册信息的删除或储存失败负责。本APP 有权判断用户的行为是否符合本APP 服务协议规定，如果本APP 认为用户违背了服务协议的规定，本APP 有中断向其提供网络服务的权利。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="34" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n6、有限责任声明
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="35" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n本APP 对任何直接、间接、偶然、特殊及继起的损害不负责任，这些损害可能来自：不正当使用网络服务，如非法传播二改，或在网上进行非法交易牟利。这些行为都有可能会导致本APP 的形象受损，所以本APP 事先提出这种损害的可能性。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="36" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n7、合法用户应遵守的条约
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="37" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n7.1用户不应将其账号、密码转让或借给他人使用，因黑客行为或用户的保管疏忽导致账号、密码被他人非法使用，本APP 不承担任何责任。\n\n7.2用户对于投稿上传到本APP的原创作品或者是通过原创授权搬运或转载的作品享有版权©️，或其他相关合法权益，对于用户投稿上传到本APP的作品，用户需同意本APP在全世界范围拥有完全免费，永久性的，不可撤销的权利和许可。\n\n7.3.用户在使用本APP 网络服务过程中，必须遵守国家有关法律规定，并承担一切因自己投稿上传信息不当导致的民事、行政或刑事法律责任。\n\n7.4禁止用户逆行修改本APP或攻击本APP导致本APP运营异常否则本APP会对用户进行上诉处理。\n\n7.5用户在本APP使用下载服务后要确保不会对其进行二次篡改或进行非法交易传播，否则用户应独自承担衍生的全部责任。\n\n7.6本APP有权对利用bug进行恶意修改数据的用户处于封号或封IP处理。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="38" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n8、保障
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="40" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n用户同意保障和维护本APP 全体成员的利益，并负责支付由用户使用超出服务范围引起的律师费用，违反用户协议的损害补偿费用等。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="41" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n9、结束服务
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+</ppt>
+<event></event>
+</View>
+<View id="42" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n9.1鉴于网络服务的特殊性，本APP 有权随时变更或中断或终止部分或全部网络服务，不需对用户或第三方负责及承担责任。\n\n9.2为了本APP 的正常运行，本APP 定期或不定期地对提供网络服务的平台或相关的设备进行检修或者维护，因此可能造成网络服务的中断，本APP 将尽力避免服务中断或将中断时间限制在最短时间内，在合理时间内的服务中断，本APP 无需为此承担任何责任。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="43" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n9.3如发生下列任何一种情形，本APP 有权随时中断或终止向用户提供网络服务（包括收费网络服务）而无需对用户或任何第三方承担任何责任：\n\n9.3.1用户提供的资料不真实；\n\n9.3.2用户违反本用户协议的有关规定；\n\n9.3.3用户在使用收费网络服务时未按规定支付相应的服务费。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="44" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n10、网络服务内容
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="45" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n10.1平台搬运或转载网络共享的应用或本APP自行开发制作的原创应用。\n\n10.2收费网络服务体现在(主题切换、本APP自主开发应用、原创作者授权告知需收费应用、小工具、头像框)具体以实际情况为准。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textColor=#ff0d0d0d</ppt>
+<event></event>
+</View>
+<View id="46" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n11、版权以及侵权说明
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="47" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n11.1如发现本APP内有未经过原创作者简称(你方)，授权的内容包括(图片、小说、应用、音乐、视频)，请及时联系本APP客服人员，本APP会第一时间进行删除，并主动道歉\n\n11.2因为本APP网络服务内容，涉及用户投稿上传的共享内容，所以本APP不负主要责任，一切因用户投稿上传内容衍生的后续问题，由用户全部承担。\n\n11.3本APP所提供的网络服务包含内容仅限自用，学习体验，请于下载后24小时内删除，否则一切后续衍生问题或责任由用户全部承担。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="48" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n12、本协议法律条例保护
+padding=5dp
+textSize=20sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff050505
+layout_margintop=0dp
+layout_marginleft=0dp</ppt>
+<event></event>
+</View>
+<View id="49" did="6" type="TextView">
+<ppt>width=-1
+height=-2
+text=\n12.1本协议的订立、执行和解释及争议的解决均应适用中华人民共和国的法律并受中国法院管辖。\n\n12.2如双方就本协议内容或其执行发生任何争议，双方应尽量友好协商解决；协商不成时，任何一方均可向本APP 所在地的人民法院提起诉讼。\n\n12.3如本协议中的任何条款无论因何种原因无效，本协议的其余条款仍应有效并且有约束力。\n\n12.4本服务协议中的标题仅为方便而设，在解释本用户协议时应被忽略，本APP 保留进一步修改本用户协议的权利。
+padding=5dp
+textSize=13sp
+gravity=left
+textIsSelectable=false
+shadowRadius=2.1
+lineSpacingMultiplier=1.5
+textStyle=bold
+textColor=#ff010101</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="LinearLayout">
+<ppt>width=-1
+height=130dp
+orientation=horizontal
+gravity=center
+layout_marginTop=10dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="11" did="10" type="CardView">
+<ppt>width=80dp
+height=50dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#ff3e3e3e</ppt>
+<event></event>
+</View>
+<View id="15" did="11" type="LinearLayout">
+<ppt>width=80dp
+height=50dp
+orientation=vertical
+gravity=center
+background=#b30400
+layout_marginRight=10dp</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="17" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=拒绝
+textStyle=bold
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="13" did="10" type="CardView">
+<ppt>width=80dp
+height=50dp
+layout_marginRight=15dp
+app_CardcornerRadius=5dp
+app_CardBackgroundColor=#ff3e3e3e</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>width=80dp
+height=50dp
+orientation=vertical
+gravity=center
+background=#868686</ppt>
+<event><eventItme type="clicki">fn tw.tw("感谢支持",0)
+end()</eventItme></event>
+</View>
+<View id="16" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=同意
+textStyle=bold
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="50" did="6" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#ffffffff",true)
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+//------end
+</eventItme></UIEventset>

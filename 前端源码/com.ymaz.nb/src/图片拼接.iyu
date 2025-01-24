@@ -1,0 +1,197 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=55dp
+orientation=vertical
+backgroundcolor=#ff519fff
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=在线拼图
+textsize=20sp
+textcolor=#ffffff
+layout_marginleft=20dp
+textStyle=bold</ppt>
+<event></event>
+</View>
+<View id="5" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=white</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=300dp
+orientation=horizontal
+layout_marginTop=50dp</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=0
+layout_weight=1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="7" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@2.jpg</ppt>
+<event><eventItme type="clicki">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+sss tp="1"
+</eventItme></event>
+</View>
+<View id="8" did="6" type="LinearLayout">
+<ppt>width=0
+layout_weight=1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="11" did="8" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@2.jpg</ppt>
+<event><eventItme type="clicki">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+sss tp="2"
+</eventItme></event>
+</View>
+<View id="9" did="6" type="LinearLayout">
+<ppt>width=0
+layout_weight=1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="12" did="9" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@2.jpg</ppt>
+<event><eventItme type="clicki">javags(agc,"android.content.Intent","android.content.Intent.ACTION_GET_CONTENT")
+javanew(it,"android.content.Intent","String",agc)
+
+java(c,it,"android.content.Intent.setType","String","image/*")
+
+javags(ca,"android.content.Intent","android.content.Intent.CATEGORY_OPENABLE")
+java(c,it,"android.content.Intent.addCategory","String",ca)
+
+java(c,activity,"android.app.Activity.startActivityForResult","android.content.Intent",it,"int",2)
+
+sss tp="3"
+</eventItme></event>
+</View>
+<View id="13" did="5" type="LinearLayout">
+<ppt>width=-1
+height=80dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="CardView">
+<ppt>width=-1
+height=-1
+layout_marginLeft=50dp
+layout_marginRight=50dp
+app_CardcornerRadius=30dp
+app_CardmaxElevation=0dp
+layout_marginTop=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#ff519fff
+gravity=center</ppt>
+<event><eventItme type="clicki">
+
+gvs(6,控件)
+java(宽,控件,"android.view.View.getWidth")
+java(高,控件,"android.view.View.getHeight")
+//这里我动态获取控件高度，你们可以自己填进去
+
+javags(config,null,"android.graphics.Bitmap$Config","ARGB_8888")
+//可选值ARGB_8888，ARGB_4444，RGB_565，ALPHA_8
+//ARGB_8888画质最好，这里用ARGB_4444是为了节约内
+java(sss.图片,null,"android.graphics.Bitmap.createBitmap","int",宽,"int",高,"android.graphics.Bitmap$Config",config)
+f(sss.图片 == null)
+{
+  fn tw.tw("似乎出现问题了",1)
+  endcode
+  }
+javanew(画板,"android.graphics.Canvas","android.graphics.Bitmap",sss.图片)
+
+java(null,控件,"android.view.View.draw","android.graphics.Canvas",画板)
+
+sran(1,10000,szmc)
+ss("/storage/emulated/0/YMAZ功能盒/图片拼接/"+szmc+".png",路径)
+bfs(sss.图片,路径)
+fn tw.tw("已将图片保存到:YMAZ功能盒/图片拼接/",0)</eventItme></event>
+</View>
+<View id="16" did="15" type="TextView">
+<ppt>width=-2
+height=-2
+text=保存图片
+textColor=#ffffffff
+textSize=18sp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">//以下是状态栏代码
+uycl("#ff519fff",true,0)</eventItme><eventItme type="onactivityresult">javags(er,activity,"android.app.Activity","RESULT_OK")
+f(st_lC==er)
+{
+  f(st_sC==2)
+  {
+    java(uri,st_iT,"android.content.Intent.getData")
+    call(sss.path, "mjava", "uri.getRealPath", activity, uri)
+    
+    
+    f(sss.tp=="1")
+    {
+      sss tp1=sss.path
+      syso(sss.tp1)
+      us(10,"src",sss.tp1)
+    }
+    else f(sss.tp=="2")
+    {
+      sss tp2=sss.path
+      syso(sss.tp2)
+      us(11,"src",sss.tp2)
+    }
+    else f(sss.tp=="3")
+    {
+      sss tp3=sss.path
+      syso(sss.tp3)
+      us(12,"src",sss.tp3)
+      
+    }
+  }
+}</eventItme></UIEventset>

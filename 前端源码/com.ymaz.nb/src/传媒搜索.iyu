@@ -1,0 +1,343 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=white
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="3" type="ImageView">
+<ppt>
+width=35dp
+height=-1
+src=@coolstep.png
+layout_marginRight=10dp
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="4" did="3" type="CardView">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+app_CardcornerRadius=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+padding=0dp
+gravity=center_vertical
+BackgroundColor=#f4f4f4
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="6" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=搜索
+textColor=#959595
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="9" did="6" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+textSize=10dp
+background=through
+hint=没有结果不会显示出来
+singleLine=true
+paddingLeft=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=搜索
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginLeft=10dp
+layout_marginRight=10dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="3" type="ImageView">
+<ppt>
+width=35dp
+height=-1
+src=@tradeplatform_homepage_title_button_search.png
+layout_marginLeft=10dp
+</ppt>
+<event>
+<eventItme type="clicki">ug(9,"text",a)
+sran(1,20,随机数)
+ss("https://oyph9kmhbqjt.8tlpa0.cc/search?page="+随机数+"&wd="+a,a)
+t()
+{
+  hs(a,b)
+  json(b,jo)
+  json(jo,"get","data",jo)
+  json(jo, "list", "vodrows", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, item)
+    json(item, "get", "title", 名字)
+    syso(a)
+    json(item, "get", "coverpic", 图片链接)
+    syso(b)
+    json(item, "get", "play_url", c)
+    ss("https://oyph9kmhbqjt.8tlpa0.cc"+c,ID)
+    syso(ID)
+    json(item,"get","down_url",d)
+    ss("https://oyph9kmhbqjt.8tlpa0.cc"+d,ID1)
+    syso(d)
+    f(图片链接==null)
+    {
+    }
+    else
+    {
+      ula(u,4=名字,5=ID,6=图片链接)
+    }
+  }
+  ufnsui()
+  {
+    uls(11,u,"黄色列表.iyu",-1,-2)
+    gvs(11,对象)
+    cls("androidx.recyclerview.widget.RecyclerView",列表类)
+    cls("androidx.recyclerview.widget.GridLayoutManager",布局管理类)
+    javanew(布局,布局管理类,"Context",activity,"int",2)
+    javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+    ug(11,"count",xm)
+    s*(xm,35,jg)
+    zdp(jg,h)
+    us(11,"height",h)
+  }
+}</eventItme>
+</event>
+</View>
+<View id="13" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=80dp
+orientation=vertical
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=搜索引擎🎃
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=12dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="13" type="HorizontalScrollView">
+<ppt>
+width=-1
+height=-1
+layout_marginTop=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="16" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="26" did="15" type="LinearLayout">
+<ppt>
+width=70dp
+height=-1
+orientation=vertical
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+sss 引擎=4
+dhs(ss10,,1.1,1,1.1,1,1,0.5,1,0.5)
+dh(ss10,"duration",500)
+us(27,"dh",ss10)
+ngde("5","30","#ffffff","#ff000000", e)
+us(26,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(20,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(23,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(17,"background",e)
+t()
+{
+s a = "http://96385.jierui.live/api.php/app/video/?tid=7&pg=1"
+hs(a, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||Accept-Language=zh-CN", b)
+json(b,c)
+json(c, "list", "list", list)
+json(list, "size", size)
+w(size &gt; 0)
+{
+s-(1, size)
+json(list, "data", size, item)
+json(item, "get", "vod_name", 名字)
+json(item, "get", "vod_pic", 图片链接)
+json(item,"get","vod_id",ID)
+f(图片链接==null)
+{
+}
+else
+{
+ula(u,4=名字,5=ID,6=图片链接)
+}
+}
+ufnsui()
+{
+uls(11,u,"黄色列表.iyu",-1,-2)
+gvs(11,对象)
+cls("androidx.recyclerview.widget.RecyclerView",列表类)
+cls("androidx.recyclerview.widget.GridLayoutManager",布局管理类)
+javanew(布局,布局管理类,"Context",activity,"int",2)
+javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+}
+}
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="27" did="26" type="ImageView">
+<ppt>
+width=45dp
+height=45dp
+src=@tmcm.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="28" did="26" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=麻豆传媒
+textColor=#ff000000
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="12" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+layout_marginLeft=20dp
+layout_marginRight=20dp
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">uycl("#ffffffff",true)
+t()
+{
+  s a = "http://96385.jierui.live/api.php/app/video/?tid=9&pg=1"
+  hs(a, null, "utf-8", null, true, "User-Agent=Mozilla/5.0 (iPad; U; CPU OS 6_0 like Mac OS X; zh-CN; iPad2)||accept=*/*||Accept-Language=zh-CN", b)
+  json(b,c)
+  json(c, "list", "list", list)
+  json(list, "size", size)
+  w(size &gt; 0)
+  {
+    s-(1, size)
+    json(list, "data", size, item)
+    json(item, "get", "vod_name", 名字)
+    json(item, "get", "vod_pic", 图片链接)
+    json(item,"get","vod_id",ID)
+    f(图片链接==null)
+    {
+    }
+    else
+    {
+      ula(u,4=名字,5=ID,6=图片链接)
+    }
+  }
+  ufnsui()
+  {
+    uls(11,u,"黄色列表.iyu",-1,-2)
+    gvs(11,对象)
+    cls("androidx.recyclerview.widget.RecyclerView",列表类)
+    cls("androidx.recyclerview.widget.GridLayoutManager",布局管理类)
+    javanew(布局,布局管理类,"Context",activity,"int",2)
+    javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+  }
+}</eventItme>
+<eventItme type="loadingComplete">
+ngde("5","30","#ffffff","#ff000000", e)
+us(17,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(20,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(23,"background",e)
+ngde("1","30","#ffffff","#ffffff", e)
+us(26,"background",e)
+</eventItme>
+</UIEventset>

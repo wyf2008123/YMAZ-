@@ -1,0 +1,17 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="WebView">
+<ppt>width=-1
+height=-1</ppt>
+<event><eventItme type="onprogresschanged">ug(2,"url",a)
+f(a!=sss.wz)
+{
+  end()
+}</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">uycl(true)
+us(2,"url",sss.wz)</eventItme></UIEventset>

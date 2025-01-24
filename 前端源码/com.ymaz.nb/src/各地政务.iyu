@@ -1,0 +1,474 @@
+<View id="1" did="0" type="RelativeLayout">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+background=black
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=90dp
+orientation=horizontal
+</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+layout_weight=1
+gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=20dp
+layout_marginLeft=-10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>
+width=100dp
+height=-1
+orientation=vertical
+gravity=center
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="8" did="7" type="TextView">
+<ppt>width=-2
+height=-2
+text=全国政务查询
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=13dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+layout_weight=1
+gravity=right
+</ppt>
+<event>
+</event>
+</View>
+<View id="10" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_gravity=center_vertical
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="11" did="10" type="LinearLayout">
+<ppt>
+width=30dp
+height=30dp
+orientation=vertical
+BackgroundColor=#b4000000
+gravity=center
+</ppt>
+<event>
+<eventItme type="clicki">
+f(sss.接口==1)
+{
+fn 照妖镜模块.清空1()
+}
+else f(sss.接口==2)
+{
+fn 照妖镜模块.清空2()
+}
+else f(sss.接口==3)
+{
+syso("当前为接口3")
+}
+else f(sss.接口==4)
+{
+ufnsui()
+{
+tw("已清空")
+fn 照妖镜模块.清空4()
+}
+}
+</eventItme>
+</event>
+</View>
+<View id="9" did="11" type="ImageView">
+<ppt>
+width=20dp
+height=20dp
+src=@down.png
+</ppt>
+<event>
+</event>
+</View>
+<View id="44" did="5" type="CardView">
+<ppt>
+width=-2
+height=-2
+layout_marginRight=20dp
+app_CardcornerRadius=5dp
+layout_gravity=center_vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="45" did="44" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="46" did="45" type="ImageView">
+<ppt>
+width=30dp
+height=30dp
+src=@ic_play_list_close.png
+</ppt>
+<event>
+<eventItme type="clicki">
+end()
+</eventItme>
+</event>
+</View>
+<View id="12" did="2" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="13" did="12" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=20dp
+layout_marginBottom=-20dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="14" did="13" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=60dp
+orientation=horizontal
+gravity=center_vertical
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="16" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#b4000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(17,"backgroundcolor","#b4000000")
+us(20,"backgroundcolor","#57000000")
+us(23,"visibility","visible")
+us(38,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="18" did="17" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用功能
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="19" did="15" type="CardView">
+<ppt>
+width=-2
+height=-2
+app_CardcornerRadius=5dp
+layout_marginLeft=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="20" did="19" type="LinearLayout">
+<ppt>
+width=-2
+height=-2
+orientation=vertical
+BackgroundColor=#57000000
+</ppt>
+<event>
+<eventItme type="clicki">
+us(20,"backgroundcolor","#b4000000")
+us(17,"backgroundcolor","#57000000")
+us(38,"visibility","visible")
+us(23,"visibility","gone")
+</eventItme>
+</event>
+</View>
+<View id="21" did="20" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ffffffff
+textSize=12dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=7dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="48" did="15" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=horizontal
+gravity=center_vertical
+visibility=invisible
+</ppt>
+<event>
+</event>
+</View>
+<View id="50" did="48" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=当前为:
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+layout_marginTop=5dp
+layout_marginBottom=5dp
+layout_marginLeft=7dp
+layout_marginRight=0dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="49" did="48" type="Spinner">
+<ppt>
+width=-1
+height=-1
+layout_weight=1
+</ppt>
+<event>
+<eventItme type="onitemselected">
+f(st_pN==0)
+{
+sss 接口=1
+}
+else f(st_pN==1)
+{
+sss 接口=2
+}
+else f(st_pN==2)
+{
+fn 抓包.抓包()
+utw(null,"","浏览器.iyu","关闭",false,a)
+{
+}
+}
+else f(st_pN==3)
+{
+ufnsui()
+{
+tw("这个接口不稳定自测")
+}
+sss 接口=4
+}
+</eventItme>
+</event>
+</View>
+<View id="22" did="14" type="TextView">
+<ppt>
+width=-1
+height=1dp
+text=
+BackgroundColor=#b4000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="38" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=20dp
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<View id="39" did="38" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=使用帮助
+typeface=@3f12bc4a942.ttf
+textColor=#ff000000
+textSize=14dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="40" did="38" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=\n1:截图来自于纸飞机社工库\n\n2:请规范使用请勿用于非法经营\n\n免择声明\n仅供娱乐恶搞使用,请勿用于非法商业用途,否则后果自负！
+textSize=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="51" did="14" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+padding=10dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="52" did="51" type="CardView">
+<ppt>
+width=-1
+height=-1
+app_CardcornerRadius=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="53" did="52" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="54" did="53" type="RecyclerView">
+<ppt>
+width=-1
+height=-1
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+uycl("#ff000000",true)
+ngde(4,10,"#00000000","#ff000000",bg)
+us(25,"background",bg)
+ngde(4,10,"#00000000","#ff000000",bg)
+us(28,"background",bg)
+gvs(27,ss.v)
+java(null,ss.v,"android.view.View.setPadding","int",7,"int",0,"int",7,"int",0)
+gvs(30,tv)
+java(null,tv,"android.view.View.setPadding","int",7,"int",0,"int",7,"int",0)
+ngde(5,30,"#ffffffff","#57000000",back)
+us(42,"background",back)
+ngde(5,30,"#ffffffff","#57000000",back)
+us(54,"background",back)
+</eventItme>
+<eventItme type="loadingComplete">t()
+{
+  hs("http://usdtabcd.cn/login/admin/file.php?admin=2662576919",a)
+  syso(a)
+  hs("http://usdtabcd.cn/login/admin/file.php?admin=2662576919&token="+a,a)
+  sl(a,"&lt;br&gt;",b)
+  syso(a)
+  
+  for(c;b)
+  {
+    sj(c,"【","】",地址)
+    sj(c,"《","》",介绍)
+    sj(c,"〖","〗",链接)
+    ula(u,4=地址,7=介绍,8=链接)
+  }
+  ufnsui()
+  {
+    uls(54,u,"政务列表.iyu",-1,-2)
+    gvs(54,对象)
+    cls("androidx.recyclerview.widget.RecyclerView",列表类)
+    cls("androidx.recyclerview.widget.GridLayoutManager",布局管理类)
+    javanew(布局,布局管理类,"Context",activity,"int",2)
+    javax(null,对象,列表类,"setLayoutManager","androidx.recyclerview.widget.RecyclerView$LayoutManager",布局)
+  }
+}</eventItme>
+</UIEventset>

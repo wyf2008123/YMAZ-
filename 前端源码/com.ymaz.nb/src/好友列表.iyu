@@ -1,0 +1,82 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>
+width=-1
+height=-2
+orientation=horizontal
+padding=10dp
+background=white
+</ppt>
+<event>
+<eventItme type="clicki">
+ulag(st_vW,6,a)
+sxb(a)
+fn tw.弹窗("复制id成功")
+</eventItme>
+</event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>
+width=50dp
+height=50dp
+orientation=vertical
+</ppt>
+<event>
+</event>
+</View>
+<View id="3" did="2" type="RoundImageView">
+<ppt>width=-1
+height=-1
+src=@icon.png</ppt>
+<event>
+</event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>
+width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical
+padding=5dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=昵称
+layout_marginBottom=2dp
+typeface=@8f609dab7d0.ttf
+textColor=#ff000000
+</ppt>
+<event>
+</event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=QQ
+textSize=11dp
+</ppt>
+<event>
+</event>
+</View>
+<View id="7" did="4" type="TextView">
+<ppt>
+width=-2
+height=-2
+text=文本7
+visibility=gone
+</ppt>
+<event>
+</event>
+</View>
+<UIEventset>
+<eventItme type="loading">
+ulag(st_vW,7,a)
+gvs(st_vW,好友列表.3,tou)
+us(tou,"src",a)
+</eventItme>
+</UIEventset>

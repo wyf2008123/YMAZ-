@@ -1,0 +1,15 @@
+<View id="1" did="0" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本1
+textColor=#ff000000
+typeface=@2df75ec2de1.ttf</ppt>
+<event></event>
+</View>
+<View id="2" did="0" type="ProgressBar">
+<ppt>width=-1
+max=100
+height=-2</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

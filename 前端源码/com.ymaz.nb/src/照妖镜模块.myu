@@ -1,0 +1,27 @@
+fn 生成2()
+ss("https://yujianking.top/index.php?id="+sss.zyj+"&url="+sss.tz,c)
+syso(c)
+t()
+{
+  ufnsui()
+  {
+    us(47,"text",c)
+    sxb(c)
+    fn tw.tw("已自动复制",0)
+  }
+}
+end fn
+
+fn 生成1()
+ss("https://txc.zyjfkw.top/zyj/?id="+sss.zyj+"&url="+sss.tz,c)
+syso(c)
+t()
+{
+  ufnsui()
+  {
+    us(47,"text",c)
+    sxb(c)
+    fn tw.tw("已自动复制",0)
+  }
+}
+end fn

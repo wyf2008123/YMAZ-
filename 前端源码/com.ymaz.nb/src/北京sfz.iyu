@@ -1,0 +1,12 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="WebView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">us(2,"url","http://154.38.230.227/")</eventItme></UIEventset>
