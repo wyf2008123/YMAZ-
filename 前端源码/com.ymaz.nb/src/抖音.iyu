@@ -1,0 +1,515 @@
+<View id="3" did="0" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="RelativeLayout">
+<ppt>width=-1
+height=100dp
+background=#62C373
+BackgroundRipple=#d1d1d1
+</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginLeft=20dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+ut_centerVertical=true
+app_CardBackgroundColor=#19ffffff
+</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+padding=5dp
+</ppt>
+<event><eventItme type="clicki">end()</eventItme></event>
+</View>
+<View id="7" did="6" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@a/fh.png</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=全网视频解析
+textColor=#ffffff
+textSize=17sp
+layout_marginLeft=12dp
+ut_centerInParent=true
+textStyle=bold
+</ppt>
+<event></event>
+</View>
+<View id="9" did="4" type="CardView">
+<ppt>width=-2
+height=-2
+layout_marginright=20dp
+app_CardcornerRadius=5dp
+app_CardElevation=0dp
+ut_centerVertical=true
+app_CardBackgroundColor=#19ffffff
+ut_alignParentRight=true</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="LinearLayout">
+<ppt>width=-2
+height=-2
+orientation=vertical
+padding=5dp
+</ppt>
+<event><eventItme type="clicki">s a="使用说明"
+s b="1.本接口来源于网络可能会失效.\n2.如果解析无法加载出来请使用网页版解析功能.\n3.保存的文件在南泽软件库文件夹内，如果不显示就说明保存失败，可以点击链接跳转到浏览器下载！\n\n温馨提示：在使用网页解析时候不要相信任何信息，均为骗子！被骗概不负责！只用解析功能就行！"
+s c="知道了"
+ss zt="关闭"
+fn 弹窗.弹窗1(false,a,b,c)</eventItme></event>
+</View>
+<View id="11" did="10" type="ImageView">
+<ppt>width=21dp
+height=21dp
+src=@a/bz.png</ppt>
+<event></event>
+</View>
+<View id="17" did="4" type="CardView">
+<ppt>width=-1
+height=-1
+ut_below=9
+layout_marginLeft=50dp
+layout_marginRight=50dp
+layout_marginTop=3dp
+layout_marginBottom=3dp
+app_CardcornerRadius=999dp
+app_CardBackgroundColor=#66ffffff
+visibility=gone</ppt>
+<event></event>
+</View>
+<View id="18" did="17" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+BackgroundRipple=#ffffff</ppt>
+<event><eventItme type="clicki">us(16, "gobackorforward",-1)</eventItme></event>
+</View>
+<View id="19" did="18" type="TextView">
+<ppt>width=-2
+height=-2
+text=点此返回上页（本页无需保存图）
+textStyle=bold
+textColor=#ffffffff
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="12" did="3" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=30dp
+layout_marginTop=10dp
+layout_marginBottom=-50dp
+ut_below=4
+app_CardElevation=0
+</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="LinearLayout">
+<ppt>width=-1
+height=-1
+background=#ffffff
+orientation=vertical
+layout_marginBottom=1dp</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="16" did="15" type="WebView">
+<ppt>width=-1
+height=-1
+visibility=gone</ppt>
+<event><eventItme type="onpagestarted">gvs(14,滚动)
+java(null,滚动,"android.widget.ScrollView.scrollTo","int",0,"int",0)</eventItme></event>
+</View>
+<View id="21" did="15" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=10dp
+layout_marginLeft=20dp
+layout_marginRight=20dp</ppt>
+<event></event>
+</View>
+<View id="29" did="21" type="CardView">
+<ppt>width=-1
+height=40dp
+app_CardcornerRadius=6dp
+app_CardBackgroundColor=#f7f7f7
+app_CardElevation=0dp
+layout_marginTop=15dp
+</ppt>
+<event></event>
+</View>
+<View id="30" did="29" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_vertical</ppt>
+<event></event>
+</View>
+<View id="31" did="30" type="EditText">
+<ppt>width=-1
+height=-1
+text=
+hint=请输入抖音链接
+textSize=13sp
+paddingLeft=10dp
+background=through</ppt>
+<event></event>
+</View>
+<View id="22" did="15" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1
+app_CardBackgroundColor=#db9feaf6
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="25" did="23" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#62C373
+BackgroundRipple=#d1d1d1</ppt>
+<event><eventItme type="clicki">ug(31,"text",url)
+s b = "((http|https|ftp):(\/\/|\\\\)((\w)+[.]){1,}(net|com|cn|org|cc|tv|[0-9]{1,3})(((\/[\~]*|\\[\~]*)(\w)+)|[.](\w)+)*(((([?](\w)+){1}[=]*))*((\w)+){1}([\&](\w)+[\=](\w)+)*)*)"
+s c = 0
+se(url, b, c, d)
+se(d, "find", e)
+f(e==true)
+{
+  se(d, "group", 0, e)
+  ufnsui()
+  {
+    us(31,"text",e)
+  }
+}
+ug(31,"text",url)
+f(url=="")
+{
+  ufnsui()
+  {
+    //  tw("没有短视频链接")
+    utw(null,"提示","未检测到短视频链接，请输入链接后再解析！",false,v)
+    {
+    }
+    
+  }
+}
+else
+{
+  
+  s url=e
+  t()
+  {
+    ss("https://api.cyan-blue.cn/API/api/video/?url="+url,总链接)
+    hs(总链接,链接返回)
+    json(链接返回,json数据)
+    //   syso(json数据)
+    json(json数据,"get","code",接口返回)
+    json(json数据,"get","msg",解析状态)
+    json(json数据,"get","data",解析内容)
+    f(接口返回==0)
+    {
+      ufnsui()
+      {
+        //    us(86,"text",解析状态)
+      }
+    }
+    else
+    {
+      
+      json(解析内容,"get","url",sss.视频链接)
+      
+      syso(sss.视频链接)
+      ufnsui()
+      {
+        us(40,"url",sss.视频链接)
+        us(47,"text",sss.视频链接)
+        us(41,"visibility","visible")
+        fn tw.tw("解析成功",0)
+      }     
+      
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="27" did="25" type="TextView">
+<ppt>width=-2
+height=-2
+text=开始解析
+textColor=#ffffff
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="35" did="22" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1
+app_CardBackgroundColor=#db9feaf6
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="36" did="35" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center
+background=#62C373
+BackgroundRipple=#d1d1d1
+</ppt>
+<event><eventItme type="clicki">us(31,"text","")</eventItme></event>
+</View>
+<View id="37" did="36" type="TextView">
+<ppt>width=-2
+height=-2
+text=清空链接
+textColor=#ffffff
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="38" did="15" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp
+app_CardBackgroundColor=#f7f7f7
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=10dp
+layout_marginTop=10dp</ppt>
+<event></event>
+</View>
+<View id="39" did="38" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="41" did="39" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=vertical
+layout_marginTop=5dp
+layout_marginBottom=5dp
+visibility=gone
+layout_marginLeft=5dp
+//改隐藏</ppt>
+<event></event>
+</View>
+<View id="45" did="41" type="LinearLayout">
+<ppt>width=-1
+height=-2
+orientation=horizontal
+layout_marginTop=5dp</ppt>
+<event></event>
+</View>
+<View id="46" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=视频链接：</ppt>
+<event></event>
+</View>
+<View id="47" did="45" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本47
+autoLink=web
+singleLine=true
+marqueeRepeatLimit=marquee_forever
+ellipsize=end
+</ppt>
+<event></event>
+</View>
+<View id="56" did="15" type="LinearLayout">
+<ppt>width=-1
+height=45dp
+orientation=horizontal
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=10dp</ppt>
+<event></event>
+</View>
+<View id="58" did="56" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1
+app_CardBackgroundColor=#009688
+layout_marginRight=5dp</ppt>
+<event></event>
+</View>
+<View id="59" did="58" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ug(40,"url",a)
+f(a=="")
+{
+  fn tw.tw("视频下载失败！",1)
+}
+else
+{
+  t()
+  {
+    sran(1,1000000,s)
+    ss("/storage/emulated/0/YMAZ功能盒/无水印/"+s+".mp4",ss)
+    hd(a,ss,hd)
+    f(hd==0)
+    {
+      ufnsui()
+      {
+        fn tw.tw("下载成功，保存在YMAZ功能盒无水印文件夹里面")
+        //fdir(ss1,绝对路径)
+        //ss("file://"+绝对路径,uri)
+        //java(uri,null,"android.net.Uri.parse","String",uri)
+        //javanew(意图,"android.content.Intent","String","android.intent.action.MEDIA_SCANNER_SCAN_FILE","android.net.Uri",uri)
+        //java(null,activity,"android.content.Context.sendBroadcast","android.content.Intent",意图)
+        
+      }
+    }
+  }
+}</eventItme></event>
+</View>
+<View id="57" did="59" type="TextView">
+<ppt>width=-2
+height=-2
+text=下载视频
+textColor=#ffffff
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="61" did="56" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=8dp
+app_CardElevation=0dp
+layout_weight=1
+app_CardBackgroundColor=#009688
+layout_marginLeft=5dp</ppt>
+<event></event>
+</View>
+<View id="64" did="61" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">fn fxpz.fx()
+tw("感谢您的分享")</eventItme></event>
+</View>
+<View id="65" did="64" type="TextView">
+<ppt>width=-2
+height=-2
+text=暂未开发
+textColor=#ffffff
+textStyle=bold
+textSize=15sp</ppt>
+<event></event>
+</View>
+<View id="51" did="15" type="CardView">
+<ppt>width=-1
+height=-1
+app_CardcornerRadius=6dp
+app_CardBackgroundColor=#f7f7f7
+app_CardElevation=0dp
+layout_marginLeft=20dp
+layout_marginRight=20dp
+layout_marginBottom=20dp</ppt>
+<event></event>
+</View>
+<View id="40" did="51" type="WebView">
+<ppt>width=-1
+height=650dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">uycl("#62C373",true,0)
+
+dht(dh,-220,0,0,0)
+dh(dh, "duration", 800)
+us(245, "dh", dh)
+
+
+dht(dh,0,0,-220,0)
+dh(dh, "duration", 800)
+us(291, "dh", dh)
+
+dht(dh2, 0, 0, 50, 0)
+dh(dh2, "duration", 700)
+dhset(dhlist, false, dh1, dh2)
+
+java(cs, activity, "android.app.Activity.getWindow")
+java(cs2, cs, "android.view.Window.getDecorView")
+java(null, cs2, "android.view.View.setSystemUiVisibility", "int", "8192")
+}
+
+
+/.
+
+
+
+
+
+sss ztys="#212121"
+sss qysztys="#33AFA4"
+f(sss.ztys=="#212121")
+{
+us(3,"background","#db9feaf6")
+uycl("#db9feaf6",true,0)
+
+
+fn twux.opentop()
+//创建控件
+//open后面可以写  top center  bottom
+//top是头顶提示
+//center是中间提示
+//bottom是底部提示
+
+//举个例子 fn twux.opentop()
+//就是在顶部弹出
+
+fn twux.gone()
+//隐藏控件
+//fn twux.opencenter() 和 fn twux.gone()
+//这俩必须同时存在</eventItme></UIEventset>
